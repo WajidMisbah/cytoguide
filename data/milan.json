@@ -41,7 +41,7 @@
    "rom": [
     {
      "value": "15%",
-     "source": "Milan 2nd ed 2023"
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Clinical and radiological correlation; repeat FNA (US-guided ± ROSE) or core biopsy.",
@@ -79,7 +79,7 @@
    "rom": [
     {
      "value": "11%",
-     "source": "Milan 2nd ed 2023"
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Clinical follow-up and radiological correlation.",
@@ -147,7 +147,7 @@
    "rom": [
     {
      "value": "30%",
-     "source": "Milan 2nd ed 2023"
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Repeat FNA (± ancillary) or surgery; lab AUS rate ideally <10%.",
@@ -191,7 +191,7 @@
    "rom": [
     {
      "value": "<3%",
-     "source": "Milan 2nd ed 2023"
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Surgery (conservative excision) or clinical follow-up in selected patients.",
@@ -250,7 +250,7 @@
    "rom": [
     {
      "value": "35%",
-     "source": "Milan 2nd ed 2023"
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Surgical excision.",
@@ -294,7 +294,7 @@
    "rom": [
     {
      "value": "83%",
-     "source": "Milan 2nd ed 2023"
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Surgical excision; frozen section may help extent.",
@@ -329,8 +329,8 @@
    "definition": "Malignancy diagnosed; specify type and grade (2nd ed: low-grade vs high-grade).",
    "rom": [
     {
-     "value": "98%",
-     "source": "Milan 2nd ed 2023"
+     "value": ">98%",
+     "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
    "management": "Surgery ± neck dissection/adjuvant per grade; lymphoma/metastasis: oncology.",
@@ -348,7 +348,7 @@
     {
      "name": "Mucoepidermoid carcinoma, high grade",
      "final": "Malignant (Milan Category VI) – high-grade carcinoma: mucoepidermoid carcinoma, high grade.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "High-grade MEC overlaps with salivary duct carcinoma and metastatic SCC; mucocytes may be scant. MAML2 rearrangement supports MEC. Classify as 'high-grade carcinoma' if subtyping not possible.",
      "cat": "Diagnostic category: Milan System VI – Malignant (high grade)"
     },
     {
@@ -378,7 +378,7 @@
     {
      "name": "Epithelial-myoepithelial carcinoma",
      "final": "Malignant (Milan Category VI) – low-grade carcinoma: epithelial-myoepithelial carcinoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Biphasic: inner ductal (CK7+) and outer clear myoepithelial (p63/SOX10+) cells, often with basement-membrane hyaline globules; overlaps with pleomorphic adenoma and adenoid cystic carcinoma. Often low-grade; subtype confirmation on histology.",
      "cat": "Diagnostic category: Milan System VI – Malignant (low grade)"
     },
     {
@@ -396,13 +396,13 @@
     {
      "name": "Myoepithelial carcinoma",
      "final": "Malignant (Milan Category VI) – myoepithelial carcinoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Cytologically monotonous myoepithelial cells cannot be separated from myoepithelioma on FNA unless overt atypia/necrosis; diagnosis rests on invasion at histology – consider SUMP if atypia is mild.",
      "cat": "Diagnostic category: Milan System VI – Malignant"
     },
     {
      "name": "Basal cell adenocarcinoma",
      "final": "Malignant (Milan Category VI) – low-grade carcinoma: basal cell adenocarcinoma (usually requires histology; often SUMP on FNA).",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Basaloid cells with basement-membrane material indistinguishable from basal cell adenoma on cytology (invasion needed); usually reported as basaloid neoplasm, SUMP, unless clear malignant features.",
      "cat": "Diagnostic category: Milan System VI – Malignant (low grade)",
      "consensus": true
     },
@@ -421,13 +421,13 @@
     {
      "name": "Metastatic malignancy (melanoma, SCC skin, others)",
      "final": "Malignant (Milan Category VI) – metastatic [type].",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Intraparotid node metastases (cutaneous SCC, melanoma of head and neck) are common in older patients; correlate with skin cancer history; IHC (p40, SOX10/HMB45) on cell block.",
      "cat": "Diagnostic category: Milan System VI – Malignant"
     },
     {
      "name": "Carcinoma, NOS / poorly differentiated",
      "final": "Malignant (Milan Category VI) – high-grade carcinoma, NOS.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Use when malignant epithelial cells cannot be subtyped; exclude metastasis (lung, skin) and lymphoma; AR/GATA3/HER2 help for salivary duct carcinoma.",
      "cat": "Diagnostic category: Milan System VI – Malignant (high grade)"
     }
    ]

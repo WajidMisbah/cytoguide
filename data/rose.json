@@ -53,28 +53,28 @@
     {
      "name": "Inadequate – further passes",
      "final": "ROSE: not adequate; further passes requested.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Communicate to operator immediately; consider different target area, needle size or technique.",
      "cat": "Suggested template category: ROSE assessment",
      "consensus": true
     },
     {
      "name": "Lymphoid – triage for flow cytometry",
      "final": "ROSE: lymphoid population; additional pass in RPMI for flow cytometry.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Place pass in RPMI/transport medium; also make cell block for IHC.",
      "cat": "Suggested template category: ROSE assessment",
      "consensus": true
     },
     {
      "name": "Granulomas/necrosis – triage for culture",
      "final": "ROSE: granulomas/necrosis; pass for AFB culture/CBNAAT.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Send dedicated pass in saline for AFB culture/CBNAAT and fungal culture.",
      "cat": "Suggested template category: ROSE assessment",
      "consensus": true
     },
     {
      "name": "Carcinoma – triage for cell block/molecular",
      "final": "ROSE: malignant cells; extra passes for cell block and biomarker testing.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Dedicated passes for cell block to allow IHC and predictive biomarkers (e.g. EGFR, ALK, PD-L1 in lung).",
      "cat": "Suggested template category: ROSE assessment",
      "consensus": true
     }

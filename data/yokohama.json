@@ -47,7 +47,11 @@
    "rom": [
     {
      "value": "2.6–4.8%",
-     "source": "IAC Yokohama 2020 (Field et al.)"
+     "source": "Yokohama system (Field et al., Acta Cytol 2019;63:257, doi 10.1159/000499509) – range from two series"
+    },
+    {
+     "value": "30.3%",
+     "source": "Pooled literature review (Acta Cytol 2019;63:292–301; 27 studies, 33,341 FNABs)"
     }
    ],
    "management": "Repeat FNA (preferably image-guided) or core needle biopsy, guided by triple-test (clinical + imaging) findings.",
@@ -85,7 +89,11 @@
    "rom": [
     {
      "value": "1.4–2.3%",
-     "source": "IAC Yokohama 2020 (Field et al.)"
+     "source": "Yokohama system (Field et al., Acta Cytol 2019;63:257, doi 10.1159/000499509) – range from two series"
+    },
+    {
+     "value": "4.7%",
+     "source": "Pooled literature review (Acta Cytol 2019;63:292–301; 27 studies, 33,341 FNABs)"
     }
    ],
    "management": "If triple test concordant benign: clinical/imaging follow-up. If not concordant: core biopsy.",
@@ -188,7 +196,11 @@
    "rom": [
     {
      "value": "13–15.7%",
-     "source": "IAC Yokohama 2020 (Field et al.)"
+     "source": "Yokohama system (Field et al., Acta Cytol 2019;63:257, doi 10.1159/000499509) – range from two series"
+    },
+    {
+     "value": "51.5%",
+     "source": "Pooled literature review (Acta Cytol 2019;63:292–301; 27 studies, 33,341 FNABs)"
     }
    ],
    "management": "Core needle biopsy (preferred) or repeat FNA; manage per triple test.",
@@ -259,7 +271,11 @@
    "rom": [
     {
      "value": "84.6–97.1%",
-     "source": "IAC Yokohama 2020 (Field et al.)"
+     "source": "Yokohama system (Field et al., Acta Cytol 2019;63:257, doi 10.1159/000499509) – range from two series"
+    },
+    {
+     "value": "85.4%",
+     "source": "Pooled literature review (Acta Cytol 2019;63:292–301; 27 studies, 33,341 FNABs)"
     }
    ],
    "management": "Core needle biopsy (or excision) before definitive treatment.",
@@ -309,7 +325,11 @@
    "rom": [
     {
      "value": "99.0–100%",
-     "source": "IAC Yokohama 2020 (Field et al.)"
+     "source": "Yokohama system (Field et al., Acta Cytol 2019;63:257, doi 10.1159/000499509) – range from two series"
+    },
+    {
+     "value": "98.7%",
+     "source": "Pooled literature review (Acta Cytol 2019;63:292–301; 27 studies, 33,341 FNABs)"
     }
    ],
    "management": "If triple test concordant malignant: definitive management may proceed per local policy, but core biopsy is generally recommended for histological type, grade and biomarkers (ER/PR/HER2/Ki-67).",

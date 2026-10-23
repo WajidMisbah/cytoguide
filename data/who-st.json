@@ -35,12 +35,8 @@
    "definition": "Non-representative or insufficient for diagnosis.",
    "rom": [
     {
-     "value": "≈30%",
-     "source": "Institut Curie series (approx.)"
-    },
-    {
-     "value": "≈33%",
-     "source": "Second validation study (approx.)"
+     "value": "≈42%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – single 828-patient report"
     }
    ],
    "management": "Repeat FNAB/core or surgical biopsy; refer to sarcoma centre if clinically suspicious (deep, >5 cm).",
@@ -62,12 +58,8 @@
    "definition": "Specific benign lesion or benign process.",
    "rom": [
     {
-     "value": "≈2.5%",
-     "source": "Institut Curie series (approx.)"
-    },
-    {
-     "value": "≈1%",
-     "source": "Second validation study (approx.)"
+     "value": "≤5%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Clinical follow-up/excision as indicated.",
@@ -143,12 +135,8 @@
    "definition": "Atypia insufficient for more specific category; often limited cellularity.",
    "rom": [
     {
-     "value": "≈40%",
-     "source": "Institut Curie series (approx.)"
-    },
-    {
-     "value": "≈40%",
-     "source": "Second validation study (approx.)"
+     "value": "39.6% overall (lipomatous 3% to myxoid 84.6%); 46% in another study",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Core/excision biopsy; MDT.",
@@ -170,17 +158,13 @@
    "definition": "Neoplasm identified but malignant potential cannot be determined on cytology (benign vs low-grade sarcoma), or intermediate (locally aggressive/rarely metastasising) entities.",
    "rom": [
     {
-     "value": "≈51%",
-     "source": "Institut Curie series (approx.)"
-    },
-    {
-     "value": "≈25%",
-     "source": "Second validation study (approx.)"
+     "value": "51.4%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – single 2,214-case study"
     }
    ],
    "management": "Excision/core biopsy; sarcoma MDT.",
    "criteria": [
-    "Low-grade spindle/myxoid neoplasms; desmoid fibromatosis; solitary fibrous tumour; atypical lipomatous tumour; cellular schwannoma vs MPNST uncertain."
+    "Low-grade spindle/myxoid neoplasms; desmoid fibromatosis; solitary fibrous tumour; cellular schwannoma vs MPNST uncertain."
    ],
    "diagnoses": [
     {
@@ -206,13 +190,6 @@
      "final": "STNUMP (WHO Soft Tissue System). Solitary fibrous tumour.",
      "comment": "STAT6+; risk stratification on histology.",
      "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP"
-    },
-    {
-     "name": "Atypical lipomatous tumour (MDM2 amplified)",
-     "final": "STNUMP (WHO Soft Tissue System). Atypical lipomatous tumour (MDM2 amplified).",
-     "comment": "MDM2 FISH confirms.",
-     "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP",
-     "note": "Some authors would place this in Malignant (low-grade); category placement verify."
     }
    ]
   },
@@ -222,12 +199,8 @@
    "definition": "Features favour sarcoma/malignancy but are insufficient.",
    "rom": [
     {
-     "value": "≈68%",
-     "source": "Institut Curie series (approx.)"
-    },
-    {
-     "value": "≈80%",
-     "source": "Second validation study (approx.)"
+     "value": "71–80% (68.4% in a 2,200-case study)",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Core biopsy; sarcoma MDT.",
@@ -249,12 +222,8 @@
    "definition": "Unequivocal malignancy; specify type (sarcoma by grade/type where possible; or carcinoma, melanoma, lymphoma).",
    "rom": [
     {
-     "value": "≈98%",
-     "source": "Institut Curie series (approx.)"
-    },
-    {
-     "value": "≈100%",
-     "source": "Second validation study (approx.)"
+     "value": "91–100% (97.7% in large study)",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Sarcoma MDT; definitive surgery/oncology.",
@@ -290,6 +259,12 @@
      "name": "Leiomyosarcoma",
      "final": "Malignant (WHO Soft Tissue System). Leiomyosarcoma.",
      "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Atypical lipomatous tumour / well-differentiated liposarcoma",
+     "final": "Malignant (WHO Soft Tissue System). Atypical lipomatous tumour / well-differentiated liposarcoma.",
+     "comment": "Classed under Malignant (adipocytic malignant tumours) in the WHO system. Atypical hyperchromatic stromal cells in mature fat; MDM2 amplification by FISH confirms; terminology (ALT vs WDLPS) depends on site.",
      "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
     },
     {

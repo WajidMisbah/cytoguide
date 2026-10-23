@@ -28,8 +28,8 @@
    "definition": "Not representative/insufficient.",
    "rom": [
     {
-     "value": "LN ≈ 15–55%",
-     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+     "value": "34% pooled (17–67%); EBUS up to 30–42%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
    "management": "Repeat FNA with flow cytometry or core/excision biopsy.",
@@ -51,8 +51,8 @@
    "definition": "Reactive or specific benign process.",
    "rom": [
     {
-     "value": "LN ≈ 2–8%",
-     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+     "value": "5% pooled (2–16%)",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
    "management": "Clinical follow-up; excision if persistent.",
@@ -105,8 +105,8 @@
    "definition": "Atypia, cannot exclude lymphoma/neoplasm.",
    "rom": [
     {
-     "value": "LN ≈ 15–50%",
-     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+     "value": "65% pooled (29–77%)",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
    "management": "Flow cytometry, core/excision.",
@@ -128,8 +128,8 @@
    "definition": "Features suspicious for malignancy.",
    "rom": [
     {
-     "value": "LN ≈ 70–90%",
-     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+     "value": "93% pooled (88–100%); 96–100% with flow cytometry",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
    "management": "Excision/core biopsy.",
@@ -157,8 +157,8 @@
    "definition": "Malignancy (metastasis, lymphoma, thymic epithelial neoplasm).",
    "rom": [
     {
-     "value": "LN ≈ 98–100%",
-     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+     "value": "98–100%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Oncology; lymphoma requires classification on tissue/ancillary tests.",

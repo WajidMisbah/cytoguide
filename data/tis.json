@@ -43,11 +43,15 @@
    "rom": [
     {
      "value": "17%",
-     "source": "TIS book 2020"
+     "source": "TIS book 2020 (figures derived from Farahani & Baloch, Diagn Cytopathol 2019, doi 10.1002/dc.24278: 17.4/20.7/65.9/81.8/98.9%)"
     },
     {
-     "value": "23–33%",
-     "source": "Pooled meta-analysis (approx. range)"
+     "value": "33% (21–46%)",
+     "source": "Meta-analysis, 16 studies/19,128 cases (Cancer Cytopathol 2024, doi 10.1002/cncy.22822) – pooled (95% CI)"
+    },
+    {
+     "value": "27% (16–41%)",
+     "source": "Meta-analysis, 16 studies (Jamal, Vey et al., 2024) – pooled (95% CI)"
     }
    ],
    "management": "Repeat analysis if clinical suspicion persists; ensure adequate volume (≥75 mL) and fresh/refrigerated specimen.",
@@ -78,11 +82,15 @@
    "rom": [
     {
      "value": "21%",
-     "source": "TIS book 2020"
+     "source": "TIS book 2020 (figures derived from Farahani & Baloch, Diagn Cytopathol 2019, doi 10.1002/dc.24278: 17.4/20.7/65.9/81.8/98.9%)"
     },
     {
-     "value": "11–16%",
-     "source": "Pooled meta-analysis (approx. range)"
+     "value": "15% (10–20%)",
+     "source": "Meta-analysis, 16 studies/19,128 cases (Cancer Cytopathol 2024, doi 10.1002/cncy.22822) – pooled (95% CI)"
+    },
+    {
+     "value": "11% (7–18%)",
+     "source": "Meta-analysis, 16 studies (Jamal, Vey et al., 2024) – pooled (95% CI)"
     }
    ],
    "management": "Clinical follow-up; investigate cause of effusion. Repeat cytology if suspicion of malignancy remains.",
@@ -171,11 +179,15 @@
    "rom": [
     {
      "value": "66%",
-     "source": "TIS book 2020"
+     "source": "TIS book 2020 (figures derived from Farahani & Baloch, Diagn Cytopathol 2019, doi 10.1002/dc.24278: 17.4/20.7/65.9/81.8/98.9%)"
     },
     {
-     "value": "45–51%",
-     "source": "Pooled meta-analysis (approx. range)"
+     "value": "45% (34–56%)",
+     "source": "Meta-analysis, 16 studies/19,128 cases (Cancer Cytopathol 2024, doi 10.1002/cncy.22822) – pooled (95% CI)"
+    },
+    {
+     "value": "49% (37–61%)",
+     "source": "Meta-analysis, 16 studies (Jamal, Vey et al., 2024) – pooled (95% CI)"
     }
    ],
    "management": "Repeat cytology with ancillary tests (cell block IHC: calretinin/WT1/D2-40 vs Ber-EP4/MOC-31/Claudin-4; BAP1, MTAP, CDKN2A FISH); clinical/radiological correlation. Lab AUS rate ideally <10%.",
@@ -213,11 +225,15 @@
    "rom": [
     {
      "value": "82%",
-     "source": "TIS book 2020"
+     "source": "TIS book 2020 (figures derived from Farahani & Baloch, Diagn Cytopathol 2019, doi 10.1002/dc.24278: 17.4/20.7/65.9/81.8/98.9%)"
     },
     {
-     "value": "87–91%",
-     "source": "Pooled meta-analysis (approx. range)"
+     "value": "87% (80–93%)",
+     "source": "Meta-analysis, 16 studies/19,128 cases (Cancer Cytopathol 2024, doi 10.1002/cncy.22822) – pooled (95% CI)"
+    },
+    {
+     "value": "90% (81–95%)",
+     "source": "Meta-analysis, 16 studies (Jamal, Vey et al., 2024) – pooled (95% CI)"
     }
    ],
    "management": "Ancillary studies on cell block/additional fluid; tissue biopsy (pleural biopsy/thoracoscopy) as needed.",
@@ -254,11 +270,15 @@
    "rom": [
     {
      "value": "99%",
-     "source": "TIS book 2020"
+     "source": "TIS book 2020 (figures derived from Farahani & Baloch, Diagn Cytopathol 2019, doi 10.1002/dc.24278: 17.4/20.7/65.9/81.8/98.9%)"
     },
     {
-     "value": "94–100%",
-     "source": "Pooled meta-analysis (approx. range)"
+     "value": "94% (90–98%)",
+     "source": "Meta-analysis, 16 studies/19,128 cases (Cancer Cytopathol 2024, doi 10.1002/cncy.22822) – pooled (95% CI)"
+    },
+    {
+     "value": "100% (98–100%)",
+     "source": "Meta-analysis, 16 studies (Jamal, Vey et al., 2024) – pooled (95% CI)"
     }
    ],
    "management": "Oncology referral. Use cell block for IHC/predictive biomarkers (e.g. ER/PR/HER2, EGFR/ALK/PD-L1, MMR).",

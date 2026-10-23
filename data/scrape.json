@@ -84,7 +84,7 @@
     {
      "name": "Molluscum bodies",
      "final": "Molluscum contagiosum bodies.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Large eosinophilic intracytoplasmic inclusions (Henderson–Patterson bodies) in squames; diagnostic in the right clinical setting.",
      "cat": "Suggested template category: Benign / infective",
      "consensus": true
     },
@@ -98,7 +98,7 @@
     {
      "name": "Leishmania (LD bodies)",
      "final": "Amastigotes seen.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Amastigotes (2–4 µm, nucleus and rod-shaped kinetoplast) in macrophages on Giemsa; confirm by culture/PCR.",
      "cat": "Suggested template category: Benign / infective",
      "consensus": true
     }
@@ -129,7 +129,7 @@
     {
      "name": "Squamous cell carcinoma",
      "final": "Malignant cells consistent with SCC.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Keratinised atypical squames with tadpole/fibre shapes and necrosis; excision biopsy needed to confirm invasion.",
      "cat": "Suggested template category: Malignant",
      "consensus": true
     },

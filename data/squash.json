@@ -108,35 +108,35 @@
     {
      "name": "Meningioma",
      "final": "Whorls and psammoma bodies – meningioma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Syncytial whorls, nuclear pseudoinclusions and psammoma bodies; grading needs histology (mitoses, brain invasion).",
      "cat": "Suggested template category: Lesional – diagnosis",
      "consensus": true
     },
     {
      "name": "Metastatic carcinoma",
      "final": "Metastatic carcinoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Cohesive epithelial clusters sharply separate from glial background; correlate with known primary; IHC on permanent sections.",
      "cat": "Suggested template category: Lesional – diagnosis",
      "consensus": true
     },
     {
      "name": "Lymphoma",
      "final": "Atypical lymphoid cells – lymphoma favoured; avoid freezing artefact, save tissue for flow.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Discohesive atypical lymphoid cells with lymphoglandular bodies, often angiocentric; hold steroids if possible and send fresh tissue for flow cytometry.",
      "cat": "Suggested template category: Lesional – diagnosis",
      "consensus": true
     },
     {
      "name": "Pituitary adenoma (PitNET)",
      "final": "Monotonous plasmacytoid cells – PitNET.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Monotonous round cells with salt-and-pepper chromatin, loss of normal acinar mix; transcription-factor IHC on permanent sections.",
      "cat": "Suggested template category: Lesional – diagnosis",
      "consensus": true
     },
     {
      "name": "Schwannoma",
      "final": "Spindle cells – schwannoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Cohesive fascicles of wavy spindle cells, Verocay-like palisades; S100/SOX10 confirm; vestibular location typical.",
      "cat": "Suggested template category: Lesional – diagnosis",
      "consensus": true
     }

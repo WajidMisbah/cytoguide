@@ -178,7 +178,7 @@
     {
      "name": "Medulloblastoma/primary CNS tumour",
      "final": "Positive for malignant cells – consistent with [tumour].",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "CSF seeding alters staging (e.g. medulloblastoma M1); post-operative samples ideally ≥10–14 days after surgery to avoid false positives.",
      "cat": "Suggested template category: Positive for malignant cells",
      "consensus": true
     }

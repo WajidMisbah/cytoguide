@@ -25,8 +25,8 @@
   {
    "title": "Adequacy",
    "items": [
-    "Voided: ≥30 mL recommended volume; cellularity judgement.",
-    "Instrumented ThinPrep (20 mm): ≈2,600 well-preserved urothelial cells (≈20 per 10 HPF) as guidance; SurePath larger area.",
+    "Voided: ≥25 mL (ThinPrep) or ≥30 mL (SurePath) recommended volume.",
+    "Instrumented: ≈20 well-visualised urothelial cells per 10 HPF (ThinPrep) as guidance.",
     "Upper tract: lower thresholds acceptable.",
     "Any atypical or worse cells → adequate."
    ]
@@ -45,8 +45,8 @@
    ],
    "management": "Repeat urine cytology (preferably a fresh voided or instrumented sample); cystoscopy as clinically indicated.",
    "criteria": [
-    "Voided urine: volume <30 mL generally suboptimal (TPS 2.0 recommends ≥30 mL); very low cellularity.",
-    "Instrumented: low cellularity (ThinPrep ≈ <2,600 well-visualised urothelial cells as a guide).",
+    "Voided urine: volume below ~25–30 mL is suboptimal; very low cellularity.",
+    "Instrumented: fewer than ~20 urothelial cells/10 HPF (ThinPrep guidance).",
     "Obscuring blood/inflammation/lubricant, degeneration.",
     "Any atypical/suspicious/HGUC cells make the sample adequate."
    ],
@@ -54,7 +54,7 @@
     {
      "name": "Non-diagnostic – scant cellularity",
      "final": "Unsatisfactory/Non-diagnostic for evaluation of high-grade urothelial carcinoma – scant cellularity.",
-     "comment": "Repeat urine sample (≥30 mL, fresh, ideally not first morning) recommended.",
+     "comment": "Repeat urine sample (≥25–30 mL, fresh, ideally not first morning) recommended.",
      "cat": "Diagnostic category: The Paris System 2.0 – Non-diagnostic"
     },
     {
@@ -71,12 +71,8 @@
    "definition": "Benign urothelial, squamous and glandular cells, reactive changes, LGUN-type groups without atypia, and benign findings.",
    "rom": [
     {
-     "value": "8–24%",
-     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
-    },
-    {
-     "value": "≈13%",
-     "source": "Pooled meta-analysis (approx.)"
+     "value": "8–24% (risk of high-grade malignancy)",
+     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
     }
    ],
    "management": "Routine clinical follow-up/surveillance as indicated.",
@@ -129,35 +125,16 @@
      "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
     },
     {
+     "name": "Low-grade urothelial neoplasm (second-line diagnosis)",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Findings may represent a low-grade urothelial neoplasm (LGUN) [only with fibrovascular cores or a known cystoscopic lesion].",
+     "comment": "In TPS 2.0 LGUN is no longer a separate primary category; it is reported as a second-line diagnosis under NHGUC. Cystoscopic/histological correlation.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
      "name": "Seminal vesicle cells",
      "final": "Negative for high-grade urothelial carcinoma (NHGUC). Seminal vesicle cells present.",
      "comment": "Lipofuscin-containing atypical-looking cells; benign.",
      "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
-    }
-   ]
-  },
-  {
-   "code": "LGUN",
-   "name": "Low-grade urothelial neoplasm",
-   "definition": "Used only when there is a cystoscopically identified lesion and cytology shows urothelial fragments (true fibrovascular cores), or histology confirmed; otherwise LGUN-pattern cells are NHGUC.",
-   "rom": [
-    {
-     "value": "Risk of HGUC low (≈10%; approximate)",
-     "source": "Literature (approx., unverified)"
-    }
-   ],
-   "management": "Correlate with cystoscopy/biopsy; manage as low-grade tumour.",
-   "criteria": [
-    "Three-dimensional papillary clusters with true fibrovascular cores (only definitive cytologic feature).",
-    "Combines low-grade papillary urothelial carcinoma, PUNLMP, papilloma and flat LG dysplasia/in situ LG.",
-    "Cytologic diagnosis without cores requires a cystoscopic/histologic lesion."
-   ],
-   "diagnoses": [
-    {
-     "name": "Low-grade urothelial neoplasm",
-     "final": "Low-grade urothelial neoplasm (LGUN).",
-     "comment": "Papillary fragments with fibrovascular cores are present (in a patient with a cystoscopically detected lesion). Histology recommended.",
-     "cat": "Diagnostic category: The Paris System 2.0 – LGUN"
     }
    ]
   },
@@ -167,15 +144,11 @@
    "definition": "Non-superficial, non-degenerated urothelial cells with N:C ratio >0.5 AND one of: hyperchromasia, irregular nuclear membranes, irregular coarse chromatin.",
    "rom": [
     {
-     "value": "24–53%",
-     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
-    },
-    {
-     "value": "≈39%",
-     "source": "Pooled meta-analysis (approx.)"
+     "value": "24–53% (risk of high-grade malignancy)",
+     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
     }
    ],
-   "management": "Repeat cytology, cystoscopy ± biopsy, ancillary tests (UroVysion FISH) where available; lab AUC rate target ≤10–15%.",
+   "management": "Repeat cytology, cystoscopy ± biopsy, ancillary tests (UroVysion FISH) where available; expected AUC rate 5–15% (TPS 2.0).",
    "criteria": [
     "Required: N:C ratio >0.5 (moderately increased).",
     "Plus one of: nuclear hyperchromasia (vs umbrella cells), irregular nuclear contours, irregular coarse clumped chromatin.",
@@ -196,12 +169,8 @@
    "definition": "Urothelial cells with N:C ≥0.7 and moderate–severe hyperchromasia plus at least one of irregular membranes or coarse chromatin, but fewer than the threshold for HGUC.",
    "rom": [
     {
-     "value": "59–94%",
-     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
-    },
-    {
-     "value": "≈77%",
-     "source": "Pooled meta-analysis (approx.)"
+     "value": "59–94% (risk of high-grade malignancy)",
+     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
     }
    ],
    "management": "Cystoscopy with biopsy; upper tract evaluation if bladder negative.",
@@ -225,12 +194,8 @@
    "definition": "Includes invasive HGUC and urothelial carcinoma in situ; ≥5–10 cells meeting criteria.",
    "rom": [
     {
-     "value": "76–100%",
-     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
-    },
-    {
-     "value": "≈92%",
-     "source": "Pooled meta-analysis (approx.)"
+     "value": "76–100% (risk of high-grade malignancy)",
+     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
     }
    ],
    "management": "Cystoscopy, biopsy/TURBT, upper tract imaging.",
@@ -326,7 +291,8 @@
   {
    "title": "Changes in TPS 2.0",
    "items": [
-    "AUC N:C threshold raised to >0.5; SHGUC/HGUC ≥0.7.",
+    "LGUN removed as a primary category – now a second-line diagnosis within NHGUC.",
+    "AUC: N:C 0.5–0.7 plus one minor criterion; expected AUC rate 5–15%.",
     "'Atypical urothelial cells' requires one secondary feature (hyperchromasia, irregular membranes, or coarse chromatin).",
     "LGUN and NHGUC clarified; upper tract and ileal conduit chapters; ancillary tests chapter."
    ]
@@ -334,6 +300,6 @@
  ],
  "references": [
   "Wojcik EM, Kurtycz DFI, Rosenthal DL (eds). The Paris System for Reporting Urinary Cytology. 2nd ed. Springer, 2022.",
-  "Pooled TPS 2.0 risk estimates from a 2022 meta-analysis (J Pers Med 2022;12:170) and published reviews; approximate."
+  "The Paris System for Reporting Urinary Cytology: An Updated Review. J Clin Transl Pathol. 2022 (doi 10.14218/jctp.2022.00035)."
  ]
 }

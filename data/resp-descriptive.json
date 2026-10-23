@@ -78,7 +78,7 @@
     {
      "name": "Eosinophilic BAL",
      "final": "BAL with eosinophilia (>25% suggests eosinophilic pneumonia).",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Eosinophils >25% supports acute or chronic eosinophilic pneumonia; consider drugs, parasites, ABPA, EGPA.",
      "cat": "Suggested template category: Benign / descriptive patterns",
      "consensus": true
     },
@@ -99,7 +99,7 @@
     {
      "name": "Pneumocystis jirovecii",
      "final": "Foamy alveolar casts; GMS shows Pneumocystis.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Foamy alveolar casts on Pap; GMS shows cup-shaped cysts. Typically HIV/immunosuppressed; PCR/IF where available.",
      "cat": "Suggested template category: Benign / descriptive patterns",
      "consensus": true
     },
@@ -113,7 +113,7 @@
     {
      "name": "Asbestos bodies / Curschmann spirals / Charcot–Leyden crystals",
      "final": "[Finding] present.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Asbestos bodies (beaded ferruginous fibres) indicate exposure; Curschmann spirals indicate small-airway mucus (asthma, COPD); Charcot–Leyden crystals indicate eosinophil breakdown.",
      "cat": "Suggested template category: Benign / descriptive patterns",
      "consensus": true
     }

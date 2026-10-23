@@ -40,11 +40,15 @@
    "rom": [
     {
      "value": "Not fixed in the 2020 proposal",
-     "source": "Sydney 2020"
+     "source": "Sydney system, Acta Cytol 2020;64:306"
     },
     {
-     "value": "≈20–55%",
-     "source": "Post-implementation studies (approx., wide variation)"
+     "value": "34% (22–45%)",
+     "source": "Meta-analysis, 9 studies/13,205 cases (Acta Cytol 2024;68:13, doi 10.1159/000535797) – pooled (95% CI)"
+    },
+    {
+     "value": "0–67%; 35.7%",
+     "source": "Cancer Cytopathol 2024 review (doi 10.1002/cncy.22890) – range; average"
     }
    ],
    "management": "Repeat FNA (ultrasound-guided, with ROSE) or core/excision biopsy depending on clinical suspicion.",
@@ -74,11 +78,15 @@
    "rom": [
     {
      "value": "Not fixed in the 2020 proposal",
-     "source": "Sydney 2020"
+     "source": "Sydney system, Acta Cytol 2020;64:306"
     },
     {
-     "value": "≈2–15%",
-     "source": "Post-implementation studies (approx., wide variation)"
+     "value": "5% (2–8%)",
+     "source": "Meta-analysis, 9 studies/13,205 cases (Acta Cytol 2024;68:13, doi 10.1159/000535797) – pooled (95% CI)"
+    },
+    {
+     "value": "2–16%; 5.7%",
+     "source": "Cancer Cytopathol 2024 review (doi 10.1002/cncy.22890) – range; average"
     }
    ],
    "management": "Clinical follow-up; re-evaluate (repeat FNA/biopsy) if node persists or enlarges. Ancillary flow may support benign.",
@@ -171,11 +179,15 @@
    "rom": [
     {
      "value": "Not fixed in the 2020 proposal",
-     "source": "Sydney 2020"
+     "source": "Sydney system, Acta Cytol 2020;64:306"
     },
     {
-     "value": "≈30–60%",
-     "source": "Post-implementation studies (approx., wide variation)"
+     "value": "65% (52–78%)",
+     "source": "Meta-analysis, 9 studies/13,205 cases (Acta Cytol 2024;68:13, doi 10.1159/000535797) – pooled (95% CI)"
+    },
+    {
+     "value": "29–100%; 65.3%",
+     "source": "Cancer Cytopathol 2024 review (doi 10.1002/cncy.22890) – range; average"
     }
    ],
    "management": "Repeat FNA with flow cytometry/cell block, or core/excision biopsy.",
@@ -206,11 +218,15 @@
    "rom": [
     {
      "value": "Not fixed in the 2020 proposal",
-     "source": "Sydney 2020"
+     "source": "Sydney system, Acta Cytol 2020;64:306"
     },
     {
-     "value": "≈70–95%",
-     "source": "Post-implementation studies (approx., wide variation)"
+     "value": "93% (89–98%)",
+     "source": "Meta-analysis, 9 studies/13,205 cases (Acta Cytol 2024;68:13, doi 10.1159/000535797) – pooled (95% CI)"
+    },
+    {
+     "value": "82–100%; 95%",
+     "source": "Cancer Cytopathol 2024 review (doi 10.1002/cncy.22890) – range; average"
     }
    ],
    "management": "Excision/core biopsy with ancillary studies; for metastasis, repeat FNA/cell block or biopsy.",
@@ -247,11 +263,15 @@
    "rom": [
     {
      "value": "Not fixed in the 2020 proposal",
-     "source": "Sydney 2020"
+     "source": "Sydney system, Acta Cytol 2020;64:306"
     },
     {
-     "value": "≈97–100%",
-     "source": "Post-implementation studies (approx., wide variation)"
+     "value": "100% (99–100%)",
+     "source": "Meta-analysis, 9 studies/13,205 cases (Acta Cytol 2024;68:13, doi 10.1159/000535797) – pooled (95% CI)"
+    },
+    {
+     "value": "98–100%; 99.6%",
+     "source": "Cancer Cytopathol 2024 review (doi 10.1002/cncy.22890) – range; average"
     }
    ],
    "management": "Lymphoma: excision/core biopsy usually needed for WHO subtype unless FNA + flow/IHC/FISH sufficient (e.g. recurrence, staging). Metastasis: work up primary; cell block for IHC/biomarkers.",

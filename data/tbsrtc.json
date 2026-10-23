@@ -48,12 +48,12 @@
    "definition": "Specimen does not meet adequacy criteria (except exceptions listed) or is uninterpretable because of preparation artefact.",
    "rom": [
     {
-     "value": "13% (range 5–20%)",
-     "source": "TBSRTC 3rd ed 2023 (adult)"
+     "value": "Adult: 13 (5–20)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     },
     {
-     "value": "14%",
-     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+     "value": "Paediatric: 14 (0–33)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     }
    ],
    "management": "Repeat FNA with ultrasound guidance (no minimum wait required). Persistently ND solid nodules: close follow-up or surgery.",
@@ -95,12 +95,12 @@
    "definition": "Benign follicular nodule, thyroiditis or other benign finding.",
    "rom": [
     {
-     "value": "4% (range 2–7%)",
-     "source": "TBSRTC 3rd ed 2023 (adult)"
+     "value": "Adult: 4 (2–7)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     },
     {
-     "value": "6%",
-     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+     "value": "Paediatric: 6 (0–27)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     }
    ],
    "management": "Clinical and sonographic follow-up; repeat FNA only if growth or suspicious US features.",
@@ -168,12 +168,12 @@
    "definition": "Cells with architectural and/or nuclear atypia not sufficient for FN, SFM or malignant. 3rd ed: single term AUS (FLUS removed); subcategorize as AUS-nuclear or AUS-other.",
    "rom": [
     {
-     "value": "22% (range 13–30%); AUS-nuclear carries higher ROM than AUS-other",
-     "source": "TBSRTC 3rd ed 2023 (adult)"
+     "value": "Adult: 22 (13–30)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     },
     {
-     "value": "28%",
-     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+     "value": "Paediatric: 28 (11–54)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     }
    ],
    "management": "Repeat FNA, molecular testing, diagnostic lobectomy or surveillance. Paediatric: repeat FNA or surgery (molecular testing not established). Lab AUS rate should be ≤10%.",
@@ -234,12 +234,12 @@
    "definition": "Moderately to highly cellular aspirate of follicular cells with marked crowding/microfollicles, or composed exclusively of oncocytic cells (FN, oncocytic type). Includes cases with mild nuclear changes (to account for NIFTP/follicular-pattern tumours).",
    "rom": [
     {
-     "value": "30% (range 23–34%)",
-     "source": "TBSRTC 3rd ed 2023 (adult)"
+     "value": "Adult: 30 (23–34)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     },
     {
-     "value": "50%",
-     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+     "value": "Paediatric: 50 (28–100)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     }
    ],
    "management": "Molecular testing and/or diagnostic lobectomy. Paediatric: surgery.",
@@ -290,12 +290,12 @@
    "definition": "Features strongly suspicious but insufficient for definitive malignancy. Specify: suspicious for PTC, MTC, lymphoma, metastatic, other.",
    "rom": [
     {
-     "value": "74% (range 67–83%)",
-     "source": "TBSRTC 3rd ed 2023 (adult)"
+     "value": "Adult: 74 (67–83)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     },
     {
-     "value": "81%",
-     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+     "value": "Paediatric: 81 (40–100)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     }
    ],
    "management": "Molecular testing, lobectomy or near-total thyroidectomy.",
@@ -344,12 +344,12 @@
    "definition": "Cytomorphologic features conclusive for malignancy; specify type.",
    "rom": [
     {
-     "value": "97% (range 97–100%)",
-     "source": "TBSRTC 3rd ed 2023 (adult)"
+     "value": "Adult: 97 (97–100)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     },
     {
-     "value": "98%",
-     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+     "value": "Paediatric: 98 (86–100)% mean (range)",
+     "source": "TBSRTC 3rd ed (Ali, VanderLaan, Baloch et al., Thyroid 2023;33:1039, doi 10.1089/thy.2023.0141)"
     }
    ],
    "management": "Lobectomy or near-total thyroidectomy (PTC/follicular-derived); MTC, ATC, lymphoma and metastases managed by tumour-specific protocols. Active surveillance may be an option for papillary microcarcinoma.",

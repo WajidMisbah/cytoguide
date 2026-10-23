@@ -1,9 +1,9 @@
 {
  "id": "who-liver",
- "name": "WHO Reporting System for Liver Cytopathology",
- "short": "WHO Liver",
- "edition": "1st edition (IAC-IARC-WHO)",
- "year": 2024,
+ "name": "Liver FNA cytology – proposed 5-tier scheme (NOT a WHO system)",
+ "short": "Liver (proposed, non-WHO)",
+ "edition": "Consensus/proposed – no WHO liver cytopathology book published",
+ "year": 2026,
  "group": "Liver",
  "status": "ready",
  "specimen": "FNAB of liver lesions",
@@ -39,9 +39,10 @@
    "diagnoses": [
     {
      "name": "Non-diagnostic",
-     "final": "Insufficient/Inadequate/Non-diagnostic (WHO Liver System). Non-diagnostic.",
+     "final": "Insufficient/Inadequate/Non-diagnostic (Liver FNA (proposed scheme)). Non-diagnostic.",
      "comment": "Repeat sampling.",
-     "cat": "Diagnostic category: WHO Liver System – Insufficient/Inadequate/Non-diagnostic"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Insufficient/Inadequate/Non-diagnostic",
+     "consensus": true
     }
    ]
   },
@@ -62,27 +63,31 @@
    "diagnoses": [
     {
      "name": "Liver abscess (pyogenic/amoebic)",
-     "final": "Benign (WHO Liver System). Liver abscess (pyogenic/amoebic).",
+     "final": "Benign (Liver FNA (proposed scheme)). Liver abscess (pyogenic/amoebic).",
      "comment": "Culture/serology.",
-     "cat": "Diagnostic category: WHO Liver System – Benign"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Benign",
+     "consensus": true
     },
     {
      "name": "Hydatid cyst",
-     "final": "Benign (WHO Liver System). Hydatid cyst.",
+     "final": "Benign (Liver FNA (proposed scheme)). Hydatid cyst.",
      "comment": "Hooklets/laminated membrane.",
-     "cat": "Diagnostic category: WHO Liver System – Benign"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Benign",
+     "consensus": true
     },
     {
      "name": "Granulomatous hepatitis",
-     "final": "Benign (WHO Liver System). Granulomatous hepatitis.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
-     "cat": "Diagnostic category: WHO Liver System – Benign"
+     "final": "Benign (Liver FNA (proposed scheme)). Granulomatous hepatitis.",
+     "comment": "Epithelioid granulomas; consider TB, sarcoidosis, drugs, PBC; AFB/fungal stains and culture.",
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Benign",
+     "consensus": true
     },
     {
      "name": "Benign hepatocytes (consistent with regenerative nodule)",
-     "final": "Benign (WHO Liver System). Benign hepatocytes (consistent with regenerative nodule).",
+     "final": "Benign (Liver FNA (proposed scheme)). Benign hepatocytes (consistent with regenerative nodule).",
      "comment": "Correlate with imaging (LI-RADS).",
-     "cat": "Diagnostic category: WHO Liver System – Benign"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Benign",
+     "consensus": true
     }
    ]
   },
@@ -103,9 +108,10 @@
    "diagnoses": [
     {
      "name": "Atypical hepatocytes",
-     "final": "Atypical (WHO Liver System). Atypical hepatocytes.",
+     "final": "Atypical (Liver FNA (proposed scheme)). Atypical hepatocytes.",
      "comment": "Core biopsy with reticulin/glypican-3.",
-     "cat": "Diagnostic category: WHO Liver System – Atypical"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Atypical",
+     "consensus": true
     }
    ]
   },
@@ -126,9 +132,10 @@
    "diagnoses": [
     {
      "name": "Suspicious for hepatocellular carcinoma",
-     "final": "Suspicious for malignancy (WHO Liver System). Suspicious for hepatocellular carcinoma.",
+     "final": "Suspicious for malignancy (Liver FNA (proposed scheme)). Suspicious for hepatocellular carcinoma.",
      "comment": "Core biopsy with reticulin stain.",
-     "cat": "Diagnostic category: WHO Liver System – Suspicious for malignancy"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Suspicious for malignancy",
+     "consensus": true
     }
    ]
   },
@@ -150,39 +157,45 @@
    "diagnoses": [
     {
      "name": "Hepatocellular carcinoma",
-     "final": "Malignant (WHO Liver System). Hepatocellular carcinoma.",
+     "final": "Malignant (Liver FNA (proposed scheme)). Hepatocellular carcinoma.",
      "comment": "HepPar1/arginase-1/glypican-3.",
-     "cat": "Diagnostic category: WHO Liver System – Malignant"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Malignant",
+     "consensus": true
     },
     {
      "name": "Intrahepatic cholangiocarcinoma",
-     "final": "Malignant (WHO Liver System). Intrahepatic cholangiocarcinoma.",
+     "final": "Malignant (Liver FNA (proposed scheme)). Intrahepatic cholangiocarcinoma.",
      "comment": "Exclude metastatic adenocarcinoma.",
-     "cat": "Diagnostic category: WHO Liver System – Malignant"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Malignant",
+     "consensus": true
     },
     {
      "name": "Metastatic adenocarcinoma (colorectal etc.)",
-     "final": "Malignant (WHO Liver System). Metastatic adenocarcinoma (colorectal etc.).",
+     "final": "Malignant (Liver FNA (proposed scheme)). Metastatic adenocarcinoma (colorectal etc.).",
      "comment": "CK7/CK20/CDX2.",
-     "cat": "Diagnostic category: WHO Liver System – Malignant"
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Malignant",
+     "consensus": true
     },
     {
      "name": "Metastatic neuroendocrine tumour",
-     "final": "Malignant (WHO Liver System). Metastatic neuroendocrine tumour.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
-     "cat": "Diagnostic category: WHO Liver System – Malignant"
+     "final": "Malignant (Liver FNA (proposed scheme)). Metastatic neuroendocrine tumour.",
+     "comment": "Monotonous plasmacytoid cells with salt-and-pepper chromatin; synaptophysin/chromogranin, Ki-67 for grade; search for GEP primary.",
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Malignant",
+     "consensus": true
     },
     {
      "name": "Hepatoblastoma",
-     "final": "Malignant (WHO Liver System). Hepatoblastoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
-     "cat": "Diagnostic category: WHO Liver System – Malignant"
+     "final": "Malignant (Liver FNA (proposed scheme)). Hepatoblastoma.",
+     "comment": "Paediatric; fetal/embryonal small hepatoid cells ± mesenchymal elements; glypican-3/β-catenin; serum AFP.",
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Malignant",
+     "consensus": true
     },
     {
      "name": "Lymphoma",
-     "final": "Malignant (WHO Liver System). Lymphoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
-     "cat": "Diagnostic category: WHO Liver System – Malignant"
+     "final": "Malignant (Liver FNA (proposed scheme)). Lymphoma.",
+     "comment": "Discohesive atypical lymphoid cells with lymphoglandular bodies; send for flow cytometry and cell block IHC.",
+     "cat": "Diagnostic category: Liver FNA (proposed scheme) – Malignant",
+     "consensus": true
     }
    ]
   }
@@ -191,11 +204,12 @@
   {
    "title": "Caution",
    "items": [
-    "Category names verified; ROM values are not established – figures shown are single-study approximations."
+    "No WHO/IAC-IARC liver cytopathology reporting book exists (checked on WHO Classification of Tumours online, Oct 2026). This page uses a 5-tier scheme modelled on the other IAC-IARC systems as a consensus framework.",
+    "ROM values are not established – figures shown are single-study approximations."
    ]
   }
  ],
  "references": [
-  "WHO Reporting System for Liver Cytopathology. IAC-IARC-WHO Cytopathology Reporting Systems. IARC (edition year verify)."
+  "WHO Classification of Tumours Editorial Board. Digestive System Tumours. 5th ed. IARC, 2019 (entity definitions)."
  ]
 }

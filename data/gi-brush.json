@@ -70,14 +70,14 @@
     {
      "name": "Candida oesophagitis",
      "final": "Negative for malignancy; Candida present.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Pseudohyphae with yeasts among squamous cells; correlate with endoscopic white plaques; may coexist with reactive atypia.",
      "cat": "Suggested template category: Negative",
      "consensus": true
     },
     {
      "name": "HSV/CMV oesophagitis",
      "final": "Viral cytopathic effect present.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "HSV: multinucleation, moulding, margination in squamous cells; CMV: large cells with owl-eye intranuclear inclusions in glandular/stromal cells. Usually immunocompromised; confirm by IHC/PCR.",
      "cat": "Suggested template category: Negative",
      "consensus": true
     },
@@ -91,7 +91,7 @@
     {
      "name": "Helicobacter",
      "final": "Helicobacter-like organisms.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Curved rods in mucus over gastric epithelium; confirm with biopsy, rapid urease or IHC.",
      "cat": "Suggested template category: Negative",
      "consensus": true
     }
@@ -139,21 +139,21 @@
     {
      "name": "Squamous cell carcinoma",
      "final": "Malignant: SCC.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Keratinised pleomorphic cells with dense orangeophilic cytoplasm and diathesis; biopsy confirmation required before treatment.",
      "cat": "Suggested template category: Malignant",
      "consensus": true
     },
     {
      "name": "Adenocarcinoma",
      "final": "Malignant: adenocarcinoma.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Crowded 3-D glandular clusters with nucleoli; in Barrett setting, distinguish from high-grade dysplasia (biopsy). HER2 testing on tissue if gastro-oesophageal.",
      "cat": "Suggested template category: Malignant",
      "consensus": true
     },
     {
      "name": "Signet ring cell carcinoma",
      "final": "Malignant: signet ring cells.",
-     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "comment": "Discohesive cells with intracytoplasmic mucin displacing the nucleus; may mimic histiocytes – mucicarmine/PAS-D and keratin help.",
      "cat": "Suggested template category: Malignant",
      "consensus": true
     }

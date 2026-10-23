@@ -20,7 +20,7 @@ CATALOGUE = [  # (id, short, full name, edition/year, group, legacy)
  ("psc-pb","PSC pancreaticobiliary (legacy)","Papanicolaou Society of Cytopathology System for Pancreaticobiliary Cytology","2014/2015","Pancreaticobiliary",True),
  ("who-st","WHO Soft tissue","WHO Reporting System for Soft Tissue Cytopathology","1st ed (IARC/IAC), 2023","Soft tissue",False),
  ("who-liver","WHO Liver","WHO Reporting System for Liver Cytopathology","IARC/IAC series","Liver",False),
- ("who-kidney","WHO Kidney","WHO Reporting System for Kidney Cytopathology","IARC/IAC series","Kidney",False),
+ ("who-kidney","Kidney (coming soon)","Kidney FNA – no WHO/IAC-IARC kidney cytopathology system published yet","Not published (checked Oct 2026)","Kidney",False),
  ("csf","CSF cytology","CSF tiered reporting (no official international system)","Proposed schemes","CSF",False),
  ("scrape","Scrape / imprint / Tzanck","Scrape, imprint and Tzanck smear reporting","Descriptive","Scrape / imprint / Tzanck",False),
  ("nipple","Nipple discharge","Nipple discharge cytology","Descriptive","Nipple discharge",False),

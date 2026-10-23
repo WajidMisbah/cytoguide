@@ -39,12 +39,12 @@
    "definition": "Material insufficient or non-representative for diagnosis, given clinical/imaging context.",
    "rom": [
     {
-     "value": "40–60%",
-     "source": "WHO Lung 2022 – all specimens (approx.)"
+     "value": "≈40–60%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     },
     {
-     "value": "43–53%",
-     "source": "WHO Lung 2022 – FNAB (approx.)"
+     "value": "EBUS-FNAB ≈40%; transthoracic up to 60%; exfoliative >60%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – by specimen"
     }
    ],
    "management": "Clinical-radiological correlation; repeat sampling (EBUS/CT-guided FNAB with ROSE) or core/surgical biopsy.",
@@ -74,12 +74,12 @@
    "definition": "Specific benign diagnosis or benign findings concordant with clinical-imaging context.",
    "rom": [
     {
-     "value": "20–40%",
-     "source": "WHO Lung 2022 – all specimens (approx.)"
+     "value": "≈24–42%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – general"
     },
     {
-     "value": "19–64%",
-     "source": "WHO Lung 2022 – FNAB (approx.)"
+     "value": "FNAB 19–64%; sputum 0–42%; washings/brushings 32–42%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – by specimen"
     }
    ],
    "management": "Clinical-radiological correlation; if discordant, repeat sampling/biopsy.",
@@ -144,12 +144,12 @@
    "definition": "Mostly benign features with some atypia, insufficient for suspicious/malignant.",
    "rom": [
     {
-     "value": "50–60%",
-     "source": "WHO Lung 2022 – all specimens (approx.)"
+     "value": "Exfoliative 62–100%; FNAB 46–55%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – by specimen"
     },
     {
-     "value": "46–55%",
-     "source": "WHO Lung 2022 – FNAB (approx.)"
+     "value": "22–62% overall; 50–60% in recent studies",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Repeat sampling with ancillary tests, or biopsy; MDT discussion.",
@@ -184,12 +184,8 @@
    "definition": "Features suggestive of malignancy, insufficient quality/quantity for definitive diagnosis.",
    "rom": [
     {
-     "value": "54.5–90%",
-     "source": "WHO Lung 2022 – all specimens (approx.)"
-    },
-    {
-     "value": "75–88%",
-     "source": "WHO Lung 2022 – FNAB (approx.)"
+     "value": "Exfoliative 75–100%; FNAB 75–88%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Repeat sampling/biopsy with ancillary studies; treatment after confirmation.",
@@ -230,12 +226,8 @@
    "definition": "Unequivocal malignancy; specify type using WHO thoracic classification; use NSCLC-NOS / favour with IHC when morphology unclear.",
    "rom": [
     {
-     "value": ">90%",
-     "source": "WHO Lung 2022 – all specimens (approx.)"
-    },
-    {
-     "value": "87–100%",
-     "source": "WHO Lung 2022 – FNAB (approx.)"
+     "value": "Sputum ≈100%; washings/brushings 94–100%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
    "management": "Treat per oncology; ensure material for predictive biomarkers (EGFR, ALK, ROS1, KRAS, BRAF, MET, RET, NTRK, PD-L1).",

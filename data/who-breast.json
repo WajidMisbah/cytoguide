@@ -2,7 +2,7 @@
  "id": "who-breast",
  "name": "WHO Reporting System for Breast Cytopathology",
  "short": "WHO Breast",
- "edition": "IAC-IARC-WHO (Yokohama-based; publication status to verify)",
+ "edition": "1st edition (IAC-IARC) – online beta",
  "year": 2024,
  "group": "Breast",
  "status": "ready",
@@ -26,8 +26,8 @@
    "definition": "Insufficient material.",
    "rom": [
     {
-     "value": "Not verified for WHO system – see Yokohama ROM",
-     "source": "Unverified"
+     "value": "0–60.9% (median 14.8%); 2.6–4.8% in best-practice clinics",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
    "management": "Repeat FNAB/core.",
@@ -49,8 +49,8 @@
    "definition": "Benign.",
    "rom": [
     {
-     "value": "Not verified for WHO system – see Yokohama ROM",
-     "source": "Unverified"
+     "value": "0–11.7% (commonly 0.6–5%; 1.4–2.3% in best practice)",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
    "management": "Triple test concordance.",
@@ -78,8 +78,8 @@
    "definition": "Atypia.",
    "rom": [
     {
-     "value": "Not verified for WHO system – see Yokohama ROM",
-     "source": "Unverified"
+     "value": "13–40% (median 24.1%); ideal 13–15%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
    "management": "Core biopsy.",
@@ -101,8 +101,8 @@
    "definition": "Suspicious.",
    "rom": [
     {
-     "value": "Not verified for WHO system – see Yokohama ROM",
-     "source": "Unverified"
+     "value": "45.8–100% (median 85.2%)",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
    "management": "Core biopsy.",
@@ -124,8 +124,8 @@
    "definition": "Malignant.",
    "rom": [
     {
-     "value": "Not verified for WHO system – see Yokohama ROM",
-     "source": "Unverified"
+     "value": "98.7%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
    "management": "Treat per MDT.",
@@ -146,7 +146,7 @@
   {
    "title": "Status",
    "items": [
-    "Category names verified (same as Yokohama). ROM values for WHO version not verified – use the Yokohama page for ROM and full diagnoses."
+    "Category names verified (same as Yokohama). ROM figures from the online beta chapter text; full diagnoses on the Yokohama page."
    ]
   }
  ],
