@@ -1,0 +1,338 @@
+{
+ "id": "who-lung",
+ "name": "WHO Reporting System for Lung Cytopathology",
+ "short": "WHO Lung",
+ "edition": "1st edition (IAC-IARC-WHO)",
+ "year": 2022,
+ "group": "Lung / respiratory",
+ "status": "ready",
+ "specimen": "Sputum, bronchial washings/brushings, BAL, EBUS/EUS-FNA, transthoracic FNAB",
+ "use": [
+  "All respiratory cytology specimens: exfoliative (sputum, washings, brushings, BAL) and FNAB (EBUS-TBNA, transbronchial, transthoracic)."
+ ],
+ "not_use": [
+  "Pleural fluid (use TIS).",
+  "Mediastinal lymph nodes may be reported by lymph node system when the question is nodal (staging)."
+ ],
+ "report_structure": [
+  "Specimen type and site",
+  "Category",
+  "Specific diagnosis/differential",
+  "Ancillary/biomarker tests",
+  "Recommendation (MDT)"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "No numerical threshold; assess relative to clinical/imaging target.",
+    "Sputum: alveolar macrophages indicate deep sample.",
+    "EBUS lymph node: lymphocyte-rich material (some use ≥40 lymphocytes/HPF in cellular areas) or diagnostic lesional cells.",
+    "ROSE recommended; triage for cell block and molecular testing."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Insufficient / Inadequate / Non-diagnostic",
+   "definition": "Material insufficient or non-representative for diagnosis, given clinical/imaging context.",
+   "rom": [
+    {
+     "value": "40–60%",
+     "source": "WHO Lung 2022 – all specimens (approx.)"
+    },
+    {
+     "value": "43–53%",
+     "source": "WHO Lung 2022 – FNAB (approx.)"
+    }
+   ],
+   "management": "Clinical-radiological correlation; repeat sampling (EBUS/CT-guided FNAB with ROSE) or core/surgical biopsy.",
+   "criteria": [
+    "Acellular or scant, poorly preserved, obscured material.",
+    "Only normal bronchial cells/alveolar macrophages from a discrete mass (non-representative).",
+    "Sputum without alveolar macrophages (not deep cough sample)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Scant non-representative material",
+     "final": "Insufficient/Inadequate/Non-diagnostic (WHO Lung System). Scant non-representative material.",
+     "comment": "Material is insufficient/not representative of the radiological lesion. Repeat sampling recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Insufficient/Inadequate/Non-diagnostic"
+    },
+    {
+     "name": "Sputum without alveolar macrophages",
+     "final": "Insufficient/Inadequate/Non-diagnostic (WHO Lung System). Sputum without alveolar macrophages.",
+     "comment": "Sample is salivary; not representative of lower respiratory tract. Repeat early-morning deep-cough sputum (×3).",
+     "cat": "Diagnostic category: WHO Lung System – Insufficient/Inadequate/Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign",
+   "definition": "Specific benign diagnosis or benign findings concordant with clinical-imaging context.",
+   "rom": [
+    {
+     "value": "20–40%",
+     "source": "WHO Lung 2022 – all specimens (approx.)"
+    },
+    {
+     "value": "19–64%",
+     "source": "WHO Lung 2022 – FNAB (approx.)"
+    }
+   ],
+   "management": "Clinical-radiological correlation; if discordant, repeat sampling/biopsy.",
+   "criteria": [
+    "Granulomatous inflammation, infections, abscess, benign neoplasms (hamartoma), reactive changes, organising pneumonia patterns when concordant."
+   ],
+   "diagnoses": [
+    {
+     "name": "Granulomatous inflammation (necrotising/non-necrotising)",
+     "final": "Benign (WHO Lung System). Granulomatous inflammation (necrotising/non-necrotising).",
+     "comment": "Stains for AFB/fungi and CBNAAT/culture recommended; sarcoidosis vs tuberculosis per clinical context.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Tuberculosis (AFB positive)",
+     "final": "Benign (WHO Lung System). Tuberculosis (AFB positive).",
+     "comment": "Mycobacterial infection confirmed by ZN stain/CBNAAT.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Fungal infection (Aspergillus, Cryptococcus, Histoplasma, Mucor, Pneumocystis)",
+     "final": "Benign (WHO Lung System). Fungal infection (Aspergillus, Cryptococcus, Histoplasma, Mucor, Pneumocystis).",
+     "comment": "Specify organism; GMS/PAS; culture.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Acute inflammation / abscess",
+     "final": "Benign (WHO Lung System). Acute inflammation / abscess.",
+     "comment": "Culture recommended; follow up to resolution.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Pulmonary hamartoma",
+     "final": "Benign (WHO Lung System). Pulmonary hamartoma.",
+     "comment": "Fibromyxoid/chondroid matrix, fat and entrapped respiratory epithelium.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Reactive bronchial/pneumocyte atypia (benign)",
+     "final": "Benign (WHO Lung System). Reactive bronchial/pneumocyte atypia (benign).",
+     "comment": "Reactive changes; correlate with infection/therapy.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Benign lymph node (EBUS) / sarcoidosis",
+     "final": "Benign (WHO Lung System). Benign lymph node (EBUS) / sarcoidosis.",
+     "comment": "Reactive lymphoid tissue/non-necrotising granulomas.",
+     "cat": "Diagnostic category: WHO Lung System – Benign"
+    },
+    {
+     "name": "Other benign neoplasm (sclerosing pneumocytoma, granular cell tumour, schwannoma)",
+     "final": "Benign (WHO Lung System). Other benign neoplasm (sclerosing pneumocytoma, granular cell tumour, schwannoma).",
+     "comment": "Specify; histology/IHC confirmation recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Benign",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Mostly benign features with some atypia, insufficient for suspicious/malignant.",
+   "rom": [
+    {
+     "value": "50–60%",
+     "source": "WHO Lung 2022 – all specimens (approx.)"
+    },
+    {
+     "value": "46–55%",
+     "source": "WHO Lung 2022 – FNAB (approx.)"
+    }
+   ],
+   "management": "Repeat sampling with ancillary tests, or biopsy; MDT discussion.",
+   "criteria": [
+    "Reactive vs neoplastic atypia (e.g. type II pneumocyte hyperplasia, squamous metaplasia, therapy effect).",
+    "Low cellularity atypical cells; mucinous/lepidic-type cells with minimal atypia."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical epithelial cells",
+     "final": "Atypical (WHO Lung System). Atypical epithelial cells.",
+     "comment": "Reactive atypia vs neoplasm; repeat sampling/biopsy recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Atypical"
+    },
+    {
+     "name": "Atypical squamous cells",
+     "final": "Atypical (WHO Lung System). Atypical squamous cells.",
+     "comment": "Squamous metaplasia/reactive vs SCC; repeat sampling.",
+     "cat": "Diagnostic category: WHO Lung System – Atypical"
+    },
+    {
+     "name": "Atypical lymphoid cells",
+     "final": "Atypical (WHO Lung System). Atypical lymphoid cells.",
+     "comment": "Flow cytometry on repeat sample recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Features suggestive of malignancy, insufficient quality/quantity for definitive diagnosis.",
+   "rom": [
+    {
+     "value": "54.5–90%",
+     "source": "WHO Lung 2022 – all specimens (approx.)"
+    },
+    {
+     "value": "75–88%",
+     "source": "WHO Lung 2022 – FNAB (approx.)"
+    }
+   ],
+   "management": "Repeat sampling/biopsy with ancillary studies; treatment after confirmation.",
+   "criteria": [
+    "Few highly atypical cells; obscured/degenerated malignant-appearing cells.",
+    "Suspicious for specific tumour (adenocarcinoma, SCC, small cell, carcinoid)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for adenocarcinoma",
+     "final": "Suspicious for malignancy (WHO Lung System). Suspicious for adenocarcinoma.",
+     "comment": "Repeat sampling with cell block for IHC/biomarkers.",
+     "cat": "Diagnostic category: WHO Lung System – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for squamous cell carcinoma",
+     "final": "Suspicious for malignancy (WHO Lung System). Suspicious for squamous cell carcinoma.",
+     "comment": "Repeat sampling/biopsy.",
+     "cat": "Diagnostic category: WHO Lung System – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for small cell carcinoma",
+     "final": "Suspicious for malignancy (WHO Lung System). Suspicious for small cell carcinoma.",
+     "comment": "Confirm with IHC on repeat sample.",
+     "cat": "Diagnostic category: WHO Lung System – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for malignancy, NOS",
+     "final": "Suspicious for malignancy (WHO Lung System). Suspicious for malignancy, NOS.",
+     "comment": "Clinical, radiological and MDT correlation recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Suspicious for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Unequivocal malignancy; specify type using WHO thoracic classification; use NSCLC-NOS / favour with IHC when morphology unclear.",
+   "rom": [
+    {
+     "value": ">90%",
+     "source": "WHO Lung 2022 – all specimens (approx.)"
+    },
+    {
+     "value": "87–100%",
+     "source": "WHO Lung 2022 – FNAB (approx.)"
+    }
+   ],
+   "management": "Treat per oncology; ensure material for predictive biomarkers (EGFR, ALK, ROS1, KRAS, BRAF, MET, RET, NTRK, PD-L1).",
+   "criteria": [
+    "Adenocarcinoma: 3-D clusters, vacuolated cytoplasm, nucleoli; TTF1/Napsin A+.",
+    "SCC: keratinisation, dense cytoplasm; p40+.",
+    "NSCLC, favour adenocarcinoma/SCC per IHC; NSCLC-NOS if IHC null.",
+    "Small cell carcinoma: moulding, salt-and-pepper chromatin, crush; INSM1/synaptophysin+.",
+    "Carcinoid (typical/atypical), LCNEC, metastases, lymphoma, mesothelioma (pleural), sarcoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Adenocarcinoma",
+     "final": "Malignant (WHO Lung System). Adenocarcinoma.",
+     "comment": "Predictive biomarker testing recommended on cell block (EGFR, ALK, ROS1, PD-L1 etc.).",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Squamous cell carcinoma",
+     "final": "Malignant (WHO Lung System). Squamous cell carcinoma.",
+     "comment": "PD-L1 testing recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Non-small cell carcinoma, favour adenocarcinoma (IHC-based)",
+     "final": "Malignant (WHO Lung System). Non-small cell carcinoma, favour adenocarcinoma (IHC-based).",
+     "comment": "TTF1+ / p40−. Biomarker testing recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Non-small cell carcinoma, favour squamous cell carcinoma (IHC-based)",
+     "final": "Malignant (WHO Lung System). Non-small cell carcinoma, favour squamous cell carcinoma (IHC-based).",
+     "comment": "p40+ / TTF1−.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Non-small cell carcinoma, NOS",
+     "final": "Malignant (WHO Lung System). Non-small cell carcinoma, NOS.",
+     "comment": "Morphology and IHC non-contributory; biomarker testing still recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Small cell carcinoma",
+     "final": "Malignant (WHO Lung System). Small cell carcinoma.",
+     "comment": "Urgent oncology referral.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Large cell neuroendocrine carcinoma",
+     "final": "Malignant (WHO Lung System). Large cell neuroendocrine carcinoma.",
+     "comment": "Requires neuroendocrine morphology + NE marker; histology often needed.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Carcinoid tumour (typical/atypical)",
+     "final": "Malignant (WHO Lung System). Carcinoid tumour (typical/atypical).",
+     "comment": "Typical vs atypical requires histology (mitoses/necrosis); Ki-67 adjunct.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Adenosquamous / sarcomatoid / other carcinoma",
+     "final": "Malignant (WHO Lung System). Adenosquamous / sarcomatoid / other carcinoma.",
+     "comment": "Histology required for definitive subtype.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Salivary gland-type carcinoma (MEC, adenoid cystic)",
+     "final": "Malignant (WHO Lung System). Salivary gland-type carcinoma (MEC, adenoid cystic).",
+     "comment": "Clinical, radiological and MDT correlation recommended.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Metastatic carcinoma/melanoma/sarcoma",
+     "final": "Malignant (WHO Lung System). Metastatic carcinoma/melanoma/sarcoma.",
+     "comment": "IHC to identify primary.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Lymphoma",
+     "final": "Malignant (WHO Lung System). Lymphoma.",
+     "comment": "Flow cytometry/IHC.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    },
+    {
+     "name": "Mesothelioma (pleural FNAB)",
+     "final": "Malignant (WHO Lung System). Mesothelioma (pleural FNAB).",
+     "comment": "BAP1/MTAP and clinico-radiological correlation.",
+     "cat": "Diagnostic category: WHO Lung System – Malignant"
+    }
+   ]
+  }
+ ],
+ "references": [
+  "WHO Reporting System for Lung Cytopathology. IAC-IARC-WHO Cytopathology Reporting Systems, 1st ed, Vol 1. IARC, 2022.",
+  "Schmitt F, Tani E, et al. The World Health Organization Reporting System for Lung Cytopathology. Acta Cytol. 2023;67(1):80–91.",
+  "WHO Classification of Tumours Editorial Board. Thoracic Tumours. 5th ed. IARC, 2021."
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "id": "rose",
+ "name": "ROSE – rapid on-site evaluation (adequacy & triage)",
+ "short": "ROSE",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "ROSE",
+ "status": "ready",
+ "specimen": "Any FNA/EBUS/EUS with on-site assessment",
+ "use": [
+  "Adequacy assessment and triage for ancillary tests."
+ ],
+ "not_use": [
+  "Final diagnosis."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Diff-Quik/rapid Pap; assess cellularity; allocate passes for cell block, flow, culture, molecular."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ROSE",
+   "name": "ROSE assessment",
+   "definition": "On-site impressions.",
+   "rom": [
+    {
+     "value": "—",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Triage.",
+   "criteria": [
+    "Adequate/inadequate; preliminary impression; triage."
+   ],
+   "diagnoses": [
+    {
+     "name": "Adequate – lesional cells present",
+     "final": "ROSE: adequate; lesional cells present. Preliminary: [impression].",
+     "comment": "Final report to follow.",
+     "cat": "Suggested template category: ROSE assessment",
+     "consensus": true
+    },
+    {
+     "name": "Inadequate – further passes",
+     "final": "ROSE: not adequate; further passes requested.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: ROSE assessment",
+     "consensus": true
+    },
+    {
+     "name": "Lymphoid – triage for flow cytometry",
+     "final": "ROSE: lymphoid population; additional pass in RPMI for flow cytometry.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: ROSE assessment",
+     "consensus": true
+    },
+    {
+     "name": "Granulomas/necrosis – triage for culture",
+     "final": "ROSE: granulomas/necrosis; pass for AFB culture/CBNAAT.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: ROSE assessment",
+     "consensus": true
+    },
+    {
+     "name": "Carcinoma – triage for cell block/molecular",
+     "final": "ROSE: malignant cells; extra passes for cell block and biomarker testing.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: ROSE assessment",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system."
+   ]
+  }
+ ],
+ "references": [
+  "Literature on ROSE in EBUS/EUS (e.g. ASC/PSC guidance); approximate."
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "scrape",
+ "name": "Scrape, imprint and Tzanck smears",
+ "short": "Scrape/Tzanck",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "Scrape / imprint / Tzanck",
+ "status": "ready",
+ "specimen": "Skin/mucosal scrapes, Tzanck, touch imprints",
+ "use": [
+  "Vesiculobullous lesions, herpes, pemphigus, skin tumours (BCC/SCC), intraoperative touch preps."
+ ],
+ "not_use": [
+  "Definitive diagnosis of blistering disease (requires biopsy + DIF)."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Scrape base of fresh intact vesicle; air-dried (Giemsa) and alcohol-fixed slides."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / unsatisfactory",
+   "definition": "Inadequate.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Scant/obscured."
+   ],
+   "diagnoses": [
+    {
+     "name": "Scrape – unsatisfactory",
+     "final": "Unsatisfactory for evaluation: [reason].",
+     "comment": "Repeat specimen recommended.",
+     "cat": "Suggested template category: Non-diagnostic / unsatisfactory",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign / infective",
+   "definition": "",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Clinical correlation.",
+   "criteria": [
+    "Multinucleation, moulding, margination (HSV/VZV)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Herpes simplex/zoster cytopathic effect",
+     "final": "Tzanck positive: multinucleated giant cells with moulding, margination and inclusions.",
+     "comment": "HSV vs VZV needs PCR/IF.",
+     "cat": "Suggested template category: Benign / infective",
+     "consensus": true
+    },
+    {
+     "name": "Acantholytic cells (pemphigus)",
+     "final": "Acantholytic (Tzanck) cells present.",
+     "comment": "Biopsy with DIF required.",
+     "cat": "Suggested template category: Benign / infective",
+     "consensus": true
+    },
+    {
+     "name": "Molluscum bodies",
+     "final": "Molluscum contagiosum bodies.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Benign / infective",
+     "consensus": true
+    },
+    {
+     "name": "Candida / dermatophyte",
+     "final": "Fungal elements seen.",
+     "comment": "KOH/culture.",
+     "cat": "Suggested template category: Benign / infective",
+     "consensus": true
+    },
+    {
+     "name": "Leishmania (LD bodies)",
+     "final": "Amastigotes seen.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Benign / infective",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Biopsy.",
+   "criteria": [
+    "BCC: basaloid clusters with palisading; SCC; melanoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Basal cell carcinoma",
+     "final": "Malignant cells consistent with basal cell carcinoma.",
+     "comment": "Excision biopsy.",
+     "cat": "Suggested template category: Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Squamous cell carcinoma",
+     "final": "Malignant cells consistent with SCC.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Intraoperative imprint – positive",
+     "final": "Imprint positive for malignant cells.",
+     "comment": "Frozen/permanent section correlation.",
+     "cat": "Suggested template category: Malignant",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system."
+   ]
+  }
+ ],
+ "references": [
+  "Tzanck A. (1947) original description; standard cytopathology texts (e.g. Orell & Sterrett's Fine Needle Aspiration Cytology; Koss' Diagnostic Cytology)."
+ ]
+}

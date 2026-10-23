@@ -1,0 +1,159 @@
+{
+ "id": "resp-descriptive",
+ "name": "BAL, sputum and bronchial washings",
+ "short": "BAL/sputum",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "Lung / respiratory",
+ "status": "ready",
+ "specimen": "Sputum, BAL, washings",
+ "use": [
+  "Infection, BAL differential count, malignancy screening (use WHO Lung categories for malignancy)."
+ ],
+ "not_use": [
+  "Lesional FNAB (WHO Lung)."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Sputum: alveolar macrophages required.",
+    "BAL: few bronchial cells (<5% suggests alveolar sample); differential count on cytospin."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / unsatisfactory",
+   "definition": "Inadequate.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Scant/obscured."
+   ],
+   "diagnoses": [
+    {
+     "name": "BAL/sputum – unsatisfactory",
+     "final": "Unsatisfactory for evaluation: [reason].",
+     "comment": "Repeat specimen recommended.",
+     "cat": "Suggested template category: Non-diagnostic / unsatisfactory",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "PAT",
+   "name": "Benign / descriptive patterns",
+   "definition": "Non-neoplastic findings.",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Clinical correlation.",
+   "criteria": [
+    "BAL differential (normal: macrophages >80%, lymphocytes <15%, neutrophils <3%, eosinophils <1%)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Lymphocytic BAL",
+     "final": "BAL with lymphocytosis (xx%).",
+     "comment": "Sarcoidosis, hypersensitivity pneumonitis, drug reaction; CD4:CD8 ratio if available.",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    },
+    {
+     "name": "Eosinophilic BAL",
+     "final": "BAL with eosinophilia (>25% suggests eosinophilic pneumonia).",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    },
+    {
+     "name": "Neutrophilic BAL",
+     "final": "BAL with neutrophilia.",
+     "comment": "Infection, ARDS, IPF.",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    },
+    {
+     "name": "Haemosiderin-laden macrophages",
+     "final": "Numerous haemosiderin-laden macrophages.",
+     "comment": "Diffuse alveolar haemorrhage if >20% (Golde score).",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    },
+    {
+     "name": "Pneumocystis jirovecii",
+     "final": "Foamy alveolar casts; GMS shows Pneumocystis.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    },
+    {
+     "name": "Lipid-laden macrophages",
+     "final": "Lipid-laden macrophages.",
+     "comment": "Aspiration/lipoid pneumonia.",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    },
+    {
+     "name": "Asbestos bodies / Curschmann spirals / Charcot–Leyden crystals",
+     "final": "[Finding] present.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Benign / descriptive patterns",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant / atypical",
+   "definition": "Use WHO Lung categories.",
+   "rom": [
+    {
+     "value": "See WHO Lung",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "WHO Lung pathway.",
+   "criteria": [
+    "Atypical/suspicious/malignant cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Malignant cells in BAL/sputum",
+     "final": "Malignant cells present – [type] (WHO Lung category: Malignant).",
+     "comment": "Correlate with bronchoscopy/biopsy.",
+     "cat": "Suggested template category: Malignant / atypical",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system."
+   ]
+  }
+ ],
+ "references": [
+  "WHO Reporting System for Lung Cytopathology. IARC, 2022.",
+  "Meyer KC, et al. An official ATS clinical practice guideline: the clinical utility of BAL cellular analysis in interstitial lung disease. Am J Respir Crit Care Med. 2012;185:1004–1014."
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "squash",
+ "name": "Squash / intraoperative cytology",
+ "short": "Squash/intraop",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "Squash / intraoperative",
+ "status": "ready",
+ "specimen": "CNS squash/smear, intraoperative touch/scrape",
+ "use": [
+  "Intraoperative CNS diagnosis, lesional tissue confirmation."
+ ],
+ "not_use": [
+  "Final classification (needs permanent sections + molecular)."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Tiny tissue fragments smeared between slides; rapid H&E/toluidine blue."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / unsatisfactory",
+   "definition": "Inadequate.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Scant/obscured."
+   ],
+   "diagnoses": [
+    {
+     "name": "Squash – unsatisfactory",
+     "final": "Unsatisfactory for evaluation: [reason].",
+     "comment": "Repeat specimen recommended.",
+     "cat": "Suggested template category: Non-diagnostic / unsatisfactory",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "NL",
+   "name": "Non-lesional / reactive",
+   "definition": "",
+   "rom": [
+    {
+     "value": "—",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Further sampling.",
+   "criteria": [
+    "Normal brain, gliosis, necrosis only."
+   ],
+   "diagnoses": [
+    {
+     "name": "Gliosis / non-lesional brain",
+     "final": "Reactive glial tissue; lesional tissue not identified.",
+     "comment": "Further sampling advised.",
+     "cat": "Suggested template category: Non-lesional / reactive",
+     "consensus": true
+    },
+    {
+     "name": "Necrosis only",
+     "final": "Necrosis only.",
+     "comment": "Sample periphery of lesion.",
+     "cat": "Suggested template category: Non-lesional / reactive",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "LES",
+   "name": "Lesional – diagnosis",
+   "definition": "",
+   "rom": [
+    {
+     "value": "—",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Per frozen diagnosis.",
+   "criteria": [
+    "Glial fibrillary background, Rosenthal fibres, whorls, epithelial clusters, lymphoid cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Glioma (low/high grade)",
+     "final": "Glial neoplasm, [low/high]-grade features.",
+     "comment": "Final grade requires histology + IDH/1p19q.",
+     "cat": "Suggested template category: Lesional – diagnosis",
+     "consensus": true
+    },
+    {
+     "name": "Meningioma",
+     "final": "Whorls and psammoma bodies – meningioma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Lesional – diagnosis",
+     "consensus": true
+    },
+    {
+     "name": "Metastatic carcinoma",
+     "final": "Metastatic carcinoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Lesional – diagnosis",
+     "consensus": true
+    },
+    {
+     "name": "Lymphoma",
+     "final": "Atypical lymphoid cells – lymphoma favoured; avoid freezing artefact, save tissue for flow.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Lesional – diagnosis",
+     "consensus": true
+    },
+    {
+     "name": "Pituitary adenoma (PitNET)",
+     "final": "Monotonous plasmacytoid cells – PitNET.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Lesional – diagnosis",
+     "consensus": true
+    },
+    {
+     "name": "Schwannoma",
+     "final": "Spindle cells – schwannoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Lesional – diagnosis",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system."
+   ]
+  }
+ ],
+ "references": [
+  "Standard neuropathology intraoperative references (e.g. Burger's Smears and Frozen Sections in Surgical Neuropathology)."
+ ]
+}

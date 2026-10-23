@@ -1,0 +1,156 @@
+{
+ "id": "who-breast",
+ "name": "WHO Reporting System for Breast Cytopathology",
+ "short": "WHO Breast",
+ "edition": "IAC-IARC-WHO (Yokohama-based; publication status to verify)",
+ "year": 2024,
+ "group": "Breast",
+ "status": "ready",
+ "specimen": "FNAB, core touch preps, LBC, nipple discharge",
+ "use": [
+  "Breast FNAB and related cytology; categories identical to Yokohama 2020."
+ ],
+ "not_use": [],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Follow Yokohama system page for full criteria and diagnoses."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Insufficient / Inadequate",
+   "definition": "Insufficient material.",
+   "rom": [
+    {
+     "value": "Not verified for WHO system – see Yokohama ROM",
+     "source": "Unverified"
+    }
+   ],
+   "management": "Repeat FNAB/core.",
+   "criteria": [
+    "As Yokohama."
+   ],
+   "diagnoses": [
+    {
+     "name": "Insufficient material",
+     "final": "Insufficient/Inadequate (WHO Breast System). Insufficient material.",
+     "comment": "Repeat sampling.",
+     "cat": "Diagnostic category: WHO Breast System – Insufficient/Inadequate"
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign",
+   "definition": "Benign.",
+   "rom": [
+    {
+     "value": "Not verified for WHO system – see Yokohama ROM",
+     "source": "Unverified"
+    }
+   ],
+   "management": "Triple test concordance.",
+   "criteria": [
+    "As Yokohama."
+   ],
+   "diagnoses": [
+    {
+     "name": "Fibroadenoma",
+     "final": "Benign (WHO Breast System). Fibroadenoma.",
+     "comment": "Triple test (clinical, imaging, cytology) correlation.",
+     "cat": "Diagnostic category: WHO Breast System – Benign"
+    },
+    {
+     "name": "Fibrocystic change",
+     "final": "Benign (WHO Breast System). Fibrocystic change.",
+     "comment": "Triple test (clinical, imaging, cytology) correlation.",
+     "cat": "Diagnostic category: WHO Breast System – Benign"
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Atypia.",
+   "rom": [
+    {
+     "value": "Not verified for WHO system – see Yokohama ROM",
+     "source": "Unverified"
+    }
+   ],
+   "management": "Core biopsy.",
+   "criteria": [
+    "As Yokohama."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical epithelial cells",
+     "final": "Atypical (WHO Breast System). Atypical epithelial cells.",
+     "comment": "Core biopsy.",
+     "cat": "Diagnostic category: WHO Breast System – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious of malignancy",
+   "definition": "Suspicious.",
+   "rom": [
+    {
+     "value": "Not verified for WHO system – see Yokohama ROM",
+     "source": "Unverified"
+    }
+   ],
+   "management": "Core biopsy.",
+   "criteria": [
+    "As Yokohama."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious of carcinoma",
+     "final": "Suspicious of malignancy (WHO Breast System). Suspicious of carcinoma.",
+     "comment": "Core biopsy.",
+     "cat": "Diagnostic category: WHO Breast System – Suspicious of malignancy"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Malignant.",
+   "rom": [
+    {
+     "value": "Not verified for WHO system – see Yokohama ROM",
+     "source": "Unverified"
+    }
+   ],
+   "management": "Treat per MDT.",
+   "criteria": [
+    "As Yokohama."
+   ],
+   "diagnoses": [
+    {
+     "name": "Invasive breast carcinoma",
+     "final": "Malignant (WHO Breast System). Invasive breast carcinoma.",
+     "comment": "ER/PR/HER2 on core/cell block.",
+     "cat": "Diagnostic category: WHO Breast System – Malignant"
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Category names verified (same as Yokohama). ROM values for WHO version not verified – use the Yokohama page for ROM and full diagnoses."
+   ]
+  }
+ ],
+ "references": [
+  "Field AS, Raymond WA, Schmitt F (eds). The International Academy of Cytology Yokohama System for Reporting Breast Fine Needle Aspiration Biopsy Cytopathology. Springer, 2020."
+ ]
+}

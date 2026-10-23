@@ -1,0 +1,153 @@
+{
+ "id": "nipple",
+ "name": "Nipple discharge cytology",
+ "short": "Nipple discharge",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "Nipple discharge",
+ "status": "ready",
+ "specimen": "Nipple discharge smears",
+ "use": [
+  "Bloody/single-duct discharge evaluation."
+ ],
+ "not_use": [
+  "Not a substitute for imaging/ductoscopy."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Direct smear; cellularity often low – low sensitivity."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / unsatisfactory",
+   "definition": "Inadequate.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Scant/obscured."
+   ],
+   "diagnoses": [
+    {
+     "name": "Nipple discharge – unsatisfactory",
+     "final": "Unsatisfactory for evaluation: [reason].",
+     "comment": "Repeat specimen recommended.",
+     "cat": "Suggested template category: Non-diagnostic / unsatisfactory",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign",
+   "definition": "",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Imaging.",
+   "criteria": [
+    "Foam cells, apocrine cells, inflammatory cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Benign (foam cells/ductal cells)",
+     "final": "Benign; foam cells and occasional ductal cells.",
+     "comment": "Imaging correlation.",
+     "cat": "Suggested template category: Benign",
+     "consensus": true
+    },
+    {
+     "name": "Galactorrhoea",
+     "final": "Proteinaceous material, foam cells.",
+     "comment": "Prolactin.",
+     "cat": "Suggested template category: Benign",
+     "consensus": true
+    },
+    {
+     "name": "Duct ectasia/mastitis",
+     "final": "Inflammatory cells, debris.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Benign",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical / papillary",
+   "definition": "",
+   "rom": [
+    {
+     "value": "Variable",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Imaging, ductoscopy/excision.",
+   "criteria": [
+    "Papillary clusters (papilloma vs carcinoma)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Papillary clusters",
+     "final": "Papillary epithelial clusters; papilloma favoured but carcinoma not excluded.",
+     "comment": "Imaging/excision.",
+     "cat": "Suggested template category: Atypical / papillary",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant / suspicious",
+   "definition": "",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Biopsy.",
+   "criteria": [
+    "Malignant single cells; Paget cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Malignant cells",
+     "final": "Malignant cells present.",
+     "comment": "Imaging and biopsy.",
+     "cat": "Suggested template category: Malignant / suspicious",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system."
+   ]
+  }
+ ],
+ "references": [
+  "WHO Breast/Yokohama systems note applicability to nipple discharge (category use); standard texts."
+ ]
+}

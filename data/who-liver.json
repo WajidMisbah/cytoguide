@@ -1,0 +1,201 @@
+{
+ "id": "who-liver",
+ "name": "WHO Reporting System for Liver Cytopathology",
+ "short": "WHO Liver",
+ "edition": "1st edition (IAC-IARC-WHO)",
+ "year": 2024,
+ "group": "Liver",
+ "status": "ready",
+ "specimen": "FNAB of liver lesions",
+ "use": [
+  "Focal liver lesions."
+ ],
+ "not_use": [
+  "Medical liver disease (needs core biopsy)."
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Representative lesional cells; cell block for IHC."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Insufficient / Inadequate / Non-diagnostic",
+   "definition": "Non-representative or insufficient.",
+   "rom": [
+    {
+     "value": "Not established",
+     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+    }
+   ],
+   "management": "Repeat FNAB/core.",
+   "criteria": [
+    "Blood, necrosis only, normal hepatocytes from a mass lesion (non-representative)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic",
+     "final": "Insufficient/Inadequate/Non-diagnostic (WHO Liver System). Non-diagnostic.",
+     "comment": "Repeat sampling.",
+     "cat": "Diagnostic category: WHO Liver System – Insufficient/Inadequate/Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign",
+   "definition": "Benign lesion.",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+    }
+   ],
+   "management": "Follow-up.",
+   "criteria": [
+    "Abscess, hydatid cyst, haemangioma, focal nodular hyperplasia (limited), cirrhotic nodule, granulomas."
+   ],
+   "diagnoses": [
+    {
+     "name": "Liver abscess (pyogenic/amoebic)",
+     "final": "Benign (WHO Liver System). Liver abscess (pyogenic/amoebic).",
+     "comment": "Culture/serology.",
+     "cat": "Diagnostic category: WHO Liver System – Benign"
+    },
+    {
+     "name": "Hydatid cyst",
+     "final": "Benign (WHO Liver System). Hydatid cyst.",
+     "comment": "Hooklets/laminated membrane.",
+     "cat": "Diagnostic category: WHO Liver System – Benign"
+    },
+    {
+     "name": "Granulomatous hepatitis",
+     "final": "Benign (WHO Liver System). Granulomatous hepatitis.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: WHO Liver System – Benign"
+    },
+    {
+     "name": "Benign hepatocytes (consistent with regenerative nodule)",
+     "final": "Benign (WHO Liver System). Benign hepatocytes (consistent with regenerative nodule).",
+     "comment": "Correlate with imaging (LI-RADS).",
+     "cat": "Diagnostic category: WHO Liver System – Benign"
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Atypia insufficient for neoplasm/suspicious.",
+   "rom": [
+    {
+     "value": "≈43% (single study)",
+     "source": "Literature (approx.)"
+    }
+   ],
+   "management": "Repeat/core biopsy.",
+   "criteria": [
+    "Atypical hepatocytes (reactive vs well-differentiated HCC)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical hepatocytes",
+     "final": "Atypical (WHO Liver System). Atypical hepatocytes.",
+     "comment": "Core biopsy with reticulin/glypican-3.",
+     "cat": "Diagnostic category: WHO Liver System – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Suggestive of malignancy.",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+    }
+   ],
+   "management": "Biopsy/MDT.",
+   "criteria": [
+    "Well-differentiated hepatocytic lesion with some features of HCC."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for hepatocellular carcinoma",
+     "final": "Suspicious for malignancy (WHO Liver System). Suspicious for hepatocellular carcinoma.",
+     "comment": "Core biopsy with reticulin stain.",
+     "cat": "Diagnostic category: WHO Liver System – Suspicious for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Malignancy.",
+   "rom": [
+    {
+     "value": ">95%",
+     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+    }
+   ],
+   "management": "Oncology/MDT.",
+   "criteria": [
+    "HCC: trabeculae, endothelial wrapping, naked nuclei, high N:C.",
+    "Cholangiocarcinoma, metastases (most common), hepatoblastoma, lymphoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Hepatocellular carcinoma",
+     "final": "Malignant (WHO Liver System). Hepatocellular carcinoma.",
+     "comment": "HepPar1/arginase-1/glypican-3.",
+     "cat": "Diagnostic category: WHO Liver System – Malignant"
+    },
+    {
+     "name": "Intrahepatic cholangiocarcinoma",
+     "final": "Malignant (WHO Liver System). Intrahepatic cholangiocarcinoma.",
+     "comment": "Exclude metastatic adenocarcinoma.",
+     "cat": "Diagnostic category: WHO Liver System – Malignant"
+    },
+    {
+     "name": "Metastatic adenocarcinoma (colorectal etc.)",
+     "final": "Malignant (WHO Liver System). Metastatic adenocarcinoma (colorectal etc.).",
+     "comment": "CK7/CK20/CDX2.",
+     "cat": "Diagnostic category: WHO Liver System – Malignant"
+    },
+    {
+     "name": "Metastatic neuroendocrine tumour",
+     "final": "Malignant (WHO Liver System). Metastatic neuroendocrine tumour.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: WHO Liver System – Malignant"
+    },
+    {
+     "name": "Hepatoblastoma",
+     "final": "Malignant (WHO Liver System). Hepatoblastoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: WHO Liver System – Malignant"
+    },
+    {
+     "name": "Lymphoma",
+     "final": "Malignant (WHO Liver System). Lymphoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: WHO Liver System – Malignant"
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Caution",
+   "items": [
+    "Category names verified; ROM values are not established – figures shown are single-study approximations."
+   ]
+  }
+ ],
+ "references": [
+  "WHO Reporting System for Liver Cytopathology. IAC-IARC-WHO Cytopathology Reporting Systems. IARC (edition year verify)."
+ ]
+}

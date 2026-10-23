@@ -1,0 +1,440 @@
+{
+ "id": "milan",
+ "name": "The Milan System for Reporting Salivary Gland Cytopathology (MSRSGC)",
+ "short": "Salivary (Milan)",
+ "edition": "2nd edition",
+ "year": 2023,
+ "group": "Salivary",
+ "status": "ready",
+ "specimen": "Major and minor salivary gland FNA",
+ "use": [
+  "FNA of major (parotid, submandibular, sublingual) and minor salivary glands and periparotid/submandibular masses."
+ ],
+ "not_use": [
+  "Cervical lymph nodes outside the gland (use Sydney/WHO LN).",
+  "Thyroid or other neck masses."
+ ],
+ "report_structure": [
+  "Specimen and site",
+  "Adequacy (Non-diagnostic only stated when inadequate)",
+  "Diagnostic category",
+  "Specific diagnosis or differential",
+  "Ancillary tests (IHC/FISH e.g. PLAG1, MYB, MAML2, NR4A3, pan-TRK)",
+  "Recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Specimen adequate if it contains enough lesional material to answer the clinical question.",
+    "Guide: a minimum of ~60 lesional cells in solid lesions (2nd ed); matrix alone (e.g. chondromyxoid) may be diagnostic.",
+    "Mucinous cyst fluid is not ND (→ AUS); any atypia is not ND.",
+    "ROSE and US guidance reduce ND rates."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "I",
+   "name": "Non-diagnostic",
+   "definition": "Insufficient cellular material for a cytological diagnosis.",
+   "rom": [
+    {
+     "value": "15%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Clinical and radiological correlation; repeat FNA (US-guided ± ROSE) or core biopsy.",
+   "criteria": [
+    "Fewer than 60 lesional cells (2nd ed guidance) in a solid lesion, with no matrix/specific findings.",
+    "Poor preservation, obscuring blood/artefact.",
+    "Non-mucinous cyst fluid with only macrophages/no epithelium.",
+    "Exception: any atypia → not ND; mucinous cyst fluid → AUS (not ND)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic – insufficient cellularity",
+     "final": "Non-diagnostic (Milan Category I). Insufficient lesional cells for diagnosis.",
+     "comment": "Repeat ultrasound-guided FNA or core biopsy if clinically indicated.",
+     "cat": "Diagnostic category: Milan System I – Non-diagnostic"
+    },
+    {
+     "name": "Non-diagnostic – non-mucinous cyst contents only",
+     "final": "Non-diagnostic (Milan Category I). Non-mucinous cyst contents with macrophages only.",
+     "comment": "Correlate with imaging; repeat FNA of any solid component.",
+     "cat": "Diagnostic category: Milan System I – Non-diagnostic"
+    },
+    {
+     "name": "Non-diagnostic – normal salivary elements only (lesion not sampled)",
+     "final": "Non-diagnostic (Milan Category I). Normal salivary gland elements only in the setting of a discrete mass.",
+     "comment": "May not represent the lesion; repeat image-guided FNA recommended.",
+     "cat": "Diagnostic category: Milan System I – Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "II",
+   "name": "Non-neoplastic",
+   "definition": "Benign non-neoplastic processes: inflammatory, reactive, cystic, infectious.",
+   "rom": [
+    {
+     "value": "11%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Clinical follow-up and radiological correlation.",
+   "criteria": [
+    "Sialadenitis (acute/chronic/granulomatous), sialadenosis, reactive lymph node, benign cysts (lymphoepithelial cyst).",
+    "Normal salivary elements with no discrete mass clinically."
+   ],
+   "diagnoses": [
+    {
+     "name": "Chronic sialadenitis",
+     "final": "Non-neoplastic (Milan Category II). Chronic sialadenitis.",
+     "comment": "Scant acinar cells, ductal groups, lymphocytes and fibrous fragments. Clinical follow-up.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic"
+    },
+    {
+     "name": "Acute sialadenitis / abscess",
+     "final": "Non-neoplastic (Milan Category II). Acute sialadenitis.",
+     "comment": "Neutrophils and debris; culture recommended.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic"
+    },
+    {
+     "name": "Granulomatous sialadenitis (TB, sarcoidosis, duct obstruction)",
+     "final": "Non-neoplastic (Milan Category II). Granulomatous sialadenitis.",
+     "comment": "ZN stain/CBNAAT recommended to exclude tuberculosis.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic"
+    },
+    {
+     "name": "Sialadenosis",
+     "final": "Non-neoplastic (Milan Category II). Consistent with sialadenosis in the appropriate clinical setting.",
+     "comment": "Enlarged acinar cells; associated with diabetes, alcohol, malnutrition, bulimia.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic"
+    },
+    {
+     "name": "Reactive intraparotid lymph node",
+     "final": "Non-neoplastic (Milan Category II). Reactive lymphoid hyperplasia (intraparotid lymph node).",
+     "comment": "Polymorphous lymphoid cells; if monotonous, flow cytometry to exclude lymphoma.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic"
+    },
+    {
+     "name": "Lymphoepithelial cyst (incl. HIV-associated)",
+     "final": "Non-neoplastic (Milan Category II). Consistent with lymphoepithelial cyst.",
+     "comment": "Squames, lymphocytes and cyst debris; HIV testing if multiple/bilateral. Exclude Warthin tumour and cystic SCC metastasis.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic"
+    },
+    {
+     "name": "IgG4-related / chronic sclerosing sialadenitis (Küttner)",
+     "final": "Non-neoplastic (Milan Category II). Chronic sclerosing sialadenitis.",
+     "comment": "Serum IgG4 and histology for confirmation.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic",
+     "consensus": true
+    },
+    {
+     "name": "Sjögren / lymphoepithelial sialadenitis",
+     "final": "Non-neoplastic (Milan Category II). Lymphoepithelial sialadenitis.",
+     "comment": "Risk of MALT lymphoma; flow cytometry if a monotonous population is present.",
+     "cat": "Diagnostic category: Milan System II – Non-neoplastic",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "III",
+   "name": "Atypia of undetermined significance (AUS)",
+   "definition": "Indeterminate lesion where neoplasm cannot be excluded; mostly reactive/metaplastic atypia or poorly sampled neoplasm.",
+   "rom": [
+    {
+     "value": "30%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Repeat FNA (± ancillary) or surgery; lab AUS rate ideally <10%.",
+   "criteria": [
+    "Reactive/repair atypia or squamous/oncocytic metaplasia raising neoplasm.",
+    "Mucinous cyst contents with scant/no epithelium (low-grade MEC not excluded).",
+    "Scant aspirate with features suggestive but not diagnostic of neoplasm.",
+    "Atypical lymphoid population with insufficient material for flow."
+   ],
+   "diagnoses": [
+    {
+     "name": "AUS – mucinous cyst contents",
+     "final": "Atypia of undetermined significance (Milan Category III). Mucinous cyst contents with scant epithelial cells.",
+     "comment": "Low-grade mucoepidermoid carcinoma cannot be excluded; repeat FNA of solid area/surgery and MAML2 testing if material allows.",
+     "cat": "Diagnostic category: Milan System III – AUS"
+    },
+    {
+     "name": "AUS – oncocytic/squamous metaplastic atypia",
+     "final": "Atypia of undetermined significance (Milan Category III). Atypical oncocytic/squamous metaplastic cells.",
+     "comment": "Differential includes Warthin tumour with metaplasia, oncocytoma and neoplasm; repeat FNA suggested.",
+     "cat": "Diagnostic category: Milan System III – AUS"
+    },
+    {
+     "name": "AUS – atypical lymphoid cells",
+     "final": "Atypia of undetermined significance (Milan Category III). Atypical lymphoid cells.",
+     "comment": "Repeat FNA with flow cytometry.",
+     "cat": "Diagnostic category: Milan System III – AUS"
+    },
+    {
+     "name": "AUS – scant basaloid/epithelial cells",
+     "final": "Atypia of undetermined significance (Milan Category III). Scant atypical epithelial cells.",
+     "comment": "Neoplasm cannot be excluded; repeat FNA or excision recommended.",
+     "cat": "Diagnostic category: Milan System III – AUS"
+    }
+   ]
+  },
+  {
+   "code": "IVA",
+   "name": "Neoplasm: Benign",
+   "definition": "Benign neoplasm diagnosed on well-established cytological criteria.",
+   "rom": [
+    {
+     "value": "<3%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Surgery (conservative excision) or clinical follow-up in selected patients.",
+   "criteria": [
+    "Pleomorphic adenoma: fibrillary chondromyxoid matrix (magenta on MGG) with embedded plasmacytoid/spindle myoepithelial cells.",
+    "Warthin tumour: oncocytic sheets, lymphocytes, granular/'dirty' proteinaceous background.",
+    "Lipoma, schwannoma, haemangioma, others with classic features."
+   ],
+   "diagnoses": [
+    {
+     "name": "Pleomorphic adenoma",
+     "final": "Neoplasm: Benign (Milan Category IVA). Pleomorphic adenoma.",
+     "comment": "Fibrillary chondromyxoid stroma with myoepithelial and ductal cells. Surgical excision recommended (risk of recurrence and rare malignant transformation).",
+     "cat": "Diagnostic category: Milan System IVA – Benign neoplasm",
+     "aka": "benign mixed tumour"
+    },
+    {
+     "name": "Warthin tumour",
+     "final": "Neoplasm: Benign (Milan Category IVA). Warthin tumour.",
+     "comment": "Flat sheets of oncocytic cells, background lymphocytes and granular cyst debris. Conservative management or excision according to clinical setting.",
+     "cat": "Diagnostic category: Milan System IVA – Benign neoplasm",
+     "aka": "papillary cystadenoma lymphomatosum Warthin's adenolymphoma"
+    },
+    {
+     "name": "Lipoma",
+     "final": "Neoplasm: Benign (Milan Category IVA). Lipoma.",
+     "comment": "Mature adipocytes, concordant with imaging.",
+     "cat": "Diagnostic category: Milan System IVA – Benign neoplasm"
+    },
+    {
+     "name": "Schwannoma",
+     "final": "Neoplasm: Benign (Milan Category IVA). Schwannoma.",
+     "comment": "Spindle cells with wavy nuclei, Verocay-like fibrillary fragments; S100/SOX10+.",
+     "cat": "Diagnostic category: Milan System IVA – Benign neoplasm"
+    },
+    {
+     "name": "Haemangioma / lymphangioma",
+     "final": "Neoplasm: Benign (Milan Category IVA). Vascular lesion consistent with haemangioma.",
+     "comment": "Correlate with imaging.",
+     "cat": "Diagnostic category: Milan System IVA – Benign neoplasm",
+     "consensus": true
+    },
+    {
+     "name": "Oncocytoma (classic, with clinical/imaging support)",
+     "final": "Neoplasm: Benign (Milan Category IVA) – oncocytic neoplasm favouring oncocytoma; or classify as SUMP (IVB) if uncertain.",
+     "comment": "Pure oncocytic aspirate; differential with Warthin, oncocytic MEC and acinic cell carcinoma.",
+     "cat": "Diagnostic category: Milan System IVA/IVB",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "IVB",
+   "name": "Neoplasm: Salivary gland neoplasm of uncertain malignant potential (SUMP)",
+   "definition": "Neoplasm in which a benign neoplasm cannot be distinguished from a malignant one (e.g. cellular basaloid, oncocytic/oncocytoid, clear cell, atypical pleomorphic adenoma patterns).",
+   "rom": [
+    {
+     "value": "35%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Surgical excision.",
+   "criteria": [
+    "Cellular basaloid neoplasm (basal cell adenoma vs adenoid cystic, basal cell adenocarcinoma, cellular PA).",
+    "Cellular oncocytic/oncocytoid neoplasm (oncocytoma vs MEC vs acinic cell/secretory carcinoma).",
+    "Clear cell neoplasm; cellular myoepithelial neoplasm; PA with atypical features.",
+    "Use subtyping descriptors and give differential diagnosis."
+   ],
+   "diagnoses": [
+    {
+     "name": "SUMP – basaloid neoplasm",
+     "final": "Salivary gland neoplasm of uncertain malignant potential (Milan Category IVB) – basaloid neoplasm.",
+     "comment": "Differential includes basal cell adenoma, cellular pleomorphic adenoma, adenoid cystic carcinoma and basal cell adenocarcinoma. MYB/PLAG1/HMGA2/β-catenin studies may help; excision recommended.",
+     "cat": "Diagnostic category: Milan System IVB – SUMP"
+    },
+    {
+     "name": "SUMP – oncocytic/oncocytoid neoplasm",
+     "final": "Salivary gland neoplasm of uncertain malignant potential (Milan Category IVB) – oncocytic/oncocytoid neoplasm.",
+     "comment": "Differential: oncocytoma, Warthin, oncocytic MEC, acinic cell and secretory carcinoma. Excision recommended.",
+     "cat": "Diagnostic category: Milan System IVB – SUMP"
+    },
+    {
+     "name": "SUMP – clear cell neoplasm",
+     "final": "Salivary gland neoplasm of uncertain malignant potential (Milan Category IVB) – clear cell neoplasm.",
+     "comment": "Differential includes myoepithelial neoplasm, clear cell carcinoma, epithelial-myoepithelial carcinoma and metastatic RCC.",
+     "cat": "Diagnostic category: Milan System IVB – SUMP"
+    },
+    {
+     "name": "SUMP – myoepithelial neoplasm / cellular pleomorphic adenoma with atypia",
+     "final": "Salivary gland neoplasm of uncertain malignant potential (Milan Category IVB) – myoepithelial-rich neoplasm.",
+     "comment": "Myoepithelioma vs myoepithelial carcinoma; excision recommended.",
+     "cat": "Diagnostic category: Milan System IVB – SUMP"
+    }
+   ]
+  },
+  {
+   "code": "V",
+   "name": "Suspicious for malignancy",
+   "definition": "Features highly suggestive of malignancy but not definitive.",
+   "rom": [
+    {
+     "value": "83%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Surgical excision; frozen section may help extent.",
+   "criteria": [
+    "Atypical cells suspicious for high-grade carcinoma but scant/obscured.",
+    "Suspicious for specific types (e.g. adenoid cystic, MEC, lymphoma)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for malignancy – carcinoma",
+     "final": "Suspicious for malignancy (Milan Category V). Suspicious for carcinoma.",
+     "comment": "Surgery recommended.",
+     "cat": "Diagnostic category: Milan System V – Suspicious"
+    },
+    {
+     "name": "Suspicious – adenoid cystic carcinoma",
+     "final": "Suspicious for malignancy (Milan Category V). Suspicious for adenoid cystic carcinoma.",
+     "comment": "Basaloid cells with hyaline globules; MYB IHC/FISH can support.",
+     "cat": "Diagnostic category: Milan System V – Suspicious"
+    },
+    {
+     "name": "Suspicious – lymphoma",
+     "final": "Suspicious for malignancy (Milan Category V). Suspicious for lymphoma.",
+     "comment": "Flow cytometry/biopsy.",
+     "cat": "Diagnostic category: Milan System V – Suspicious"
+    }
+   ]
+  },
+  {
+   "code": "VI",
+   "name": "Malignant",
+   "definition": "Malignancy diagnosed; specify type and grade (2nd ed: low-grade vs high-grade).",
+   "rom": [
+    {
+     "value": "98%",
+     "source": "Milan 2nd ed 2023"
+    }
+   ],
+   "management": "Surgery ± neck dissection/adjuvant per grade; lymphoma/metastasis: oncology.",
+   "criteria": [
+    "Low-grade: acinic cell, secretory, low-grade MEC, polymorphous adenocarcinoma, epithelial-myoepithelial, basal cell adenocarcinoma, intercalated duct-type.",
+    "High-grade: salivary duct carcinoma, high-grade MEC, adenoid cystic (solid), carcinoma ex PA, myoepithelial carcinoma (high-grade), SCC, lymphoepithelial carcinoma, metastases."
+   ],
+   "diagnoses": [
+    {
+     "name": "Mucoepidermoid carcinoma, low grade",
+     "final": "Malignant (Milan Category VI) – low-grade carcinoma: mucoepidermoid carcinoma, low grade.",
+     "comment": "Mucin, mucocytes, intermediate and squamoid cells; MAML2 rearrangement supports.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (low grade)"
+    },
+    {
+     "name": "Mucoepidermoid carcinoma, high grade",
+     "final": "Malignant (Milan Category VI) – high-grade carcinoma: mucoepidermoid carcinoma, high grade.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (high grade)"
+    },
+    {
+     "name": "Acinic cell carcinoma",
+     "final": "Malignant (Milan Category VI) – low-grade carcinoma: acinic cell carcinoma.",
+     "comment": "Acinar cells with granular/vacuolated cytoplasm, lack of ducts/fat; NR4A3 IHC +, DOG1+.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (low grade)"
+    },
+    {
+     "name": "Secretory carcinoma",
+     "final": "Malignant (Milan Category VI) – low-grade carcinoma: secretory carcinoma.",
+     "comment": "Vacuolated cells, mammaglobin/S100+, ETV6::NTRK3 fusion (pan-TRK IHC).",
+     "cat": "Diagnostic category: Milan System VI – Malignant (low grade)"
+    },
+    {
+     "name": "Adenoid cystic carcinoma",
+     "final": "Malignant (Milan Category VI) – adenoid cystic carcinoma (grade by solid component).",
+     "comment": "Basaloid cells around hyaline globules; MYB::NFIB fusion.",
+     "cat": "Diagnostic category: Milan System VI – Malignant"
+    },
+    {
+     "name": "Polymorphous adenocarcinoma",
+     "final": "Malignant (Milan Category VI) – low-grade carcinoma: polymorphous adenocarcinoma.",
+     "comment": "Mostly minor glands; PRKD1 alterations.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (low grade)"
+    },
+    {
+     "name": "Epithelial-myoepithelial carcinoma",
+     "final": "Malignant (Milan Category VI) – low-grade carcinoma: epithelial-myoepithelial carcinoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (low grade)"
+    },
+    {
+     "name": "Salivary duct carcinoma",
+     "final": "Malignant (Milan Category VI) – high-grade carcinoma: salivary duct carcinoma.",
+     "comment": "Apocrine high-grade cells, necrosis; AR+, HER2 testing recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (high grade)"
+    },
+    {
+     "name": "Carcinoma ex pleomorphic adenoma",
+     "final": "Malignant (Milan Category VI) – carcinoma ex pleomorphic adenoma.",
+     "comment": "Malignant component with residual PA matrix.",
+     "cat": "Diagnostic category: Milan System VI – Malignant"
+    },
+    {
+     "name": "Myoepithelial carcinoma",
+     "final": "Malignant (Milan Category VI) – myoepithelial carcinoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant"
+    },
+    {
+     "name": "Basal cell adenocarcinoma",
+     "final": "Malignant (Milan Category VI) – low-grade carcinoma: basal cell adenocarcinoma (usually requires histology; often SUMP on FNA).",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (low grade)",
+     "consensus": true
+    },
+    {
+     "name": "Squamous cell carcinoma (usually metastatic)",
+     "final": "Malignant (Milan Category VI) – squamous cell carcinoma.",
+     "comment": "Primary salivary SCC is rare; exclude metastasis from skin/head and neck.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (high grade)"
+    },
+    {
+     "name": "Lymphoma (MALT, DLBCL, etc.)",
+     "final": "Malignant (Milan Category VI) – non-Hodgkin lymphoma.",
+     "comment": "Flow cytometry/IHC.",
+     "cat": "Diagnostic category: Milan System VI – Malignant"
+    },
+    {
+     "name": "Metastatic malignancy (melanoma, SCC skin, others)",
+     "final": "Malignant (Milan Category VI) – metastatic [type].",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant"
+    },
+    {
+     "name": "Carcinoma, NOS / poorly differentiated",
+     "final": "Malignant (Milan Category VI) – high-grade carcinoma, NOS.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Diagnostic category: Milan System VI – Malignant (high grade)"
+    }
+   ]
+  }
+ ],
+ "references": [
+  "Faquin WC, Rossi ED, et al. (eds). The Milan System for Reporting Salivary Gland Cytopathology. 2nd ed. Springer, 2023.",
+  "WHO Classification of Tumours Editorial Board. Head and Neck Tumours. 5th ed. IARC, 2022."
+ ]
+}

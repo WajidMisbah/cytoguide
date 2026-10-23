@@ -1,0 +1,320 @@
+{
+ "id": "who-st",
+ "name": "WHO Reporting System for Soft Tissue Cytopathology",
+ "short": "WHO Soft tissue",
+ "edition": "1st edition (IAC-IARC-WHO)",
+ "year": 2023,
+ "group": "Soft tissue",
+ "status": "ready",
+ "specimen": "FNAB of soft tissue (and bone where applicable)",
+ "use": [
+  "Soft tissue masses; superficial and deep."
+ ],
+ "not_use": [
+  "Lymph node, visceral primary lesions."
+ ],
+ "report_structure": [
+  "Site/depth/size",
+  "Category",
+  "Diagnosis/pattern (spindle, round, epithelioid, pleomorphic, myxoid, lipomatous)",
+  "Ancillary tests",
+  "Recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "No numeric criteria; representative lesional cells; cell block for IHC/FISH."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Insufficient / Inadequate / Non-diagnostic",
+   "definition": "Non-representative or insufficient for diagnosis.",
+   "rom": [
+    {
+     "value": "≈30%",
+     "source": "Institut Curie series (approx.)"
+    },
+    {
+     "value": "≈33%",
+     "source": "Second validation study (approx.)"
+    }
+   ],
+   "management": "Repeat FNAB/core or surgical biopsy; refer to sarcoma centre if clinically suspicious (deep, >5 cm).",
+   "criteria": [
+    "Scant/acellular, blood only, necrosis only, fat only from a non-lipomatous lesion."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic – scant/necrotic material",
+     "final": "Insufficient/Inadequate/Non-diagnostic (WHO Soft Tissue System). Non-diagnostic – scant/necrotic material.",
+     "comment": "Repeat sampling (preferably core biopsy) recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Insufficient/Inadequate/Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign",
+   "definition": "Specific benign lesion or benign process.",
+   "rom": [
+    {
+     "value": "≈2.5%",
+     "source": "Institut Curie series (approx.)"
+    },
+    {
+     "value": "≈1%",
+     "source": "Second validation study (approx.)"
+    }
+   ],
+   "management": "Clinical follow-up/excision as indicated.",
+   "criteria": [
+    "Lipoma, schwannoma, nodular fasciitis, granular cell tumour, ganglion, fat necrosis, abscess, fibromatosis-free benign lesions, giant cell tumour of tendon sheath."
+   ],
+   "diagnoses": [
+    {
+     "name": "Lipoma",
+     "final": "Benign (WHO Soft Tissue System). Lipoma.",
+     "comment": "Mature adipocytes; correlate with size/depth (atypical lipomatous tumour may look identical; MDM2 FISH if deep/large).",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Schwannoma",
+     "final": "Benign (WHO Soft Tissue System). Schwannoma.",
+     "comment": "Verocay-like palisades, wavy nuclei; S100/SOX10+.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Nodular fasciitis",
+     "final": "Benign (WHO Soft Tissue System). Nodular fasciitis.",
+     "comment": "Tissue-culture-like myofibroblasts; USP6 rearrangement.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Tenosynovial giant cell tumour",
+     "final": "Benign (WHO Soft Tissue System). Tenosynovial giant cell tumour.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Granular cell tumour",
+     "final": "Benign (WHO Soft Tissue System). Granular cell tumour.",
+     "comment": "S100+, granular cytoplasm.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Ganglion / myxoid cyst",
+     "final": "Benign (WHO Soft Tissue System). Ganglion / myxoid cyst.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Fat necrosis / reactive/inflammatory process",
+     "final": "Benign (WHO Soft Tissue System). Fat necrosis / reactive/inflammatory process.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Haemangioma / vascular malformation",
+     "final": "Benign (WHO Soft Tissue System). Haemangioma / vascular malformation.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Neurofibroma",
+     "final": "Benign (WHO Soft Tissue System). Neurofibroma.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    },
+    {
+     "name": "Spindle cell/pleomorphic lipoma",
+     "final": "Benign (WHO Soft Tissue System). Spindle cell/pleomorphic lipoma.",
+     "comment": "CD34+, Rb loss.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Benign"
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Atypia insufficient for more specific category; often limited cellularity.",
+   "rom": [
+    {
+     "value": "≈40%",
+     "source": "Institut Curie series (approx.)"
+    },
+    {
+     "value": "≈40%",
+     "source": "Second validation study (approx.)"
+    }
+   ],
+   "management": "Core/excision biopsy; MDT.",
+   "criteria": [
+    "Atypical spindle/round/epithelioid cells, few in number."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical spindle cells",
+     "final": "Atypical (WHO Soft Tissue System). Atypical spindle cells.",
+     "comment": "Further tissue sampling recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "STNUMP",
+   "name": "Soft tissue neoplasm of uncertain malignant potential",
+   "definition": "Neoplasm identified but malignant potential cannot be determined on cytology (benign vs low-grade sarcoma), or intermediate (locally aggressive/rarely metastasising) entities.",
+   "rom": [
+    {
+     "value": "≈51%",
+     "source": "Institut Curie series (approx.)"
+    },
+    {
+     "value": "≈25%",
+     "source": "Second validation study (approx.)"
+    }
+   ],
+   "management": "Excision/core biopsy; sarcoma MDT.",
+   "criteria": [
+    "Low-grade spindle/myxoid neoplasms; desmoid fibromatosis; solitary fibrous tumour; atypical lipomatous tumour; cellular schwannoma vs MPNST uncertain."
+   ],
+   "diagnoses": [
+    {
+     "name": "Low-grade spindle cell neoplasm",
+     "final": "STNUMP (WHO Soft Tissue System). Low-grade spindle cell neoplasm.",
+     "comment": "Benign vs low-grade sarcoma cannot be distinguished; histology needed.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP"
+    },
+    {
+     "name": "Myxoid neoplasm (myxoma vs myxofibrosarcoma vs myxoid liposarcoma)",
+     "final": "STNUMP (WHO Soft Tissue System). Myxoid neoplasm (myxoma vs myxofibrosarcoma vs myxoid liposarcoma).",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP"
+    },
+    {
+     "name": "Desmoid fibromatosis",
+     "final": "STNUMP (WHO Soft Tissue System). Desmoid fibromatosis.",
+     "comment": "Nuclear β-catenin; locally aggressive.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP"
+    },
+    {
+     "name": "Solitary fibrous tumour",
+     "final": "STNUMP (WHO Soft Tissue System). Solitary fibrous tumour.",
+     "comment": "STAT6+; risk stratification on histology.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP"
+    },
+    {
+     "name": "Atypical lipomatous tumour (MDM2 amplified)",
+     "final": "STNUMP (WHO Soft Tissue System). Atypical lipomatous tumour (MDM2 amplified).",
+     "comment": "MDM2 FISH confirms.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – STNUMP",
+     "note": "Some authors would place this in Malignant (low-grade); category placement verify."
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Features favour sarcoma/malignancy but are insufficient.",
+   "rom": [
+    {
+     "value": "≈68%",
+     "source": "Institut Curie series (approx.)"
+    },
+    {
+     "value": "≈80%",
+     "source": "Second validation study (approx.)"
+    }
+   ],
+   "management": "Core biopsy; sarcoma MDT.",
+   "criteria": [
+    "Few pleomorphic cells, necrosis, mitoses."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for sarcoma",
+     "final": "Suspicious for malignancy (WHO Soft Tissue System). Suspicious for sarcoma.",
+     "comment": "Core/open biopsy at sarcoma centre.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Suspicious for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Unequivocal malignancy; specify type (sarcoma by grade/type where possible; or carcinoma, melanoma, lymphoma).",
+   "rom": [
+    {
+     "value": "≈98%",
+     "source": "Institut Curie series (approx.)"
+    },
+    {
+     "value": "≈100%",
+     "source": "Second validation study (approx.)"
+    }
+   ],
+   "management": "Sarcoma MDT; definitive surgery/oncology.",
+   "criteria": [
+    "High-grade pleomorphic sarcoma, round cell sarcomas (Ewing, rhabdomyosarcoma, synovial), myxoid liposarcoma, leiomyosarcoma, metastases."
+   ],
+   "diagnoses": [
+    {
+     "name": "High-grade pleomorphic sarcoma",
+     "final": "Malignant (WHO Soft Tissue System). High-grade pleomorphic sarcoma.",
+     "comment": "Subtype on histology/IHC.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Small round cell sarcoma (Ewing / alveolar rhabdomyosarcoma etc.)",
+     "final": "Malignant (WHO Soft Tissue System). Small round cell sarcoma (Ewing / alveolar rhabdomyosarcoma etc.).",
+     "comment": "Molecular testing (EWSR1, FOXO1).",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Synovial sarcoma",
+     "final": "Malignant (WHO Soft Tissue System). Synovial sarcoma.",
+     "comment": "TLE1/SS18-SSX.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Myxoid liposarcoma",
+     "final": "Malignant (WHO Soft Tissue System). Myxoid liposarcoma.",
+     "comment": "DDIT3 rearrangement.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Leiomyosarcoma",
+     "final": "Malignant (WHO Soft Tissue System). Leiomyosarcoma.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Dedifferentiated liposarcoma",
+     "final": "Malignant (WHO Soft Tissue System). Dedifferentiated liposarcoma.",
+     "comment": "Correlate with imaging; sarcoma MDT discussion recommended.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Metastatic carcinoma/melanoma",
+     "final": "Malignant (WHO Soft Tissue System). Metastatic carcinoma/melanoma.",
+     "comment": "IHC for origin.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    },
+    {
+     "name": "Lymphoma",
+     "final": "Malignant (WHO Soft Tissue System). Lymphoma.",
+     "comment": "Flow cytometry.",
+     "cat": "Diagnostic category: WHO Soft Tissue System – Malignant"
+    }
+   ]
+  }
+ ],
+ "references": [
+  "WHO Reporting System for Soft Tissue Cytopathology. IAC-IARC-WHO, 1st ed. IARC, 2023.",
+  "Pantanowitz L, Thompson LDR, Jing X, Rossi ED (eds), related validation studies (e.g. Institut Curie series, Cancer Cytopathol 2024) – approximate ROM, verify."
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "id": "paris",
+ "name": "The Paris System for Reporting Urinary Cytology (TPS)",
+ "short": "Urine (Paris)",
+ "edition": "2nd edition (TPS 2.0)",
+ "year": 2022,
+ "group": "Urine",
+ "status": "ready",
+ "specimen": "Voided and instrumented urine, bladder washings, upper-tract specimens",
+ "use": [
+  "Lower and upper urinary tract cytology: voided, catheterised, bladder wash, upper-tract washings/brushings.",
+  "Primary purpose: detection of high-grade urothelial carcinoma."
+ ],
+ "not_use": [
+  "Not designed to detect low-grade urothelial neoplasms (low sensitivity).",
+  "Non-urothelial lesions primarily (renal mass FNA – use kidney system)."
+ ],
+ "report_structure": [
+  "Specimen type (voided/instrumented/upper tract) and volume",
+  "Adequacy",
+  "Diagnostic category",
+  "Comment (findings, ancillary such as FISH)"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Voided: ≥30 mL recommended volume; cellularity judgement.",
+    "Instrumented ThinPrep (20 mm): ≈2,600 well-preserved urothelial cells (≈20 per 10 HPF) as guidance; SurePath larger area.",
+    "Upper tract: lower thresholds acceptable.",
+    "Any atypical or worse cells → adequate."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / Unsatisfactory",
+   "definition": "Specimen inadequate for evaluation of high-grade urothelial carcinoma.",
+   "rom": [
+    {
+     "value": "Variable (reported up to ~25%); not reliably established",
+     "source": "Literature (approx., unverified)"
+    }
+   ],
+   "management": "Repeat urine cytology (preferably a fresh voided or instrumented sample); cystoscopy as clinically indicated.",
+   "criteria": [
+    "Voided urine: volume <30 mL generally suboptimal (TPS 2.0 recommends ≥30 mL); very low cellularity.",
+    "Instrumented: low cellularity (ThinPrep ≈ <2,600 well-visualised urothelial cells as a guide).",
+    "Obscuring blood/inflammation/lubricant, degeneration.",
+    "Any atypical/suspicious/HGUC cells make the sample adequate."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic – scant cellularity",
+     "final": "Unsatisfactory/Non-diagnostic for evaluation of high-grade urothelial carcinoma – scant cellularity.",
+     "comment": "Repeat urine sample (≥30 mL, fresh, ideally not first morning) recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Non-diagnostic"
+    },
+    {
+     "name": "Non-diagnostic – obscuring blood/degeneration",
+     "final": "Unsatisfactory/Non-diagnostic – cellular detail obscured by blood/degeneration.",
+     "comment": "Repeat fresh specimen recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "NHGUC",
+   "name": "Negative for high-grade urothelial carcinoma",
+   "definition": "Benign urothelial, squamous and glandular cells, reactive changes, LGUN-type groups without atypia, and benign findings.",
+   "rom": [
+    {
+     "value": "8–24%",
+     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
+    },
+    {
+     "value": "≈13%",
+     "source": "Pooled meta-analysis (approx.)"
+    }
+   ],
+   "management": "Routine clinical follow-up/surveillance as indicated.",
+   "criteria": [
+    "Benign urothelial cells, umbrella cells, benign urothelial tissue fragments and groups (incl. from instrumentation/stones).",
+    "Reactive/degenerated cells, polyoma (decoy) cells, treatment effects (BCG, chemo), ileal conduit cells.",
+    "N:C ratio <0.5 in non-superficial cells (TPS 2.0 AUC threshold >0.5)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Negative for high-grade urothelial carcinoma",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC).",
+     "comment": "Benign urothelial cells are seen.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Benign urothelial tissue fragments / groups",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Benign urothelial tissue fragments present.",
+     "comment": "Seen with instrumentation, stones or low-grade neoplasia; not diagnostic of LGUN without cystoscopic lesion.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Polyomavirus (BK) cytopathic effect (decoy cells)",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Polyomavirus cytopathic effect present.",
+     "comment": "Decoy cells with ground-glass intranuclear inclusions; in transplant patients consider BK viral load testing.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Reactive urothelial cells (lithiasis, catheter, infection)",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Reactive urothelial changes.",
+     "comment": "Clinical correlation recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Treatment effect (BCG, intravesical chemotherapy, radiation)",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Changes consistent with therapy effect.",
+     "comment": "BCG may show granulomas; mitomycin/radiation cause enlarged cells with preserved N:C ratio.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Ileal conduit / neobladder urine",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Degenerated enteric-type cells consistent with conduit urine.",
+     "comment": "Clinical correlation recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Squamous cells / organisms (Trichomonas, Schistosoma, fungi)",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). [Squamous cells / organism] noted.",
+     "comment": "Schistosoma haematobium ova increase SCC risk.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    },
+    {
+     "name": "Seminal vesicle cells",
+     "final": "Negative for high-grade urothelial carcinoma (NHGUC). Seminal vesicle cells present.",
+     "comment": "Lipofuscin-containing atypical-looking cells; benign.",
+     "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
+    }
+   ]
+  },
+  {
+   "code": "LGUN",
+   "name": "Low-grade urothelial neoplasm",
+   "definition": "Used only when there is a cystoscopically identified lesion and cytology shows urothelial fragments (true fibrovascular cores), or histology confirmed; otherwise LGUN-pattern cells are NHGUC.",
+   "rom": [
+    {
+     "value": "Risk of HGUC low (≈10%; approximate)",
+     "source": "Literature (approx., unverified)"
+    }
+   ],
+   "management": "Correlate with cystoscopy/biopsy; manage as low-grade tumour.",
+   "criteria": [
+    "Three-dimensional papillary clusters with true fibrovascular cores (only definitive cytologic feature).",
+    "Combines low-grade papillary urothelial carcinoma, PUNLMP, papilloma and flat LG dysplasia/in situ LG.",
+    "Cytologic diagnosis without cores requires a cystoscopic/histologic lesion."
+   ],
+   "diagnoses": [
+    {
+     "name": "Low-grade urothelial neoplasm",
+     "final": "Low-grade urothelial neoplasm (LGUN).",
+     "comment": "Papillary fragments with fibrovascular cores are present (in a patient with a cystoscopically detected lesion). Histology recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – LGUN"
+    }
+   ]
+  },
+  {
+   "code": "AUC",
+   "name": "Atypical urothelial cells",
+   "definition": "Non-superficial, non-degenerated urothelial cells with N:C ratio >0.5 AND one of: hyperchromasia, irregular nuclear membranes, irregular coarse chromatin.",
+   "rom": [
+    {
+     "value": "24–53%",
+     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
+    },
+    {
+     "value": "≈39%",
+     "source": "Pooled meta-analysis (approx.)"
+    }
+   ],
+   "management": "Repeat cytology, cystoscopy ± biopsy, ancillary tests (UroVysion FISH) where available; lab AUC rate target ≤10–15%.",
+   "criteria": [
+    "Required: N:C ratio >0.5 (moderately increased).",
+    "Plus one of: nuclear hyperchromasia (vs umbrella cells), irregular nuclear contours, irregular coarse clumped chromatin.",
+    "Do not use for degenerated cells or reactive changes alone."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical urothelial cells",
+     "final": "Atypical urothelial cells (AUC).",
+     "comment": "Rare urothelial cells with increased N:C ratio and hyperchromasia are seen, insufficient for suspicious for HGUC. Cystoscopy/repeat cytology suggested.",
+     "cat": "Diagnostic category: The Paris System 2.0 – AUC"
+    }
+   ]
+  },
+  {
+   "code": "SHGUC",
+   "name": "Suspicious for high-grade urothelial carcinoma",
+   "definition": "Urothelial cells with N:C ≥0.7 and moderate–severe hyperchromasia plus at least one of irregular membranes or coarse chromatin, but fewer than the threshold for HGUC.",
+   "rom": [
+    {
+     "value": "59–94%",
+     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
+    },
+    {
+     "value": "≈77%",
+     "source": "Pooled meta-analysis (approx.)"
+    }
+   ],
+   "management": "Cystoscopy with biopsy; upper tract evaluation if bladder negative.",
+   "criteria": [
+    "Required: N:C ratio ≥0.7 and moderate to severe hyperchromasia.",
+    "Plus one of: markedly irregular nuclear membranes or coarse/clumped chromatin.",
+    "Number of such cells below HGUC threshold (<5–10 in voided)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for high-grade urothelial carcinoma",
+     "final": "Suspicious for high-grade urothelial carcinoma (SHGUC).",
+     "comment": "Few cells with high N:C ratio and hyperchromasia; cystoscopy with biopsy recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – SHGUC"
+    }
+   ]
+  },
+  {
+   "code": "HGUC",
+   "name": "High-grade urothelial carcinoma",
+   "definition": "Includes invasive HGUC and urothelial carcinoma in situ; ≥5–10 cells meeting criteria.",
+   "rom": [
+    {
+     "value": "76–100%",
+     "source": "TPS 2.0 book 2022 (range, risk of high-grade malignancy)"
+    },
+    {
+     "value": "≈92%",
+     "source": "Pooled meta-analysis (approx.)"
+    }
+   ],
+   "management": "Cystoscopy, biopsy/TURBT, upper tract imaging.",
+   "criteria": [
+    "N:C ≥0.7, moderate–severe hyperchromasia, markedly irregular nuclear membranes, coarse clumped chromatin.",
+    "Cellular pleomorphism, single cells, necrosis, mitoses; minimum ~5–10 abnormal cells in voided specimens.",
+    "Variants (squamous/glandular differentiation, micropapillary, plasmacytoid) may be mentioned."
+   ],
+   "diagnoses": [
+    {
+     "name": "High-grade urothelial carcinoma",
+     "final": "Positive for high-grade urothelial carcinoma (HGUC).",
+     "comment": "Cystoscopy with biopsy and upper urinary tract evaluation recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – HGUC"
+    },
+    {
+     "name": "High-grade urothelial carcinoma with squamous/glandular differentiation",
+     "final": "Positive for high-grade urothelial carcinoma (HGUC), with squamous differentiation.",
+     "comment": "Clinical correlation recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – HGUC"
+    },
+    {
+     "name": "High-grade urothelial carcinoma, micropapillary/plasmacytoid features",
+     "final": "Positive for high-grade urothelial carcinoma (HGUC) with [micropapillary / plasmacytoid] features.",
+     "comment": "Aggressive subtypes; histological confirmation required.",
+     "cat": "Diagnostic category: The Paris System 2.0 – HGUC",
+     "consensus": true
+    },
+    {
+     "name": "Urothelial carcinoma in situ (cytologic correlate)",
+     "final": "Positive for high-grade urothelial carcinoma (HGUC).",
+     "comment": "Cytology cannot distinguish CIS from invasive HGUC; cystoscopy and biopsy recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – HGUC"
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "Other malignancies, primary and secondary",
+   "definition": "Non-urothelial malignancies.",
+   "rom": [
+    {
+     "value": "High (≈>90%)",
+     "source": "Literature (approx.)"
+    }
+   ],
+   "management": "Biopsy, imaging, oncology referral.",
+   "criteria": [
+    "Primary: squamous cell carcinoma, adenocarcinoma (incl. urachal), small cell carcinoma, sarcoma.",
+    "Secondary: prostate, colorectal, cervical, renal cell carcinoma, lymphoma, melanoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Squamous cell carcinoma",
+     "final": "Positive for malignancy – squamous cell carcinoma.",
+     "comment": "Exclude HGUC with squamous differentiation and extension from cervix.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Other malignancies"
+    },
+    {
+     "name": "Adenocarcinoma (primary/urachal or metastatic)",
+     "final": "Positive for malignancy – adenocarcinoma.",
+     "comment": "Exclude colorectal/prostatic origin (CDX2, PSA/NKX3.1).",
+     "cat": "Diagnostic category: The Paris System 2.0 – Other malignancies"
+    },
+    {
+     "name": "Small cell carcinoma",
+     "final": "Positive for malignancy – small cell (high-grade neuroendocrine) carcinoma.",
+     "comment": "Clinical correlation recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Other malignancies"
+    },
+    {
+     "name": "Prostatic adenocarcinoma",
+     "final": "Positive for malignancy – adenocarcinoma, consistent with prostatic origin.",
+     "comment": "PSA/NKX3.1 confirm.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Other malignancies"
+    },
+    {
+     "name": "Renal cell carcinoma",
+     "final": "Positive for malignancy – carcinoma, consistent with renal cell carcinoma.",
+     "comment": "Rarely shed; PAX8 helps.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Other malignancies"
+    },
+    {
+     "name": "Lymphoma / melanoma / other metastasis",
+     "final": "Positive for malignancy – [type].",
+     "comment": "Clinical correlation recommended.",
+     "cat": "Diagnostic category: The Paris System 2.0 – Other malignancies"
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Changes in TPS 2.0",
+   "items": [
+    "AUC N:C threshold raised to >0.5; SHGUC/HGUC ≥0.7.",
+    "'Atypical urothelial cells' requires one secondary feature (hyperchromasia, irregular membranes, or coarse chromatin).",
+    "LGUN and NHGUC clarified; upper tract and ileal conduit chapters; ancillary tests chapter."
+   ]
+  }
+ ],
+ "references": [
+  "Wojcik EM, Kurtycz DFI, Rosenthal DL (eds). The Paris System for Reporting Urinary Cytology. 2nd ed. Springer, 2022.",
+  "Pooled TPS 2.0 risk estimates from a 2022 meta-analysis (J Pers Med 2022;12:170) and published reviews; approximate."
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "id": "psc-pb",
+ "name": "Papanicolaou Society of Cytopathology System for Pancreaticobiliary Cytology",
+ "short": "PSC pancreaticobiliary (legacy)",
+ "edition": "PSC 2014 (legacy – superseded by WHO 2022)",
+ "year": 2014,
+ "group": "Pancreaticobiliary",
+ "status": "ready",
+ "legacy": true,
+ "specimen": "EUS-FNA, brushings",
+ "use": [
+  "Historical comparison; labs not yet on WHO system."
+ ],
+ "not_use": [
+  "New reports – prefer WHO PB 2022."
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Representative lesional material."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "I",
+   "name": "Non-diagnostic",
+   "definition": "Insufficient.",
+   "rom": [
+    {
+     "value": "Variable",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Contaminant/acellular."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic",
+     "final": "Non-diagnostic. Non-diagnostic.",
+     "comment": "Repeat sampling.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "II",
+   "name": "Negative",
+   "definition": "Benign.",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "Follow-up.",
+   "criteria": [
+    "Benign/pancreatitis/pseudocyst."
+   ],
+   "diagnoses": [
+    {
+     "name": "Negative for malignancy",
+     "final": "Negative. Negative for malignancy.",
+     "comment": "Correlate clinically.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Negative"
+    }
+   ]
+  },
+  {
+   "code": "III",
+   "name": "Atypical",
+   "definition": "Atypia insufficient.",
+   "rom": [
+    {
+     "value": "≈30–70%",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat/MDT.",
+   "criteria": [
+    "Reactive vs neoplastic."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical cells",
+     "final": "Atypical. Atypical cells.",
+     "comment": "Repeat sampling.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "IVA",
+   "name": "Neoplastic: benign",
+   "definition": "Serous cystadenoma, NET-free benign neoplasms.",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "Per lesion.",
+   "criteria": [
+    "Serous cystadenoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Serous cystadenoma",
+     "final": "Neoplastic: benign. Serous cystadenoma.",
+     "comment": "Benign neoplasm.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Neoplastic: benign"
+    }
+   ]
+  },
+  {
+   "code": "IVB",
+   "name": "Neoplastic: other",
+   "definition": "Premalignant mucinous neoplasms, well-differentiated NET, SPN.",
+   "rom": [
+    {
+     "value": "Variable",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "Surveillance/resection.",
+   "criteria": [
+    "IPMN/MCN, NET, SPN."
+   ],
+   "diagnoses": [
+    {
+     "name": "Mucinous cystic neoplasm / IPMN",
+     "final": "Neoplastic: other. Mucinous cystic neoplasm / IPMN.",
+     "comment": "Grade of dysplasia if possible.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Neoplastic: other"
+    },
+    {
+     "name": "Neuroendocrine tumour",
+     "final": "Neoplastic: other. Neuroendocrine tumour.",
+     "comment": "Ki-67.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Neoplastic: other"
+    },
+    {
+     "name": "Solid pseudopapillary neoplasm",
+     "final": "Neoplastic: other. Solid pseudopapillary neoplasm.",
+     "comment": "Resection.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Neoplastic: other"
+    }
+   ]
+  },
+  {
+   "code": "V",
+   "name": "Suspicious",
+   "definition": "Suggestive of malignancy.",
+   "rom": [
+    {
+     "value": "≈80–90%",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "MDT.",
+   "criteria": [
+    "Few malignant-appearing cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for adenocarcinoma",
+     "final": "Suspicious. Suspicious for adenocarcinoma.",
+     "comment": "MDT.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Suspicious"
+    }
+   ]
+  },
+  {
+   "code": "VI",
+   "name": "Positive/Malignant",
+   "definition": "Malignant.",
+   "rom": [
+    {
+     "value": "≈100%",
+     "source": "PSC 2014 literature (approx.; unverified)"
+    }
+   ],
+   "management": "Treat.",
+   "criteria": [
+    "PDAC, ACC, NEC, metastasis."
+   ],
+   "diagnoses": [
+    {
+     "name": "Adenocarcinoma",
+     "final": "Positive/Malignant. Adenocarcinoma.",
+     "comment": "Oncology referral.",
+     "cat": "Diagnostic category: PSC pancreaticobiliary (legacy) – Positive/Malignant"
+    }
+   ]
+  }
+ ],
+ "references": [
+  "Pitman MB, Centeno BA, Ali SZ, et al. Standardized terminology and nomenclature for pancreatobiliary cytology: the Papanicolaou Society of Cytopathology guidelines. Diagn Cytopathol. 2014;42(4):338–350."
+ ]
+}

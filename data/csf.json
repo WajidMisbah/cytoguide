@@ -1,0 +1,200 @@
+{
+ "id": "csf",
+ "name": "CSF cytology (proposed tiered schemes)",
+ "short": "CSF",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "CSF",
+ "status": "ready",
+ "specimen": "CSF (lumbar puncture, ventricular, Ommaya)",
+ "use": [
+  "Detection of leptomeningeal malignancy, infection, inflammation."
+ ],
+ "not_use": [
+  "Not a validated international system – proposed tiered schemes only."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Process fresh (<1–2 h) or refrigerate; ≥3–5 mL (ideally ≥10 mL for malignancy).",
+    "Cytospin; flow cytometry for lymphoma."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / unsatisfactory",
+   "definition": "Inadequate.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Scant/obscured."
+   ],
+   "diagnoses": [
+    {
+     "name": "CSF – unsatisfactory",
+     "final": "Unsatisfactory for evaluation: [reason].",
+     "comment": "Repeat specimen recommended.",
+     "cat": "Suggested template category: Non-diagnostic / unsatisfactory",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "NEG",
+   "name": "Negative for malignant cells",
+   "definition": "Benign.",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Routine.",
+   "criteria": [
+    "Lymphocytes, monocytes, ependymal/choroid cells, germinal matrix in neonates."
+   ],
+   "diagnoses": [
+    {
+     "name": "Negative",
+     "final": "Negative for malignant cells.",
+     "comment": "Benign lymphocytes and monocytes.",
+     "cat": "Suggested template category: Negative for malignant cells",
+     "consensus": true
+    },
+    {
+     "name": "Lymphocytic pleocytosis (viral/TB meningitis)",
+     "final": "Negative for malignant cells. Lymphocytic pleocytosis.",
+     "comment": "Correlate with CSF chemistry, CBNAAT/culture.",
+     "cat": "Suggested template category: Negative for malignant cells",
+     "consensus": true
+    },
+    {
+     "name": "Neutrophilic pleocytosis (bacterial meningitis)",
+     "final": "Negative for malignant cells. Neutrophilic pleocytosis.",
+     "comment": "Gram stain/culture.",
+     "cat": "Suggested template category: Negative for malignant cells",
+     "consensus": true
+    },
+    {
+     "name": "Cryptococcus",
+     "final": "Negative for malignant cells. Cryptococcus neoformans identified.",
+     "comment": "India ink/antigen test.",
+     "cat": "Suggested template category: Negative for malignant cells",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Atypical cells.",
+   "rom": [
+    {
+     "value": "≈20–50% (approx.)",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat CSF, flow, MRI.",
+   "criteria": [
+    "Few atypical cells, degenerated."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical cells",
+     "final": "Atypical cells present, significance uncertain.",
+     "comment": "Repeat CSF and flow cytometry recommended.",
+     "cat": "Suggested template category: Atypical",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Suspicious.",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat, MRI.",
+   "criteria": [
+    "Few malignant-appearing cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious",
+     "final": "Suspicious for malignancy.",
+     "comment": "Repeat sampling.",
+     "cat": "Suggested template category: Suspicious for malignancy",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Positive for malignant cells",
+   "definition": "Malignancy.",
+   "rom": [
+    {
+     "value": "≈100%",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Oncology.",
+   "criteria": [
+    "Metastatic carcinoma (breast, lung), melanoma, lymphoma/leukaemia, medulloblastoma, germ cell tumours."
+   ],
+   "diagnoses": [
+    {
+     "name": "Metastatic carcinoma",
+     "final": "Positive for malignant cells – metastatic carcinoma.",
+     "comment": "Leptomeningeal carcinomatosis.",
+     "cat": "Suggested template category: Positive for malignant cells",
+     "consensus": true
+    },
+    {
+     "name": "Lymphoma/leukaemia involvement",
+     "final": "Positive for malignant cells – lymphoma/leukaemia.",
+     "comment": "Flow cytometry; beware traumatic tap with peripheral blasts.",
+     "cat": "Suggested template category: Positive for malignant cells",
+     "consensus": true
+    },
+    {
+     "name": "Medulloblastoma/primary CNS tumour",
+     "final": "Positive for malignant cells – consistent with [tumour].",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Positive for malignant cells",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system.",
+    "Flagged: proposed scheme, not official."
+   ]
+  }
+ ],
+ "references": [
+  "Proposed CSF reporting schemes exist in the literature (e.g. tiered schemes analogous to other systems); none adopted internationally (verify)."
+ ]
+}

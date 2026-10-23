@@ -1,0 +1,248 @@
+{
+ "id": "bethesda-anal",
+ "name": "The Bethesda System – Anal cytology",
+ "short": "Bethesda Anal",
+ "edition": "TBS 2014, anal cytology chapter",
+ "year": 2015,
+ "group": "Gynae / anal",
+ "status": "ready",
+ "specimen": "Anal canal brushings/swabs (LBC preferred)",
+ "use": [
+  "Anal cancer screening in high-risk groups: people living with HIV (esp. MSM), transplant recipients, women with vulvar/cervical HPV disease (IANS 2024 consensus)."
+ ],
+ "not_use": [
+  "Rectal mucosal lesions (endoscopy/biopsy).",
+  "Perianal skin lesions (biopsy)."
+ ],
+ "report_structure": [
+  "Specimen type",
+  "Adequacy (with transformation zone component: rectal columnar/metaplastic cells)",
+  "Interpretation (same squamous terminology as cervical TBS)",
+  "HPV result if done",
+  "Recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy (LBC)",
+   "items": [
+    "Minimum ~2,000–3,000 nucleated squamous cells: ThinPrep ≈1–2 nucleated squamous cells/HPF; SurePath ≈3–6/HPF (TBS 2014).",
+    "Transformation zone component: rectal columnar or squamous metaplastic cells – reported, not required.",
+    "Conventional smears are less reliable (faecal contamination, air drying)."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "UNSAT",
+   "name": "Unsatisfactory for evaluation",
+   "definition": "Insufficient nucleated squamous cells or obscuring material.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "TBS 2014"
+    }
+   ],
+   "management": "Repeat anal cytology (consider avoiding lubricant/enema prior).",
+   "criteria": [
+    "LBC: fewer than ~2,000–3,000 nucleated squamous cells (≈1–2 cells/HPF on ThinPrep; ≈3–6 cells/HPF on SurePath).",
+    ">75% obscured by faecal material, bacteria, blood.",
+    "Anucleate squames do not count."
+   ],
+   "diagnoses": [
+    {
+     "name": "Unsatisfactory – scant nucleated squamous cells",
+     "final": "Specimen adequacy: Unsatisfactory for evaluation – insufficient nucleated squamous cells.",
+     "comment": "Repeat anal cytology recommended.",
+     "cat": "Specimen adequacy: Unsatisfactory"
+    },
+    {
+     "name": "Unsatisfactory – obscuring faecal material",
+     "final": "Specimen adequacy: Unsatisfactory – obscured by faecal material/bacteria.",
+     "comment": "Repeat sampling recommended.",
+     "cat": "Specimen adequacy: Unsatisfactory"
+    }
+   ]
+  },
+  {
+   "code": "NILM",
+   "name": "Negative for intraepithelial lesion or malignancy",
+   "definition": "No squamous intraepithelial lesion; organisms may be reported.",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "Routine screening interval per risk group.",
+   "criteria": [
+    "Anucleate and nucleated squames, rectal columnar cells and/or metaplastic cells (transformation zone component reported).",
+    "Organisms: Candida, HSV, Enterobius ova, amoebae, faecal bacteria are normal flora."
+   ],
+   "diagnoses": [
+    {
+     "name": "NILM",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Anal transformation zone component present/absent.",
+     "comment": "Routine follow-up per screening protocol.",
+     "cat": "Interpretation: NILM (Bethesda terminology, anal cytology)"
+    },
+    {
+     "name": "NILM with organisms (Candida, HSV, Enterobius)",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: [specify].",
+     "comment": "Clinical correlation.",
+     "cat": "Interpretation: NILM (Bethesda terminology, anal cytology)"
+    }
+   ]
+  },
+  {
+   "code": "ASC-US",
+   "name": "Atypical squamous cells of undetermined significance",
+   "definition": "Changes suggestive of LSIL, insufficient for definitive diagnosis.",
+   "rom": [
+    {
+     "value": "Anal HSIL on HRA ≈ 20–30%+ (high-risk populations)",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
+   "criteria": [
+    "Criteria as cervical; nuclear enlargement 2.5–3× intermediate nucleus with mild hyperchromasia; atypical parakeratosis common."
+   ],
+   "diagnoses": [
+    {
+     "name": "ASC-US",
+     "final": "Atypical squamous cells of undetermined significance (ASC-US).",
+     "comment": "HPV testing and/or high-resolution anoscopy recommended per local protocol.",
+     "cat": "Interpretation: ASC-US (Bethesda terminology, anal cytology)"
+    }
+   ]
+  },
+  {
+   "code": "ASC-H",
+   "name": "Atypical squamous cells, cannot exclude HSIL",
+   "definition": "Changes suggestive of HSIL but insufficient.",
+   "rom": [
+    {
+     "value": "Anal HSIL ≈ 40–70%",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
+   "criteria": [
+    "Small metaplastic-size cells with high N:C ratio; atypical keratinised small cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "ASC-H",
+     "final": "Atypical squamous cells, cannot exclude HSIL (ASC-H).",
+     "comment": "High-resolution anoscopy with biopsy recommended.",
+     "cat": "Interpretation: ASC-H (Bethesda terminology, anal cytology)"
+    }
+   ]
+  },
+  {
+   "code": "LSIL",
+   "name": "Low-grade squamous intraepithelial lesion",
+   "definition": "HPV cytopathic effect / AIN1.",
+   "rom": [
+    {
+     "value": "Anal HSIL on biopsy ≈ 25–50%",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
+   "criteria": [
+    "Koilocytes, binucleation, nuclear enlargement ≥3×, mature cytoplasm."
+   ],
+   "diagnoses": [
+    {
+     "name": "LSIL",
+     "final": "Low-grade squamous intraepithelial lesion (LSIL).",
+     "comment": "High-resolution anoscopy recommended.",
+     "cat": "Interpretation: LSIL (Bethesda terminology, anal cytology)"
+    }
+   ]
+  },
+  {
+   "code": "HSIL",
+   "name": "High-grade squamous intraepithelial lesion",
+   "definition": "AIN2–3; precursor of anal SCC.",
+   "rom": [
+    {
+     "value": "Anal HSIL on biopsy ≈ 50–80%",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice). Treat histological HSIL (ANCHOR trial: treatment reduces progression to cancer).",
+   "criteria": [
+    "Immature cells with high N:C ratio, hyperchromasia, irregular membranes; often keratinised in anal samples."
+   ],
+   "diagnoses": [
+    {
+     "name": "HSIL",
+     "final": "High-grade squamous intraepithelial lesion (HSIL).",
+     "comment": "High-resolution anoscopy with biopsy and treatment as per ANCHOR/IANS guidance.",
+     "cat": "Interpretation: HSIL (Bethesda terminology, anal cytology)"
+    }
+   ]
+  },
+  {
+   "code": "SCC",
+   "name": "Squamous cell carcinoma",
+   "definition": "Invasive anal SCC.",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "Examination under anaesthesia, biopsy, oncology referral.",
+   "criteria": [
+    "Pleomorphic keratinised cells, tumour diathesis, macronucleoli."
+   ],
+   "diagnoses": [
+    {
+     "name": "Squamous cell carcinoma",
+     "final": "Squamous cell carcinoma.",
+     "comment": "Urgent biopsy and colorectal/oncology referral.",
+     "cat": "Interpretation: SCC (Bethesda terminology, anal cytology)"
+    }
+   ]
+  },
+  {
+   "code": "GLAND",
+   "name": "Glandular / other",
+   "definition": "Atypical glandular cells or adenocarcinoma (rectal origin) and other malignancies; TBS does not provide anal glandular categories in detail.",
+   "rom": [
+    {
+     "value": "Not established",
+     "source": "Literature (approx.; unverified)"
+    }
+   ],
+   "management": "Endoscopic evaluation.",
+   "criteria": [
+    "Rectal columnar cells with atypia; adenocarcinoma cells; melanoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical glandular cells / adenocarcinoma (rectal)",
+     "final": "Atypical glandular cells present [/ adenocarcinoma].",
+     "comment": "Colonoscopy/endoscopic evaluation recommended.",
+     "cat": "Interpretation: Other (Bethesda terminology, anal cytology)",
+     "consensus": true
+    },
+    {
+     "name": "Melanoma (anorectal)",
+     "final": "Malignant cells suggestive of melanoma.",
+     "comment": "Biopsy with SOX10/HMB45.",
+     "cat": "Interpretation: Other (Bethesda terminology, anal cytology)",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "references": [
+  "Nayar R, Wilbur DC (eds). The Bethesda System for Reporting Cervical Cytology. 3rd ed. Springer, 2015 (chapter: Anal Cytology).",
+  "Stier EA, Clarke MA, Deshmukh AA, et al. International Anal Neoplasia Society's consensus guidelines for anal cancer screening. Int J Cancer. 2024.",
+  "Palefsky JM, et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer (ANCHOR). N Engl J Med. 2022;386:2273–2282."
+ ]
+}

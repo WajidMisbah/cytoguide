@@ -1,0 +1,218 @@
+{
+ "id": "who-lnst",
+ "name": "WHO Reporting System for Lymph Node, Spleen and Thymus Cytopathology",
+ "short": "WHO LN/Spleen/Thymus",
+ "edition": "1st edition (IAC-IARC-WHO)",
+ "year": 2024,
+ "group": "Lymph node",
+ "status": "ready",
+ "specimen": "FNAB of lymph node, spleen, thymus/mediastinum",
+ "use": [
+  "Lymph nodes (complements Sydney 2020), spleen, thymus."
+ ],
+ "not_use": [
+  "Non-lymphoid organ primaries."
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Representative material; dedicated passes for flow cytometry and cell block."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Inadequate / Insufficient / Non-diagnostic",
+   "definition": "Not representative/insufficient.",
+   "rom": [
+    {
+     "value": "LN ≈ 15–55%",
+     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+    }
+   ],
+   "management": "Repeat FNA with flow cytometry or core/excision biopsy.",
+   "criteria": [
+    "Scant lymphoid cells, blood, necrosis only."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic",
+     "final": "Inadequate/Insufficient/Non-diagnostic (WHO LN/Spleen/Thymus System). Non-diagnostic.",
+     "comment": "Repeat sampling.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Inadequate/Insufficient/Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "BEN",
+   "name": "Benign",
+   "definition": "Reactive or specific benign process.",
+   "rom": [
+    {
+     "value": "LN ≈ 2–8%",
+     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+    }
+   ],
+   "management": "Clinical follow-up; excision if persistent.",
+   "criteria": [
+    "Polymorphous reactive lymphoid population; granulomatous lymphadenitis; abscess; thymoma-free benign thymic tissue; splenic reactive/haemangioma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Reactive lymphoid hyperplasia",
+     "final": "Benign (WHO LN/Spleen/Thymus System). Reactive lymphoid hyperplasia.",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Benign"
+    },
+    {
+     "name": "Granulomatous lymphadenitis (tuberculous)",
+     "final": "Benign (WHO LN/Spleen/Thymus System). Granulomatous lymphadenitis (tuberculous).",
+     "comment": "ZN/CBNAAT.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Benign"
+    },
+    {
+     "name": "Suppurative lymphadenitis",
+     "final": "Benign (WHO LN/Spleen/Thymus System). Suppurative lymphadenitis.",
+     "comment": "Culture.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Benign"
+    },
+    {
+     "name": "Kikuchi lymphadenitis (suggestive)",
+     "final": "Benign (WHO LN/Spleen/Thymus System). Kikuchi lymphadenitis (suggestive).",
+     "comment": "Histology confirms.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Benign",
+     "consensus": true
+    },
+    {
+     "name": "Benign spleen (reactive)",
+     "final": "Benign (WHO LN/Spleen/Thymus System). Benign spleen (reactive).",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Benign"
+    },
+    {
+     "name": "Thymic cyst / benign thymus",
+     "final": "Benign (WHO LN/Spleen/Thymus System). Thymic cyst / benign thymus.",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Benign"
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Atypia, cannot exclude lymphoma/neoplasm.",
+   "rom": [
+    {
+     "value": "LN ≈ 15–50%",
+     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+    }
+   ],
+   "management": "Flow cytometry, core/excision.",
+   "criteria": [
+    "Lymphoid population with partial monotony; atypical cells few."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical lymphoid cells",
+     "final": "Atypical (WHO LN/Spleen/Thymus System). Atypical lymphoid cells.",
+     "comment": "Ancillary studies/excision.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious",
+   "definition": "Features suspicious for malignancy.",
+   "rom": [
+    {
+     "value": "LN ≈ 70–90%",
+     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+    }
+   ],
+   "management": "Excision/core biopsy.",
+   "criteria": [
+    "Suspicious for lymphoma or metastasis, insufficient."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for lymphoma",
+     "final": "Suspicious (WHO LN/Spleen/Thymus System). Suspicious for lymphoma.",
+     "comment": "Excision biopsy recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Suspicious"
+    },
+    {
+     "name": "Suspicious for metastatic carcinoma",
+     "final": "Suspicious (WHO LN/Spleen/Thymus System). Suspicious for metastatic carcinoma.",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Suspicious"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Malignancy (metastasis, lymphoma, thymic epithelial neoplasm).",
+   "rom": [
+    {
+     "value": "LN ≈ 98–100%",
+     "source": "Lymph node – Sydney-system meta-analyses (approx.); spleen/thymus ROM not established"
+    }
+   ],
+   "management": "Oncology; lymphoma requires classification on tissue/ancillary tests.",
+   "criteria": [
+    "Metastatic carcinoma/melanoma; high-grade lymphoma; Hodgkin lymphoma; thymoma/thymic carcinoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Metastatic squamous cell carcinoma",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Metastatic squamous cell carcinoma.",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    },
+    {
+     "name": "Metastatic adenocarcinoma",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Metastatic adenocarcinoma.",
+     "comment": "IHC for origin.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    },
+    {
+     "name": "Non-Hodgkin lymphoma (B/T)",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Non-Hodgkin lymphoma (B/T).",
+     "comment": "Flow cytometry + histology for classification.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    },
+    {
+     "name": "Hodgkin lymphoma",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Hodgkin lymphoma.",
+     "comment": "CD15/CD30 on cell block; excision for subtyping.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    },
+    {
+     "name": "Thymoma",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Thymoma.",
+     "comment": "Thymic epithelial cells with immature T cells (TdT+).",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    },
+    {
+     "name": "Thymic carcinoma",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Thymic carcinoma.",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    },
+    {
+     "name": "Splenic lymphoma/metastasis",
+     "final": "Malignant (WHO LN/Spleen/Thymus System). Splenic lymphoma/metastasis.",
+     "comment": "Clinical correlation and ancillary studies recommended.",
+     "cat": "Diagnostic category: WHO LN/Spleen/Thymus System – Malignant"
+    }
+   ]
+  }
+ ],
+ "references": [
+  "WHO Reporting System for Lymph Node, Spleen, and Thymus Cytopathology. IAC-IARC-WHO, 1st ed. IARC, 2024.",
+  "Al-Abbadi MA, Barroca H, Bode-Lesniewska B, et al. A Proposal for the Performance, Classification, and Reporting of Lymph Node Fine-Needle Aspiration Cytopathology: The Sydney System. Acta Cytol. 2020;64:306–322."
+ ]
+}

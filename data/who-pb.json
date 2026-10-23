@@ -1,0 +1,342 @@
+{
+ "id": "who-pb",
+ "name": "WHO Reporting System for Pancreaticobiliary Cytopathology",
+ "short": "WHO Pancreaticobiliary",
+ "edition": "1st edition (IAC-IARC-WHO)",
+ "year": 2022,
+ "group": "Pancreaticobiliary",
+ "status": "ready",
+ "specimen": "EUS-FNA/FNB, cyst fluid, bile duct brushings, ERCP brushings",
+ "use": [
+  "Pancreas solid and cystic lesions, bile ducts, ampulla, gallbladder FNA."
+ ],
+ "not_use": [
+  "Liver masses (use WHO liver)."
+ ],
+ "report_structure": [
+  "Specimen/site",
+  "Category",
+  "Specific diagnosis",
+  "Cyst fluid biochemistry/molecular integration",
+  "Recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "No numeric threshold; representative lesional cells or diagnostic cyst contents.",
+    "ROSE improves adequacy; cell block for IHC."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Insufficient / Inadequate / Non-diagnostic",
+   "definition": "Non-representative or insufficient material; includes GI contaminant only and acellular cyst fluid without supporting findings.",
+   "rom": [
+    {
+     "value": "≈35%",
+     "source": "EUS-FNA study 1 (approx.)"
+    },
+    {
+     "value": "≈8%",
+     "source": "EUS-FNA study 2 (approx.)"
+    }
+   ],
+   "management": "Repeat EUS-FNA/FNB; cyst fluid CEA/glucose/molecular if cyst.",
+   "criteria": [
+    "Only gastric/duodenal contaminant epithelium/mucus.",
+    "Acellular cyst fluid with no mucin/biochemistry support.",
+    "Obscured/poorly preserved."
+   ],
+   "diagnoses": [
+    {
+     "name": "Gastrointestinal contamination only",
+     "final": "Insufficient/Inadequate/Non-diagnostic (WHO PB System). Gastrointestinal contamination only.",
+     "comment": "Not representative of lesion; repeat sampling.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Insufficient/Inadequate/Non-diagnostic"
+    },
+    {
+     "name": "Acellular cyst fluid",
+     "final": "Insufficient/Inadequate/Non-diagnostic (WHO PB System). Acellular cyst fluid.",
+     "comment": "Interpret with cyst-fluid CEA/glucose and imaging.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Insufficient/Inadequate/Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "NEG",
+   "name": "Negative for malignancy",
+   "definition": "Benign pancreatic/biliary tissue or specific benign process.",
+   "rom": [
+    {
+     "value": "≈1%",
+     "source": "EUS-FNA study 1 (approx.)"
+    },
+    {
+     "value": "≈1%",
+     "source": "EUS-FNA study 2 (approx.)"
+    }
+   ],
+   "management": "Clinical-radiological correlation; repeat if discordant.",
+   "criteria": [
+    "Benign acinar/ductal/islet cells, pancreatitis, pseudocyst, autoimmune pancreatitis, accessory spleen, lymphoepithelial cyst, serous cystadenoma (when diagnostic)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Benign pancreatic tissue",
+     "final": "Negative for malignancy (WHO PB System). Benign pancreatic tissue.",
+     "comment": "Correlate with imaging; sampling error possible.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy"
+    },
+    {
+     "name": "Chronic pancreatitis",
+     "final": "Negative for malignancy (WHO PB System). Chronic pancreatitis.",
+     "comment": "Distinguish from well-differentiated adenocarcinoma.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy"
+    },
+    {
+     "name": "Pseudocyst",
+     "final": "Negative for malignancy (WHO PB System). Pseudocyst.",
+     "comment": "Inflammatory debris, haemosiderin macrophages; high amylase, low CEA.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy"
+    },
+    {
+     "name": "Autoimmune pancreatitis (suggestive)",
+     "final": "Negative for malignancy (WHO PB System). Autoimmune pancreatitis (suggestive).",
+     "comment": "IgG4 serology/histology correlation.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy",
+     "consensus": true
+    },
+    {
+     "name": "Serous cystadenoma",
+     "final": "Negative for malignancy (WHO PB System). Serous cystadenoma.",
+     "comment": "Scant cuboidal glycogenated cells; low CEA; usually low cellularity.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy"
+    },
+    {
+     "name": "Lymphoepithelial cyst",
+     "final": "Negative for malignancy (WHO PB System). Lymphoepithelial cyst.",
+     "comment": "Anucleate squames, keratin debris, lymphocytes.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy"
+    },
+    {
+     "name": "Intrapancreatic accessory spleen",
+     "final": "Negative for malignancy (WHO PB System). Intrapancreatic accessory spleen.",
+     "comment": "CD8+ sinusoidal lining cells.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Negative for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Cells with atypia beyond reactive but insufficient for neoplasm/suspicious.",
+   "rom": [
+    {
+     "value": "≈69%",
+     "source": "EUS-FNA study 1 (approx.)"
+    },
+    {
+     "value": "≈28%",
+     "source": "EUS-FNA study 2 (approx.)"
+    }
+   ],
+   "management": "Repeat sampling/FNB, MDT.",
+   "criteria": [
+    "Atypical ductal/biliary cells; cyst with atypical epithelial cells (grade uncertain)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical ductal/biliary epithelial cells",
+     "final": "Atypical (WHO PB System). Atypical ductal/biliary epithelial cells.",
+     "comment": "Reactive vs neoplastic; repeat sampling.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Atypical"
+    },
+    {
+     "name": "Atypical cells in cyst fluid",
+     "final": "Atypical (WHO PB System). Atypical cells in cyst fluid.",
+     "comment": "Correlate with cyst fluid analysis/imaging.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "PaN-L",
+   "name": "Pancreaticobiliary neoplasm, low-risk/grade (PaN-Low)",
+   "definition": "Neoplasm with low-grade features: IPMN/MCN with low-grade dysplasia, well-differentiated NET (G1/G2 not routinely gradable), serous cystadenoma.",
+   "rom": [
+    {
+     "value": "≈5–20% (study 1 ≈11%, study 2 ≈5%)",
+     "source": "Literature (approx.)"
+    }
+   ],
+   "management": "Surveillance or resection per guidelines (Fukuoka/European cyst guidelines, NET protocols).",
+   "criteria": [
+    "Mucinous cyst with low-grade epithelium; thick extracellular mucin.",
+    "NET: monotonous plasmacytoid cells, salt-and-pepper chromatin; synaptophysin/chromogranin, Ki-67."
+   ],
+   "diagnoses": [
+    {
+     "name": "Mucinous cyst (IPMN/MCN) with low-grade dysplasia",
+     "final": "PaN-Low (WHO PB System). Mucinous cyst (IPMN/MCN) with low-grade dysplasia.",
+     "comment": "Correlate with CEA >192 ng/mL, glucose <50 mg/dL and KRAS/GNAS if available.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – PaN-Low"
+    },
+    {
+     "name": "Well-differentiated neuroendocrine tumour",
+     "final": "PaN-Low (WHO PB System). Well-differentiated neuroendocrine tumour.",
+     "comment": "Ki-67 on cell block for grading.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – PaN-Low"
+    },
+    {
+     "name": "Serous cystadenoma (neoplastic)",
+     "final": "PaN-Low (WHO PB System). Serous cystadenoma (neoplastic).",
+     "comment": "Benign neoplasm.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – PaN-Low"
+    },
+    {
+     "name": "Solid pseudopapillary neoplasm",
+     "final": "PaN-Low (WHO PB System). Solid pseudopapillary neoplasm.",
+     "comment": "Low-grade malignant; β-catenin nuclear, CD10+; resection recommended.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – PaN-Low",
+     "note": "Placed in PaN-Low by WHO system per available summaries; verify."
+    }
+   ]
+  },
+  {
+   "code": "PaN-H",
+   "name": "Pancreaticobiliary neoplasm, high-risk/grade (PaN-High)",
+   "definition": "Mucinous neoplasm with high-grade dysplasia or features warrant resection; biliary high-grade dysplasia.",
+   "rom": [
+    {
+     "value": "≈60–95% (studies ≈100%, ≈60%)",
+     "source": "Literature (approx.)"
+    }
+   ],
+   "management": "Surgical resection consideration.",
+   "criteria": [
+    "Mucinous cyst with high-grade atypia: small cells (<12 µm), high N:C, hyperchromasia, necrosis background."
+   ],
+   "diagnoses": [
+    {
+     "name": "Mucinous neoplasm with high-grade dysplasia",
+     "final": "PaN-High (WHO PB System). Mucinous neoplasm with high-grade dysplasia.",
+     "comment": "Resection recommended.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – PaN-High"
+    },
+    {
+     "name": "Biliary epithelium with high-grade dysplasia",
+     "final": "PaN-High (WHO PB System). Biliary epithelium with high-grade dysplasia.",
+     "comment": "Correlate with imaging/cholangioscopy.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – PaN-High"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Features suggestive of malignancy, quantitatively/qualitatively insufficient.",
+   "rom": [
+    {
+     "value": "≈91%",
+     "source": "EUS-FNA study 1 (approx.)"
+    },
+    {
+     "value": "≈100%",
+     "source": "EUS-FNA study 2 (approx.)"
+    }
+   ],
+   "management": "Repeat FNB or proceed per MDT.",
+   "criteria": [
+    "Few cells with malignant features; degenerated."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for adenocarcinoma",
+     "final": "Suspicious for malignancy (WHO PB System). Suspicious for adenocarcinoma.",
+     "comment": "MDT review; repeat sampling if management depends on it.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Suspicious for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Unequivocal malignancy.",
+   "rom": [
+    {
+     "value": "≈100%",
+     "source": "EUS-FNA study 1 (approx.)"
+    },
+    {
+     "value": "≈100%",
+     "source": "EUS-FNA study 2 (approx.)"
+    }
+   ],
+   "management": "Oncology/surgical management.",
+   "criteria": [
+    "PDAC: 'drunken honeycomb', anisonucleosis ≥4:1, irregular membranes, parachromatin clearing, necrosis.",
+    "Acinar cell carcinoma, poorly differentiated NEC, SPN, pancreatoblastoma, metastases, lymphoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Pancreatic ductal adenocarcinoma",
+     "final": "Malignant (WHO PB System). Pancreatic ductal adenocarcinoma.",
+     "comment": "MMR/molecular testing as indicated.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    },
+    {
+     "name": "Cholangiocarcinoma (biliary brushing/FNA)",
+     "final": "Malignant (WHO PB System). Cholangiocarcinoma (biliary brushing/FNA).",
+     "comment": "Correlation with imaging and MDT recommended.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    },
+    {
+     "name": "Acinar cell carcinoma",
+     "final": "Malignant (WHO PB System). Acinar cell carcinoma.",
+     "comment": "Trypsin/BCL10 IHC.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    },
+    {
+     "name": "Neuroendocrine carcinoma (small/large cell)",
+     "final": "Malignant (WHO PB System). Neuroendocrine carcinoma (small/large cell).",
+     "comment": "Correlation with imaging and MDT recommended.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    },
+    {
+     "name": "Pancreatoblastoma",
+     "final": "Malignant (WHO PB System). Pancreatoblastoma.",
+     "comment": "Correlation with imaging and MDT recommended.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    },
+    {
+     "name": "Metastatic tumour (RCC, lung, melanoma)",
+     "final": "Malignant (WHO PB System). Metastatic tumour (RCC, lung, melanoma).",
+     "comment": "IHC for primary.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    },
+    {
+     "name": "Lymphoma",
+     "final": "Malignant (WHO PB System). Lymphoma.",
+     "comment": "Flow cytometry.",
+     "cat": "Diagnostic category: WHO Pancreaticobiliary System – Malignant"
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Change from PSC",
+   "items": [
+    "PSC 'Neoplastic: benign' and 'Neoplastic: other' replaced by PaN-Low and PaN-High.",
+    "'Negative' retained; 7 categories total."
+   ]
+  }
+ ],
+ "references": [
+  "WHO Reporting System for Pancreaticobiliary Cytopathology. IAC-IARC-WHO, 1st ed. IARC, 2022.",
+  "Pitman MB, Centeno BA, Reid MD, et al. The World Health Organization Reporting System for Pancreaticobiliary Cytopathology. Acta Cytol. 2023;67(3):304–320."
+ ]
+}

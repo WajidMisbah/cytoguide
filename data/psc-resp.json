@@ -1,0 +1,174 @@
+{
+ "id": "psc-resp",
+ "name": "Papanicolaou Society of Cytopathology Guidelines for Respiratory Cytology",
+ "short": "PSC respiratory (legacy)",
+ "edition": "PSC guidelines (legacy – superseded by WHO Lung 2022)",
+ "year": 2016,
+ "group": "Lung / respiratory",
+ "status": "ready",
+ "legacy": true,
+ "specimen": "Respiratory cytology",
+ "use": [
+  "Historical reference / labs not yet using WHO Lung system."
+ ],
+ "not_use": [
+  "New reports: prefer WHO Lung 2022 (5 categories; 'neoplastic' category merged)."
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Representative material relative to the lesion; sputum requires alveolar macrophages."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic",
+   "definition": "Insufficient/non-representative.",
+   "rom": [
+    {
+     "value": "≈40%",
+     "source": "PSC 2016 (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat sampling.",
+   "criteria": [
+    "Scant/obscured material; non-representative of lesion."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic",
+     "final": "Non-diagnostic. Non-diagnostic.",
+     "comment": "Repeat sampling recommended.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Non-diagnostic"
+    }
+   ]
+  },
+  {
+   "code": "NEG",
+   "name": "Negative for malignancy",
+   "definition": "Benign findings.",
+   "rom": [
+    {
+     "value": "≈25%",
+     "source": "PSC 2016 (approx.; unverified)"
+    }
+   ],
+   "management": "Clinical correlation.",
+   "criteria": [
+    "Benign respiratory epithelium, specific benign entities."
+   ],
+   "diagnoses": [
+    {
+     "name": "Negative for malignancy – [benign finding]",
+     "final": "Negative for malignancy. Negative for malignancy – [benign finding].",
+     "comment": "Correlate clinically.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Negative for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical",
+   "definition": "Atypia insufficient for suspicious.",
+   "rom": [
+    {
+     "value": "≈45%",
+     "source": "PSC 2016 (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat sampling/biopsy.",
+   "criteria": [
+    "Reactive vs neoplastic atypia."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical cells",
+     "final": "Atypical. Atypical cells.",
+     "comment": "Further sampling recommended.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Atypical"
+    }
+   ]
+  },
+  {
+   "code": "NB",
+   "name": "Neoplastic: benign / low-grade",
+   "definition": "Benign neoplasm or low-grade (e.g. carcinoid, hamartoma).",
+   "rom": [
+    {
+     "value": "Low (benign) / low-grade malignant",
+     "source": "PSC 2016 (approx.; unverified)"
+    }
+   ],
+   "management": "Excision per type.",
+   "criteria": [
+    "Hamartoma, carcinoid tumour."
+   ],
+   "diagnoses": [
+    {
+     "name": "Neoplastic – benign neoplasm (e.g. hamartoma)",
+     "final": "Neoplastic. Neoplastic – benign neoplasm (e.g. hamartoma).",
+     "comment": "Clinical correlation.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Neoplastic"
+    },
+    {
+     "name": "Neoplastic – low-grade neoplasm (carcinoid tumour)",
+     "final": "Neoplastic. Neoplastic – low-grade neoplasm (carcinoid tumour).",
+     "comment": "Typical vs atypical needs histology.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Neoplastic"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Suggestive but not diagnostic.",
+   "rom": [
+    {
+     "value": "≈80%",
+     "source": "PSC 2016 (approx.; unverified)"
+    }
+   ],
+   "management": "Biopsy.",
+   "criteria": [
+    "Few highly atypical cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for malignancy",
+     "final": "Suspicious for malignancy. Suspicious for malignancy.",
+     "comment": "Biopsy recommended.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Suspicious for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "Unequivocal malignancy.",
+   "rom": [
+    {
+     "value": "≈90–100%",
+     "source": "PSC 2016 (approx.; unverified)"
+    }
+   ],
+   "management": "Oncology; biomarkers.",
+   "criteria": [
+    "Carcinomas, lymphoma, metastases."
+   ],
+   "diagnoses": [
+    {
+     "name": "Malignant – [type]",
+     "final": "Malignant. Malignant – [type].",
+     "comment": "Biomarker testing as appropriate.",
+     "cat": "Diagnostic category: PSC respiratory (legacy) – Malignant"
+    }
+   ]
+  }
+ ],
+ "references": [
+  "Layfield LJ, Baloch Z, Elsheikh T, et al. Standardized terminology and nomenclature for respiratory cytology: The Papanicolaou Society of Cytopathology guidelines. Diagn Cytopathol. 2016;44(5):399–409."
+ ]
+}

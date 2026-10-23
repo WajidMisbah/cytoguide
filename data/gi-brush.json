@@ -1,0 +1,174 @@
+{
+ "id": "gi-brush",
+ "name": "GI brushings (oesophagus, stomach, bile duct)",
+ "short": "GI brushings",
+ "edition": "Descriptive / consensus (suggested templates)",
+ "year": 2026,
+ "group": "GI brushings",
+ "status": "ready",
+ "specimen": "Endoscopic brushings",
+ "use": [
+  "Oesophageal/gastric brushings, Barrett surveillance (adjunct)."
+ ],
+ "not_use": [
+  "Bile duct brushings – use WHO PB system."
+ ],
+ "report_structure": [
+  "Specimen and adequacy",
+  "Descriptive findings",
+  "Interpretation (suggested template)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy",
+   "items": [
+    "Representative epithelium; immediate fixation."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic / unsatisfactory",
+   "definition": "Inadequate.",
+   "rom": [
+    {
+     "value": "N/A",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Repeat.",
+   "criteria": [
+    "Scant/obscured."
+   ],
+   "diagnoses": [
+    {
+     "name": "GI brushing – unsatisfactory",
+     "final": "Unsatisfactory for evaluation: [reason].",
+     "comment": "Repeat specimen recommended.",
+     "cat": "Suggested template category: Non-diagnostic / unsatisfactory",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "NEG",
+   "name": "Negative",
+   "definition": "",
+   "rom": [
+    {
+     "value": "Low",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Endoscopy.",
+   "criteria": [
+    "Benign squamous/glandular cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Candida oesophagitis",
+     "final": "Negative for malignancy; Candida present.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Negative",
+     "consensus": true
+    },
+    {
+     "name": "HSV/CMV oesophagitis",
+     "final": "Viral cytopathic effect present.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Negative",
+     "consensus": true
+    },
+    {
+     "name": "Barrett (goblet cells)",
+     "final": "Glandular cells with goblet cells.",
+     "comment": "Biopsy required.",
+     "cat": "Suggested template category: Negative",
+     "consensus": true
+    },
+    {
+     "name": "Helicobacter",
+     "final": "Helicobacter-like organisms.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Negative",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "ATY",
+   "name": "Atypical / dysplasia",
+   "definition": "",
+   "rom": [
+    {
+     "value": "Variable",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Biopsy.",
+   "criteria": [
+    "Atypical glandular/squamous cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical cells",
+     "final": "Atypical cells; dysplasia not excluded.",
+     "comment": "Biopsy.",
+     "cat": "Suggested template category: Atypical / dysplasia",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant",
+   "definition": "",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Consensus/literature (approx.; unverified)"
+    }
+   ],
+   "management": "Biopsy/oncology.",
+   "criteria": [
+    "SCC, adenocarcinoma, signet ring cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Squamous cell carcinoma",
+     "final": "Malignant: SCC.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Adenocarcinoma",
+     "final": "Malignant: adenocarcinoma.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Signet ring cell carcinoma",
+     "final": "Malignant: signet ring cells.",
+     "comment": "Clinical, radiological and histological/ancillary correlation recommended.",
+     "cat": "Suggested template category: Malignant",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Status",
+   "items": [
+    "Consensus/descriptive – no official international reporting system."
+   ]
+  }
+ ],
+ "references": [
+  "Standard cytology texts (Koss' Diagnostic Cytology; Cibas & Ducatman Cytology)."
+ ]
+}
