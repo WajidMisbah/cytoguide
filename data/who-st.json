@@ -2,8 +2,8 @@
  "id": "who-st",
  "name": "WHO Reporting System for Soft Tissue Cytopathology",
  "short": "WHO Soft tissue",
- "edition": "1st edition (IAC-IARC-WHO)",
- "year": 2023,
+ "edition": "IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 4 (2025)",
+ "year": 2025,
  "group": "Soft tissue",
  "status": "ready",
  "specimen": "FNAB of soft tissue (and bone where applicable)",
@@ -39,7 +39,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – single 828-patient report"
     }
    ],
-   "management": "Repeat FNAB/core or surgical biopsy; refer to sarcoma centre if clinically suspicious (deep, >5 cm).",
+   "management": "Correlate with clinical and imaging data; repeat if discordant. If suspicion persists, core or incisional/excisional biopsy. Image guidance and ROSE help (convert to core on site). [WHO book, paraphrased]",
    "criteria": [
     "Scant/acellular, blood only, necrosis only, fat only from a non-lipomatous lesion."
    ],
@@ -62,7 +62,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Clinical follow-up/excision as indicated.",
+   "management": "Very low ROM. The book gives no explicit next step: correlate with clinical and imaging findings and manage within an MDT approach. [WHO book, paraphrased]",
    "criteria": [
     "Lipoma, schwannoma, nodular fasciitis, granular cell tumour, ganglion, fat necrosis, abscess, fibromatosis-free benign lesions, giant cell tumour of tendon sheath."
    ],
@@ -139,7 +139,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Core/excision biopsy; MDT.",
+   "management": "Clinical, imaging and ancillary correlation with MDT. Likely benign/reactive → observation; otherwise (especially if discordant) repeat FNAB with ROSE ± core; incisional (± frozen) or excision if suspicion is high. [WHO book, paraphrased]",
    "criteria": [
     "Atypical spindle/round/epithelioid cells, few in number."
    ],
@@ -162,7 +162,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – single 2,214-case study"
     }
    ],
-   "management": "Excision/core biopsy; sarcoma MDT.",
+   "management": "Correlate clinically and radiologically; if no material for ancillary tests, repeat FNAB with cell block and/or core. Complete resection is usually definitive. [WHO book, paraphrased]",
    "criteria": [
     "Low-grade spindle/myxoid neoplasms; desmoid fibromatosis; solitary fibrous tumour; cellular schwannoma vs MPNST uncertain."
    ],
@@ -203,7 +203,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Core biopsy; sarcoma MDT.",
+   "management": "Correlate, ideally at MDT. If discrepant, repeat FNAB with ROSE (cell block for ICC/FISH/NGS) ± core; incisional ± frozen section or excision may be needed. [WHO book, paraphrased]",
    "criteria": [
     "Few pleomorphic cells, necrosis, mitoses."
    ],
@@ -226,7 +226,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Sarcoma MDT; definitive surgery/oncology.",
+   "management": "MDT plans work-up and treatment. If material is inadequate or discordant, repeat FNAB/core or simple excision biopsy before major surgery or oncological therapy. Subtype as precisely as possible. [WHO book, paraphrased]",
    "criteria": [
     "High-grade pleomorphic sarcoma, round cell sarcomas (Ewing, rhabdomyosarcoma, synovial), myxoid liposarcoma, leiomyosarcoma, metastases."
    ],
@@ -289,7 +289,7 @@
   }
  ],
  "references": [
-  "WHO Reporting System for Soft Tissue Cytopathology. IAC-IARC-WHO, 1st ed. IARC, 2023.",
+  "WHO Reporting System for Soft Tissue Cytopathology. IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 4. Lyon: IARC; 2025.",
   "Pantanowitz L, Thompson LDR, Jing X, Rossi ED (eds), related validation studies (e.g. Institut Curie series, Cancer Cytopathol 2024) – approximate ROM, verify."
  ]
 }

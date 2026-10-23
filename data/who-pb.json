@@ -2,7 +2,7 @@
  "id": "who-pb",
  "name": "WHO Reporting System for Pancreaticobiliary Cytopathology",
  "short": "WHO Pancreaticobiliary",
- "edition": "1st edition (IAC-IARC-WHO)",
+ "edition": "IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 2 (2022)",
  "year": 2022,
  "group": "Pancreaticobiliary",
  "status": "ready",
@@ -44,7 +44,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – bile duct brushings"
     }
    ],
-   "management": "Repeat EUS-FNA/FNB; cyst fluid CEA/glucose/molecular if cyst.",
+   "management": "Management depends on the reason; usually repeat sampling (ROSE, FNAB ± fine core, or a different method). Steroid trial may suit suspected autoimmune pancreatitis; neoadjuvant therapy requires a definitive malignant diagnosis. [WHO book, paraphrased]",
    "criteria": [
     "Only gastric/duodenal contaminant epithelium/mucus.",
     "Acellular cyst fluid with no mucin/biochemistry support.",
@@ -75,7 +75,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pancreas FNAB; likely higher in bile duct brushings"
     }
    ],
-   "management": "Clinical-radiological correlation; repeat if discordant.",
+   "management": "Mostly medical management. Avoid surgery for lymphoepithelial cyst, splenule or autoimmune pancreatitis (steroids). Serous cystadenoma resected only if symptomatic, large or growing. Benign bile duct brushings carry higher risk – interpret cautiously. [WHO book, paraphrased]",
    "criteria": [
     "Benign acinar/ductal/islet cells, pancreatitis, pseudocyst, autoimmune pancreatitis, accessory spleen, lymphoepithelial cyst, serous cystadenoma (when diagnostic)."
    ],
@@ -139,7 +139,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – bile duct brushings"
     }
    ],
-   "management": "Repeat sampling/FNB, MDT.",
+   "management": "Correlate with clinical and imaging data; use ancillary tests (ICC, FISH/NGS), second opinion and MDT. If still inconclusive, repeat sampling with ROSE. Not by itself a diagnosis of malignancy. [WHO book, paraphrased]",
    "criteria": [
     "Atypical ductal/biliary cells; cyst with atypical epithelial cells (grade uncertain)."
    ],
@@ -164,11 +164,11 @@
    "definition": "Neoplasm with low-grade features: IPMN/MCN with low-grade dysplasia, well-differentiated NET (G1/G2 not routinely gradable), serous cystadenoma.",
    "rom": [
     {
-     "value": "Not captured from WHO book – UNVERIFIED (low-grade atypia cysts ≈4–19%; PSC 'Neoplastic: other' 14.2–100% quoted for comparison)",
-     "source": "WHO PB 1st ed chapter (partial) – unverified"
+     "value": "5–20%",
+     "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text (chapter 6 / ROM overview)"
     }
    ],
-   "management": "Surveillance or resection per guidelines (Fukuoka/European cyst guidelines, NET protocols).",
+   "management": "Clinical correlation; repeat sampling with ancillary studies (FISH/NGS) if needed. Low-grade IPMN/MCN: conservative surveillance unless high-risk features, following pancreatic cyst guidelines (Fukuoka, European, AGA, ACG, ACR). [WHO book, paraphrased]",
    "criteria": [
     "Mucinous cyst with low-grade epithelium; thick extracellular mucin.",
     "NET: monotonous plasmacytoid cells, salt-and-pepper chromatin; synaptophysin/chromogranin, Ki-67."
@@ -204,7 +204,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Surgical resection consideration.",
+   "management": "Surgical resection for fit patients; observation is reasonable if surgical risk is high and imaging lacks high-risk features. Treated as a high-risk result. Not defined for bile duct brushings. [WHO book, paraphrased]",
    "criteria": [
     "Mucinous cyst with high-grade atypia: small cells (<12 µm), high N:C, hyperchromasia, necrosis background."
    ],
@@ -237,7 +237,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – bile duct brushings"
     }
    ],
-   "management": "Repeat FNB or proceed per MDT.",
+   "management": "Integrate with clinical, imaging and ancillary results; may lead to surgery or further work-up, but alone is not an indication for surgery or neoadjuvant therapy – repeat FNAB to confirm malignancy is advised. [WHO book, paraphrased]",
    "criteria": [
     "Few cells with malignant features; degenerated."
    ],
@@ -260,7 +260,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Oncology/surgical management.",
+   "management": "Highly specific: unresectable PDAC/cholangiocarcinoma can start neoadjuvant/systemic therapy without histology. MSI/MMR testing in advanced disease. Localised/functioning PanNETs are resected. Consider trials and personalised therapy. [WHO book, paraphrased]",
    "criteria": [
     "PDAC: 'drunken honeycomb', anisonucleosis ≥4:1, irregular membranes, parachromatin clearing, necrosis.",
     "Acinar cell carcinoma, poorly differentiated NEC, SPN, pancreatoblastoma, metastases, lymphoma."
@@ -327,7 +327,7 @@
   }
  ],
  "references": [
-  "WHO Reporting System for Pancreaticobiliary Cytopathology. IAC-IARC-WHO, 1st ed. IARC, 2022.",
+  "WHO Reporting System for Pancreaticobiliary Cytopathology. IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 2. Lyon: IARC; 2022.",
   "Pitman MB, Centeno BA, Reid MD, et al. The World Health Organization Reporting System for Pancreaticobiliary Cytopathology. Acta Cytol. 2023;67(3):304–320."
  ]
 }

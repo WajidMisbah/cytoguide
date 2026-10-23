@@ -2,7 +2,7 @@
  "id": "who-lung",
  "name": "WHO Reporting System for Lung Cytopathology",
  "short": "WHO Lung",
- "edition": "1st edition (IAC-IARC-WHO)",
+ "edition": "IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 1 (2022)",
  "year": 2022,
  "group": "Lung / respiratory",
  "status": "ready",
@@ -47,7 +47,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – by specimen"
     }
    ],
-   "management": "Clinical-radiological correlation; repeat sampling (EBUS/CT-guided FNAB with ROSE) or core/surgical biopsy.",
+   "management": "Review clinical and imaging findings, ideally at MDT; choose between repeat sampling and a more invasive procedure; state why the sample is inadequate; audit rates. [WHO book, paraphrased]",
    "criteria": [
     "Acellular or scant, poorly preserved, obscured material.",
     "Only normal bronchial cells/alveolar macrophages from a discrete mass (non-representative).",
@@ -82,7 +82,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – by specimen"
     }
    ],
-   "management": "Clinical-radiological correlation; if discordant, repeat sampling/biopsy.",
+   "management": "Correlate with clinical and imaging findings. If concordant, routine follow-up (e.g. reimaging about 3–6 months after treating infection), or surgical assessment if symptomatic. [WHO book, paraphrased]",
    "criteria": [
     "Granulomatous inflammation, infections, abscess, benign neoplasms (hamartoma), reactive changes, organising pneumonia patterns when concordant."
    ],
@@ -152,7 +152,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Repeat sampling with ancillary tests, or biopsy; MDT discussion.",
+   "management": "Clinical–imaging correlation; if concerning, re-sample by a more definitive route (sputum → bronchoscopy; bronchoscopy → EBUS or transthoracic FNAB ± core; FNAB → repeat FNAB or core). [WHO book, paraphrased]",
    "criteria": [
     "Reactive vs neoplastic atypia (e.g. type II pneumocyte hyperplasia, squamous metaplasia, therapy effect).",
     "Low cellularity atypical cells; mucinous/lepidic-type cells with minimal atypia."
@@ -188,7 +188,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Repeat sampling/biopsy with ancillary studies; treatment after confirmation.",
+   "management": "MDT review first, then repeat sampling (bronchoscopy/EBUS FNAB ± core, transthoracic if peripheral). If benign and concordant, reimage in 3–6 months; if still suspicious, repeat FNAB with ROSE ± core, or surgical biopsy ± frozen section. [WHO book, paraphrased]",
    "criteria": [
     "Few highly atypical cells; obscured/degenerated malignant-appearing cells.",
     "Suspicious for specific tumour (adenocarcinoma, SCC, small cell, carcinoid)."
@@ -230,7 +230,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Treat per oncology; ensure material for predictive biomarkers (EGFR, ALK, ROS1, KRAS, BRAF, MET, RET, NTRK, PD-L1).",
+   "management": "Positive sputum: localise by bronchoscopy/CT then sample. Confirm tumour type, stage (EBUS) and secure material for predictive biomarkers; close follow-up if no lesion found. [WHO book, paraphrased]",
    "criteria": [
     "Adenocarcinoma: 3-D clusters, vacuolated cytoplasm, nucleoli; TTF1/Napsin A+.",
     "SCC: keratinisation, dense cytoplasm; p40+.",
@@ -323,7 +323,7 @@
   }
  ],
  "references": [
-  "WHO Reporting System for Lung Cytopathology. IAC-IARC-WHO Cytopathology Reporting Systems, 1st ed, Vol 1. IARC, 2022.",
+  "WHO Reporting System for Lung Cytopathology. IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 1. Lyon: IARC; 2022.",
   "Schmitt F, Tani E, et al. The World Health Organization Reporting System for Lung Cytopathology. Acta Cytol. 2023;67(1):80–91.",
   "WHO Classification of Tumours Editorial Board. Thoracic Tumours. 5th ed. IARC, 2021."
  ]

@@ -2,7 +2,7 @@
  "id": "who-lnst",
  "name": "WHO Reporting System for Lymph Node, Spleen and Thymus Cytopathology",
  "short": "WHO LN/Spleen/Thymus",
- "edition": "1st edition (IAC-IARC-WHO)",
+ "edition": "IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 3 (2024)",
  "year": 2024,
  "group": "Lymph node",
  "status": "ready",
@@ -32,7 +32,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
-   "management": "Repeat FNA with flow cytometry or core/excision biopsy.",
+   "management": "Correlate with clinical and imaging data rather than reflexly repeating. Low suspicion → follow-up; clear suspicion → repeat FNAB (image guidance, ROSE, ancillary passes), core or excision. Never report as negative; audit rates. [WHO book, paraphrased]",
    "criteria": [
     "Scant lymphoid cells, blood, necrosis only."
    ],
@@ -55,7 +55,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
-   "management": "Clinical follow-up; excision if persistent.",
+   "management": "Usually conservative clinical/imaging/laboratory follow-up. Excision if discordant. Repeat FNAB with flow, core or excision if the node changes, B symptoms appear, or a hard node >20 mm persists/enlarges; repeat under ultrasound if first FNA was palpation-guided. [WHO book, paraphrased]",
    "criteria": [
     "Polymorphous reactive lymphoid population; granulomatous lymphadenitis; abscess; thymoma-free benign thymic tissue; splenic reactive/haemangioma."
    ],
@@ -109,7 +109,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
-   "management": "Flow cytometry, core/excision.",
+   "management": "Review clinical/imaging, seek colleague review and MDT; ancillary tests if material allows (scant cell blocks are a caution); often repeat FNAB with ROSE triage ± core biopsy. [WHO book, paraphrased]",
    "criteria": [
     "Lymphoid population with partial monotony; atypical cells few."
    ],
@@ -132,7 +132,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – pooled meta-analysis cited"
     }
    ],
-   "management": "Excision/core biopsy.",
+   "management": "Integrate clinical, imaging and flow data (report may be issued with ancillary pending). Suspected metastasis → core or repeat FNAB with cell block/ICC. Suspected lymphoma → core biopsy with flow ± ICC/NGS. [WHO book, paraphrased]",
    "criteria": [
     "Suspicious for lymphoma or metastasis, insufficient."
    ],
@@ -161,7 +161,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text"
     }
    ],
-   "management": "Oncology; lymphoma requires classification on tissue/ancillary tests.",
+   "management": "Ancillary testing for specific diagnosis/primary site. Lymphoma generally needs core and often excision (recommended for Hodgkin, T-cell lymphoma and follicular grading), though practice varies. [WHO book, paraphrased]",
    "criteria": [
     "Metastatic carcinoma/melanoma; high-grade lymphoma; Hodgkin lymphoma; thymoma/thymic carcinoma."
    ],
@@ -212,7 +212,7 @@
   }
  ],
  "references": [
-  "WHO Reporting System for Lymph Node, Spleen, and Thymus Cytopathology. IAC-IARC-WHO, 1st ed. IARC, 2024.",
+  "WHO Reporting System for Lymph Node, Spleen and Thymus Cytopathology. IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 3. Lyon: IARC; 2024.",
   "Al-Abbadi MA, Barroca H, Bode-Lesniewska B, et al. A Proposal for the Performance, Classification, and Reporting of Lymph Node Fine-Needle Aspiration Cytopathology: The Sydney System. Acta Cytol. 2020;64:306–322."
  ]
 }

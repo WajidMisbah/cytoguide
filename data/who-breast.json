@@ -2,8 +2,8 @@
  "id": "who-breast",
  "name": "WHO Reporting System for Breast Cytopathology",
  "short": "WHO Breast",
- "edition": "1st edition (IAC-IARC) – online beta",
- "year": 2024,
+ "edition": "IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 5 (2026) – online beta",
+ "year": 2026,
  "group": "Breast",
  "status": "ready",
  "specimen": "FNAB, core touch preps, LBC, nipple discharge",
@@ -30,7 +30,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
-   "management": "Repeat FNAB/core.",
+   "management": "Review clinical/imaging; repeat FNAB or core (with ROSE) if suspicion is indeterminate or high. Low suspicion: repeat clinical/imaging in 3–6 months and re-aspirate if it changes. [WHO book, paraphrased]",
    "criteria": [
     "As Yokohama."
    ],
@@ -53,7 +53,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
-   "management": "Triple test concordance.",
+   "management": "Concordant benign triple test: clinical/imaging follow-up every 3–6 months or longer; re-aspirate promptly if it changes. Worrisome/indeterminate: repeat FNAB, core, or rarely excision. [WHO book, paraphrased]",
    "criteria": [
     "As Yokohama."
    ],
@@ -82,7 +82,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
-   "management": "Core biopsy.",
+   "management": "Low suspicion: repeat clinical/imaging in 3–6 months, re-aspirate if changed. Indeterminate/suspicious: core biopsy preferred (repeat FNAB if core unavailable). Still atypical after resampling → tissue biopsy. [WHO book, paraphrased]",
    "criteria": [
     "As Yokohama."
    ],
@@ -105,7 +105,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
-   "management": "Core biopsy.",
+   "management": "Repeat FNAB or preferably core biopsy (to show invasion and ER/PR/HER2). If not confirmed, correlate and consider resampling or excision biopsy. [WHO book, paraphrased]",
    "criteria": [
     "As Yokohama."
    ],
@@ -128,7 +128,7 @@
      "source": "WHO Reporting System (IAC-IARC), 1st ed – book chapter text – online beta"
     }
    ],
-   "management": "Treat per MDT.",
+   "management": "MDT decides treatment. Suspicious axillary nodes: FNAB, then core if needed (may spare sentinel node procedure). Special-type carcinomas need excision for typing; cell block for ICC/biomarkers. [WHO book, paraphrased]",
    "criteria": [
     "As Yokohama."
    ],
@@ -151,6 +151,7 @@
   }
  ],
  "references": [
+  "WHO Reporting System for Breast Cytopathology. IAC-IARC-WHO cytopathology reporting systems series, 1st ed., vol. 5. Lyon: IARC; 2026.",
   "Field AS, Raymond WA, Schmitt F (eds). The International Academy of Cytology Yokohama System for Reporting Breast Fine Needle Aspiration Biopsy Cytopathology. Springer, 2020."
  ]
 }
