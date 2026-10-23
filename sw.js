@@ -1,4 +1,4 @@
-const VERSION = "cf8be14d8c";
+const VERSION = "c5e8d263b3";
 const CACHE = "cytoguide-" + VERSION;
 const ASSETS = ["./","index.html","style.css","app.js","data.json","manifest.json","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-192.png","icons/icon-maskable-512.png","icons/apple-touch-icon.png","icons/favicon.ico","icons/favicon-32.png","icons/logo-header.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())); });
