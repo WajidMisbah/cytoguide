@@ -70,7 +70,7 @@
    "rom": [
     {
      "value": "AIN2+ risk 6% (95% CI 4–10%)",
-     "source": "Systematic review & meta-analysis of anal cytology, risk of AIN2+ (PMC9588562)"
+     "source": "Clarke MA et al., meta-analysis of anal cytology, AIN2+ risk (Int J Cancer 2022; PMC9588562)"
     }
    ],
    "management": "Routine screening interval per risk group.",
@@ -100,11 +100,11 @@
    "rom": [
     {
      "value": "27.1% histological HSIL",
-     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
+     "source": "Roberts JM et al., SPANC cohort, histological HSIL at baseline biopsy (Cancer Cytopathol 2018;126:136–144)"
     },
     {
      "value": "ASC-US or worse: AIN2+ risk 35% (29–43%)",
-     "source": "Systematic review & meta-analysis of anal cytology, risk of AIN2+ (PMC9588562)"
+     "source": "Clarke MA et al., meta-analysis of anal cytology, AIN2+ risk (Int J Cancer 2022; PMC9588562)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
@@ -127,7 +127,7 @@
    "rom": [
     {
      "value": "51.5% histological HSIL",
-     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
+     "source": "Roberts JM et al., SPANC cohort, histological HSIL at baseline biopsy (Cancer Cytopathol 2018;126:136–144)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
@@ -150,7 +150,7 @@
    "rom": [
     {
      "value": "31.3% histological HSIL",
-     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
+     "source": "Roberts JM et al., SPANC cohort, histological HSIL at baseline biopsy (Cancer Cytopathol 2018;126:136–144)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
@@ -173,11 +173,11 @@
    "rom": [
     {
      "value": "71.6% histological HSIL (92.6% by 12 months)",
-     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
+     "source": "Roberts JM et al., SPANC cohort, histological HSIL at baseline biopsy (Cancer Cytopathol 2018;126:136–144)"
     },
     {
      "value": "AIN2+ risk 64%",
-     "source": "Systematic review & meta-analysis of anal cytology, risk of AIN2+ (PMC9588562)"
+     "source": "Clarke MA et al., meta-analysis of anal cytology, AIN2+ risk (Int J Cancer 2022; PMC9588562)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice). Treat histological HSIL (ANCHOR trial: treatment reduces progression to cancer).",
@@ -199,8 +199,8 @@
    "definition": "Invasive anal SCC.",
    "rom": [
     {
-     "value": "Not established in published series",
-     "source": "Unverified"
+     "value": "Not established in the sources reviewed",
+     "source": "No published figure found for this category (searched Oct 2026)"
     }
    ],
    "management": "Examination under anaesthesia, biopsy, oncology referral.",
@@ -222,8 +222,8 @@
    "definition": "Atypical glandular cells or adenocarcinoma (rectal origin) and other malignancies; TBS does not provide anal glandular categories in detail.",
    "rom": [
     {
-     "value": "Not established",
-     "source": "Unverified"
+     "value": "Not established in the sources reviewed",
+     "source": "No published figure found for this category (searched Oct 2026)"
     }
    ],
    "management": "Endoscopic evaluation.",
@@ -252,7 +252,7 @@
   "Nayar R, Wilbur DC (eds). The Bethesda System for Reporting Cervical Cytology. 3rd ed. Springer, 2015 (chapter: Anal Cytology).",
   "Stier EA, Clarke MA, Deshmukh AA, et al. International Anal Neoplasia Society's consensus guidelines for anal cancer screening. Int J Cancer. 2024.",
   "Palefsky JM, et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer (ANCHOR). N Engl J Med. 2022;386:2273–2282.",
-  "Systematic review and meta-analysis of cytology and HPV-related biomarkers for anal cancer screening among different risk groups (PMC9588562).",
-  "Histological outcomes of anal high-grade cytopredictions (SPANC). Cancer Cytopathol. doi 10.1002/cncy.21936."
+  "Clarke MA, et al. A systematic review and meta-analysis of cytology and HPV-related biomarkers for anal cancer screening among different risk groups Int J Cancer. 2022 (PMC9588562).",
+  "Roberts JM, et al. Histological outcomes of anal high-grade cytopredictions (SPANC). Cancer Cytopathol. 2018;126:136–144. doi 10.1002/cncy.21936."
  ]
 }

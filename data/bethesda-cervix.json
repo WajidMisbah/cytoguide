@@ -110,8 +110,8 @@
    "definition": "No cellular evidence of neoplasia. Organisms and other non-neoplastic findings are listed optionally.",
    "rom": [
     {
-     "value": "HPV-negative NILM: 5-year CIN3+ risk ≈0.1%; HPV-positive NILM: immediate CIN3+ risk ≈2–5% (ASCCP 2019 risk tables, approximate)",
-     "source": "ASCCP 2019 (approx.)"
+     "value": "Immediate CIN3+ risk: HPV-negative 0.00% (5-yr 0.12%); HPV-positive 2.1% (5-yr 4.8%)",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
     }
    ],
    "management": "Routine screening per age/HPV status. NILM + HPV-positive (non-16/18): repeat co-test in 1 year; HPV16/18 positive: colposcopy (ASCCP 2019).",
@@ -242,8 +242,8 @@
    "definition": "Benign-appearing exfoliated endometrial cells in a woman aged 45 years or older; TBS 2014 raised the reporting age from 40 to 45. Not reported in women <45 years.",
    "rom": [
     {
-     "value": "Endometrial hyperplasia/carcinoma in ~0.5–2% (higher in postmenopausal women, especially with abnormal bleeding)",
-     "source": "Literature, approx."
+     "value": "Not established in the sources reviewed",
+     "source": "No published series verified for this app (endometrial-cell risk varies with age and symptoms)"
     }
    ],
    "management": "Endometrial evaluation only if postmenopausal (or abnormal bleeding/risk factors); not needed for asymptomatic premenopausal women (ASCCP).",
@@ -275,8 +275,8 @@
    "definition": "Changes suggestive of LSIL that are qualitatively or quantitatively insufficient for a definitive interpretation.",
    "rom": [
     {
-     "value": "CIN2+ ≈5–10% on follow-up; CIN3+ immediate risk ≈4% if HPV-positive, <0.1% if HPV-negative (ASCCP 2019, approx.)",
-     "source": "Literature / ASCCP 2019"
+     "value": "Immediate CIN3+ risk: HPV-negative 0.04%; HPV-positive 4.4%",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
     }
    ],
    "management": "Reflex HPV preferred. HPV-positive → colposcopy; HPV-negative → repeat co-test/HPV in 3 years (ASCCP 2019). Ages 21–24: repeat cytology at 1 year.",
@@ -315,8 +315,8 @@
    "definition": "Changes suggestive of HSIL but insufficient for a definitive interpretation; usually small (metaplastic-size) cells.",
    "rom": [
     {
-     "value": "CIN2+ ≈30–40%; immediate CIN3+ ≈26% if HPV-positive (ASCCP 2019, approx.)",
-     "source": "Literature / ASCCP 2019"
+     "value": "Immediate CIN3+ risk: HPV-negative 3.4%; HPV-positive 26%",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
     }
    ],
    "management": "Colposcopy regardless of HPV result (ASCCP 2019).",
@@ -340,8 +340,8 @@
    "definition": "Encompasses HPV cytopathic effect / mild dysplasia / CIN 1.",
    "rom": [
     {
-     "value": "CIN2+ ≈15–30% on biopsy follow-up; immediate CIN3+ ≈4% if HPV-positive (ASCCP 2019, approx.)",
-     "source": "Literature / ASCCP 2019"
+     "value": "Immediate CIN3+ risk: HPV-negative 1.1%; HPV-positive 4.3%",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
     }
    ],
    "management": "Colposcopy (HPV-positive or HPV not done); if HPV-negative, repeat co-test in 1 year acceptable (ASCCP 2019). Ages 21–24: repeat cytology at 1 year. Pregnancy: colposcopy may be deferred to postpartum.",
@@ -374,8 +374,8 @@
    "definition": "Encompasses moderate and severe dysplasia, CIS, CIN 2 and CIN 3. Option to add 'with features suspicious for invasion'.",
    "rom": [
     {
-     "value": "CIN2+ ≈60–90%; immediate CIN3+ ≈49% if HPV-positive; invasive cancer ≈1–2% (ASCCP 2019 / literature, approx.)",
-     "source": "Literature / ASCCP 2019"
+     "value": "Immediate CIN3+ risk (HSIL+): HPV-negative 25%; HPV-positive 49%",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
     }
    ],
    "management": "Expedited treatment (LEEP) or colposcopy with biopsy (ASCCP 2019); expedited treatment preferred for non-pregnant ≥25 years when immediate CIN3+ risk ≥60%.",
@@ -419,8 +419,8 @@
    "definition": "Malignant squamous neoplasm; TBS does not subclassify, but keratinising vs non-keratinising may be described.",
    "rom": [
     {
-     "value": "Invasive carcinoma confirmed in the large majority (PPV >80–90%)",
-     "source": "Literature, approx."
+     "value": "Grouped with HSIL+ in the ASCCP tables (immediate CIN3+ 25% HPV-neg / 49% HPV-pos); no separate SCC figure given",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
     }
    ],
    "management": "Urgent colposcopy/biopsy and gynaecological oncology referral.",
@@ -456,8 +456,12 @@
    "definition": "Glandular cells with nuclear atypia exceeding reactive/reparative change but lacking features of adenocarcinoma. Specify endocervical, endometrial or NOS; 'favor neoplastic' for endocervical or glandular NOS.",
    "rom": [
     {
-     "value": "Significant lesion (CIN2+/AIS/carcinoma) ≈9–38%; malignancy ≈3–17%; AGC-favor neoplastic markedly higher (≈27–96%)",
-     "source": "Literature, approx."
+     "value": "Immediate CIN3+ risk: HPV-negative 1.1%; HPV-positive 26%",
+     "source": "Egemen D et al. J Low Genit Tract Dis 2020;24:132–143, Table 1A (KPNC, no known prior HPV result) – immediate CIN3+ risk, not ROM"
+    },
+    {
+     "value": "Histologic outcomes: HSIL 11.1%, AIS 2.9%, endometrial hyperplasia 1.4%, malignancy 5.2% (mostly endometrial); 71% benign",
+     "source": "Schnatz PF et al. Obstet Gynecol 2006 (systematic review, 24 studies, 3,890 AGC with histologic follow-up)"
     }
    ],
    "management": "AGC (all subtypes except atypical endometrial): colposcopy + endocervical sampling + endometrial sampling if ≥35 y or at risk. Atypical endometrial cells: endometrial and endocervical sampling first. AGC-favor neoplastic/AIS: diagnostic excision if no invasive disease (ASCCP 2019).",
@@ -506,8 +510,8 @@
    "definition": "Non-invasive high-grade endocervical glandular lesion (HPV-associated).",
    "rom": [
     {
-     "value": "AIS or invasive adenocarcinoma on follow-up in the majority (≈50–90%); concurrent invasive adenocarcinoma in a subset",
-     "source": "Literature, approx."
+     "value": "High-grade lesion on histology in 91% (high-grade glandular lesion 88%)",
+     "source": "Roberts JM et al. J Low Genit Tract Dis 2005;9:71–77 (histologic follow-up of 67 cytologic AIS reports)"
     }
    ],
    "management": "Colposcopy, endocervical sampling and diagnostic excision (cold-knife cone preferred, intact specimen); hysterectomy after excision for most (ASCCP 2019).",
@@ -531,8 +535,8 @@
    "definition": "Malignant glandular neoplasm; specify endocervical, endometrial, extrauterine or NOS when possible.",
    "rom": [
     {
-     "value": "High (PPV >80%)",
-     "source": "Literature, approx."
+     "value": "Not established in the sources reviewed",
+     "source": "No published cytology-to-histology PPV series verified for this app"
     }
    ],
    "management": "Urgent gynaecological oncology referral; colposcopy/biopsy, endometrial sampling and imaging as appropriate.",
@@ -574,8 +578,8 @@
    "definition": "Malignant neoplasms that are neither squamous nor glandular (specify).",
    "rom": [
     {
-     "value": "High",
-     "source": "Literature"
+     "value": "Not established in the sources reviewed",
+     "source": "No published series verified for this app"
     }
    ],
    "management": "Biopsy and ancillary studies; oncology referral.",
@@ -638,6 +642,11 @@
  "references": [
   "Nayar R, Wilbur DC (eds). The Bethesda System for Reporting Cervical Cytology: Definitions, Criteria, and Explanatory Notes. 3rd ed. Springer, 2015.",
   "Perkins RB, et al. 2019 ASCCP Risk-Based Management Consensus Guidelines for Abnormal Cervical Cancer Screening Tests and Cancer Precursors. J Low Genit Tract Dis. 2020;24(2):102–131.",
-  "WHO guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, 2nd ed. WHO, 2021."
- ]
+  "WHO guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, 2nd ed. WHO, 2021.",
+  "Egemen D, Cheung LC, Chen X, et al. Risk estimates supporting the 2019 ASCCP risk-based management consensus guidelines. J Low Genit Tract Dis. 2020;24(2):132–143.",
+  "Perkins RB, Guido RS, Castle PE, et al. 2019 ASCCP risk-based management consensus guidelines for abnormal cervical cancer screening tests and cancer precursors. J Low Genit Tract Dis. 2020;24(2):102–131.",
+  "Schnatz PF, Guile M, O'Sullivan DM, Sorosky JI. Clinical significance of atypical glandular cells on cervical cytology. Obstet Gynecol. 2006;107(3):701–708.",
+  "Roberts JM, et al. Follow-up of cytologic predictions of endocervical glandular abnormalities: histologic outcomes in 123 cases. J Low Genit Tract Dis. 2005;9(2):71–77."
+ ],
+ "rom_note": "Cervical figures are immediate CIN3+ risks (ASCCP 2019) or histologic outcome rates, not risk of malignancy."
 }

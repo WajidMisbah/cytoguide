@@ -30,7 +30,7 @@
    "rom": [
     {
      "value": "7.7%",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "8–50%",
@@ -57,7 +57,7 @@
    "rom": [
     {
      "value": "1.0%",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "0–40%",
@@ -84,7 +84,7 @@
    "rom": [
     {
      "value": "28.0%",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "28–100%",
@@ -111,7 +111,7 @@
    "rom": [
     {
      "value": "0%",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "0% (all studies reporting it)",
@@ -138,7 +138,7 @@
    "rom": [
     {
      "value": "30.3% (90% if high-grade atypia)",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "0–34%; low-grade atypia 4–19%, high-grade atypia 64–100%",
@@ -177,7 +177,7 @@
    "rom": [
     {
      "value": "100%",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "82–100%",
@@ -204,7 +204,7 @@
    "rom": [
     {
      "value": "100%",
-     "source": "Single-institution prospective series, 334 EUS-FNAs (Diagn Cytopathol 2019, PubMed 31097287)"
+     "source": "Hoda RS et al., single-institution series, 334 EUS-FNAs (J Am Soc Cytopathol 2019; PubMed 31097287)"
     },
     {
      "value": "97–100%",
@@ -227,7 +227,7 @@
  ],
  "references": [
   "Pitman MB, Centeno BA, Ali SZ, et al. Standardized terminology and nomenclature for pancreatobiliary cytology: the Papanicolaou Society of Cytopathology guidelines. Diagn Cytopathol. 2014;42(4):338–350.",
-  "Risk of malignancy in the categories of the Papanicolaou Society of Cytopathology system for reporting pancreaticobiliary cytology. Diagn Cytopathol 2019 (PubMed 31097287).",
+  "Risk of malignancy in the categories of the Papanicolaou Society of Cytopathology system for reporting pancreaticobiliary cytology. Hoda RS, et al. J Am Soc Cytopathol. 2019 (PubMed 31097287).",
   "Diagnostic Performance of Pancreatic Cytology with the Papanicolaou Society of Cytopathology System: A Systematic Review. Int J Mol Sci. 2022;23(3):1650."
  ]
 }
