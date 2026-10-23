@@ -1,7 +1,7 @@
 {
  "id": "who-liver",
- "name": "Liver FNA cytology – proposed 5-tier scheme (NOT a WHO system)",
- "short": "Liver (proposed, non-WHO)",
+ "name": "Liver FNA cytology – proposed WHO liver scheme (in preparation; not a published WHO book)",
+ "short": "Liver (proposed WHO)",
  "edition": "Consensus/proposed – no WHO liver cytopathology book published",
  "year": 2026,
  "group": "Liver",
@@ -28,8 +28,12 @@
    "definition": "Non-representative or insufficient.",
    "rom": [
     {
-     "value": "Not established",
-     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+     "value": "32%",
+     "source": "Lab Invest 2024 abstract (USCAP), WHO liver categories (doi 10.1016/j.labinv.2024.102572)"
+    },
+    {
+     "value": "17%",
+     "source": "Institutional series, Diagn Cytopathol 2025 (doi 10.1002/dc.70112)"
     }
    ],
    "management": "Repeat FNAB/core.",
@@ -52,8 +56,12 @@
    "definition": "Benign lesion.",
    "rom": [
     {
-     "value": "Low",
-     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+     "value": "1%",
+     "source": "Lab Invest 2024 abstract (USCAP), WHO liver categories (doi 10.1016/j.labinv.2024.102572)"
+    },
+    {
+     "value": "23%",
+     "source": "Institutional series, Diagn Cytopathol 2025 (doi 10.1002/dc.70112)"
     }
    ],
    "management": "Follow-up.",
@@ -97,8 +105,12 @@
    "definition": "Atypia insufficient for neoplasm/suspicious.",
    "rom": [
     {
-     "value": "≈43% (single study)",
-     "source": "Literature (approx.)"
+     "value": "29.4%",
+     "source": "Lab Invest 2024 abstract (USCAP), WHO liver categories (doi 10.1016/j.labinv.2024.102572)"
+    },
+    {
+     "value": "100% (small numbers)",
+     "source": "Institutional series, Diagn Cytopathol 2025 (doi 10.1002/dc.70112)"
     }
    ],
    "management": "Repeat/core biopsy.",
@@ -121,8 +133,12 @@
    "definition": "Suggestive of malignancy.",
    "rom": [
     {
-     "value": "High",
-     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+     "value": "100%",
+     "source": "Lab Invest 2024 abstract (USCAP), WHO liver categories (doi 10.1016/j.labinv.2024.102572)"
+    },
+    {
+     "value": "100%",
+     "source": "Institutional series, Diagn Cytopathol 2025 (doi 10.1002/dc.70112)"
     }
    ],
    "management": "Biopsy/MDT.",
@@ -145,8 +161,12 @@
    "definition": "Malignancy.",
    "rom": [
     {
-     "value": ">95%",
-     "source": "Literature (approx.; ROM not established by WHO; unverified)"
+     "value": "100%",
+     "source": "Lab Invest 2024 abstract (USCAP), WHO liver categories (doi 10.1016/j.labinv.2024.102572)"
+    },
+    {
+     "value": "100%",
+     "source": "Institutional series, Diagn Cytopathol 2025 (doi 10.1002/dc.70112)"
     }
    ],
    "management": "Oncology/MDT.",
@@ -202,14 +222,17 @@
  ],
  "extra": [
   {
-   "title": "Caution",
+   "title": "Status",
    "items": [
-    "No WHO/IAC-IARC liver cytopathology reporting book exists (checked on WHO Classification of Tumours online, Oct 2026). This page uses a 5-tier scheme modelled on the other IAC-IARC systems as a consensus framework.",
-    "ROM values are not established – figures shown are single-study approximations."
+    "The literature refers to a 'proposed WHO Reporting System for Liver Cytopathology' with 5 categories (Insufficient/Inadequate/Non-diagnostic, Benign, Atypical, Suspicious, Malignant). No liver book appears in the WHO Classification of Tumours online cytopathology series (checked Oct 2026).",
+    "ROM is not established by WHO; figures are from individual studies applying the proposed categories."
    ]
   }
  ],
  "references": [
-  "WHO Classification of Tumours Editorial Board. Digestive System Tumours. 5th ed. IARC, 2019 (entity definitions)."
+  "Navigating the horizon: The World Health Organization reporting system for liver cytopathology (ScienceDirect, 2024; pii S2772736X24000094).",
+  "Risk of Malignancy and Overall Survival Across Diagnostic Categories of the New WHO Reporting System in Liver Cytopathology. Lab Invest. 2024 (abstract 345).",
+  "Classifying Liver Cytology Using the WHO Reporting System: Institutional Experience and Malignancy Risk Assessment. Diagn Cytopathol. 2025 (doi 10.1002/dc.70112).",
+  "WHO Classification of Tumours Editorial Board. Digestive System Tumours. 5th ed. IARC, 2019."
  ]
 }

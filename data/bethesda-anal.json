@@ -69,8 +69,8 @@
    "definition": "No squamous intraepithelial lesion; organisms may be reported.",
    "rom": [
     {
-     "value": "Low",
-     "source": "Literature (approx.; unverified)"
+     "value": "AIN2+ risk 6% (95% CI 4–10%)",
+     "source": "Systematic review & meta-analysis of anal cytology, risk of AIN2+ (PMC9588562)"
     }
    ],
    "management": "Routine screening interval per risk group.",
@@ -99,8 +99,12 @@
    "definition": "Changes suggestive of LSIL, insufficient for definitive diagnosis.",
    "rom": [
     {
-     "value": "Anal HSIL on HRA ≈ 20–30%+ (high-risk populations)",
-     "source": "Literature (approx.; unverified)"
+     "value": "27.1% histological HSIL",
+     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
+    },
+    {
+     "value": "ASC-US or worse: AIN2+ risk 35% (29–43%)",
+     "source": "Systematic review & meta-analysis of anal cytology, risk of AIN2+ (PMC9588562)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
@@ -122,8 +126,8 @@
    "definition": "Changes suggestive of HSIL but insufficient.",
    "rom": [
     {
-     "value": "Anal HSIL ≈ 40–70%",
-     "source": "Literature (approx.; unverified)"
+     "value": "51.5% histological HSIL",
+     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
@@ -145,8 +149,8 @@
    "definition": "HPV cytopathic effect / AIN1.",
    "rom": [
     {
-     "value": "Anal HSIL on biopsy ≈ 25–50%",
-     "source": "Literature (approx.; unverified)"
+     "value": "31.3% histological HSIL",
+     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice).",
@@ -168,8 +172,12 @@
    "definition": "AIN2–3; precursor of anal SCC.",
    "rom": [
     {
-     "value": "Anal HSIL on biopsy ≈ 50–80%",
-     "source": "Literature (approx.; unverified)"
+     "value": "71.6% histological HSIL (92.6% by 12 months)",
+     "source": "SPANC cohort, histological HSIL PPV at baseline biopsy (Cancer Cytopathol, doi 10.1002/cncy.21936)"
+    },
+    {
+     "value": "AIN2+ risk 64%",
+     "source": "Systematic review & meta-analysis of anal cytology, risk of AIN2+ (PMC9588562)"
     }
    ],
    "management": "High-resolution anoscopy (HRA) with directed biopsy (IANS 2024 consensus / ANCHOR-era practice). Treat histological HSIL (ANCHOR trial: treatment reduces progression to cancer).",
@@ -191,8 +199,8 @@
    "definition": "Invasive anal SCC.",
    "rom": [
     {
-     "value": "High",
-     "source": "Literature (approx.; unverified)"
+     "value": "Not established in published series",
+     "source": "Unverified"
     }
    ],
    "management": "Examination under anaesthesia, biopsy, oncology referral.",
@@ -215,7 +223,7 @@
    "rom": [
     {
      "value": "Not established",
-     "source": "Literature (approx.; unverified)"
+     "source": "Unverified"
     }
    ],
    "management": "Endoscopic evaluation.",
@@ -243,6 +251,8 @@
  "references": [
   "Nayar R, Wilbur DC (eds). The Bethesda System for Reporting Cervical Cytology. 3rd ed. Springer, 2015 (chapter: Anal Cytology).",
   "Stier EA, Clarke MA, Deshmukh AA, et al. International Anal Neoplasia Society's consensus guidelines for anal cancer screening. Int J Cancer. 2024.",
-  "Palefsky JM, et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer (ANCHOR). N Engl J Med. 2022;386:2273–2282."
+  "Palefsky JM, et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer (ANCHOR). N Engl J Med. 2022;386:2273–2282.",
+  "Systematic review and meta-analysis of cytology and HPV-related biomarkers for anal cancer screening among different risk groups (PMC9588562).",
+  "Histological outcomes of anal high-grade cytopredictions (SPANC). Cancer Cytopathol. doi 10.1002/cncy.21936."
  ]
 }

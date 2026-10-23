@@ -44,7 +44,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Clinical and radiological correlation; repeat FNA (US-guided ± ROSE) or core biopsy.",
+   "management": "Clinical and radiological correlation; repeat FNA (ideally ultrasound-guided ± ROSE). [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Fewer than 60 lesional cells (2nd ed guidance) in a solid lesion, with no matrix/specific findings.",
     "Poor preservation, obscuring blood/artefact.",
@@ -82,7 +82,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Clinical follow-up and radiological correlation.",
+   "management": "Clinical follow-up with clinical and imaging correlation (to catch an under-sampled neoplasm). [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Sialadenitis (acute/chronic/granulomatous), sialadenosis, reactive lymph node, benign cysts (lymphoepithelial cyst).",
     "Normal salivary elements with no discrete mass clinically."
@@ -150,7 +150,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Repeat FNA (± ancillary) or surgery; lab AUS rate ideally <10%.",
+   "management": "Repeat FNA or surgery (core biopsy an option); individualise with clinicoradiological correlation. Target AUS rate <10%. [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Reactive/repair atypia or squamous/oncocytic metaplasia raising neoplasm.",
     "Mucinous cyst contents with scant/no epithelium (low-grade MEC not excluded).",
@@ -194,7 +194,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Surgery (conservative excision) or clinical follow-up in selected patients.",
+   "management": "Surgery or clinical follow-up. [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Pleomorphic adenoma: fibrillary chondromyxoid matrix (magenta on MGG) with embedded plasmacytoid/spindle myoepithelial cells.",
     "Warthin tumour: oncocytic sheets, lymphocytes, granular/'dirty' proteinaceous background.",
@@ -253,7 +253,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Surgical excision.",
+   "management": "Surgery (conservative/nerve-sparing); intraoperative consultation may guide extent. [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Cellular basaloid neoplasm (basal cell adenoma vs adenoid cystic, basal cell adenocarcinoma, cellular PA).",
     "Cellular oncocytic/oncocytoid neoplasm (oncocytoma vs MEC vs acinic cell/secretory carcinoma).",
@@ -297,7 +297,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Surgical excision; frozen section may help extent.",
+   "management": "Surgery; intraoperative consultation to determine extent. [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Atypical cells suspicious for high-grade carcinoma but scant/obscured.",
     "Suspicious for specific types (e.g. adenoid cystic, MEC, lymphoma)."
@@ -333,7 +333,7 @@
      "source": "Milan 2nd ed (Rossi et al., Cancer Cytopathol 2024, doi 10.1002/cncy.22753, Table 1)"
     }
    ],
-   "management": "Surgery ± neck dissection/adjuvant per grade; lymphoma/metastasis: oncology.",
+   "management": "Surgery; extent guided by low- vs high-grade (intraoperative consultation may help). [Milan 2nd ed; Rossi et al. Cancer Cytopathol 2024 and review in IP Arch Cytol Histopathol Res]",
    "criteria": [
     "Low-grade: acinic cell, secretory, low-grade MEC, polymorphous adenocarcinoma, epithelial-myoepithelial, basal cell adenocarcinoma, intercalated duct-type.",
     "High-grade: salivary duct carcinoma, high-grade MEC, adenoid cystic (solid), carcinoma ex PA, myoepithelial carcinoma (high-grade), SCC, lymphoepithelial carcinoma, metastases."

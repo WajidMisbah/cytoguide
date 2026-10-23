@@ -39,8 +39,12 @@
    "definition": "Specimen inadequate for evaluation of high-grade urothelial carcinoma.",
    "rom": [
     {
-     "value": "Variable (reported up to ~25%); not reliably established",
-     "source": "Literature (approx., unverified)"
+     "value": "0–16% (risk of high-grade malignancy)",
+     "source": "TPS 2.0 book (Springer 2022) via JCTP 2022 review Table 1"
+    },
+    {
+     "value": "17.7%",
+     "source": "Pooled meta-analysis 'The Paris System for Reporting Urinary Cytology: A Meta-Analysis' (PMC8874476)"
     }
    ],
    "management": "Repeat urine cytology (preferably a fresh voided or instrumented sample); cystoscopy as clinically indicated.",
@@ -72,7 +76,11 @@
    "rom": [
     {
      "value": "8–24% (risk of high-grade malignancy)",
-     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
+     "source": "TPS 2.0 book (Springer 2022) via JCTP 2022 review Table 1"
+    },
+    {
+     "value": "13.0%",
+     "source": "Pooled meta-analysis 'The Paris System for Reporting Urinary Cytology: A Meta-Analysis' (PMC8874476)"
     }
    ],
    "management": "Routine clinical follow-up/surveillance as indicated.",
@@ -127,7 +135,7 @@
     {
      "name": "Low-grade urothelial neoplasm (second-line diagnosis)",
      "final": "Negative for high-grade urothelial carcinoma (NHGUC). Findings may represent a low-grade urothelial neoplasm (LGUN) [only with fibrovascular cores or a known cystoscopic lesion].",
-     "comment": "In TPS 2.0 LGUN is no longer a separate primary category; it is reported as a second-line diagnosis under NHGUC. Cystoscopic/histological correlation.",
+     "comment": "In TPS 2.0 LGUN is no longer a separate primary category; it is reported as a second-line diagnosis under NHGUC. Cystoscopic/histological correlation. Reported ROHM for LGUN 0–44% (TPS 2.0 table, via JCTP 2022 review); pooled 12.5% (PMC8874476).",
      "cat": "Diagnostic category: The Paris System 2.0 – NHGUC"
     },
     {
@@ -145,7 +153,11 @@
    "rom": [
     {
      "value": "24–53% (risk of high-grade malignancy)",
-     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
+     "source": "TPS 2.0 book (Springer 2022) via JCTP 2022 review Table 1"
+    },
+    {
+     "value": "38.7%",
+     "source": "Pooled meta-analysis 'The Paris System for Reporting Urinary Cytology: A Meta-Analysis' (PMC8874476)"
     }
    ],
    "management": "Repeat cytology, cystoscopy ± biopsy, ancillary tests (UroVysion FISH) where available; expected AUC rate 5–15% (TPS 2.0).",
@@ -170,7 +182,11 @@
    "rom": [
     {
      "value": "59–94% (risk of high-grade malignancy)",
-     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
+     "source": "TPS 2.0 book (Springer 2022) via JCTP 2022 review Table 1"
+    },
+    {
+     "value": "76.9%",
+     "source": "Pooled meta-analysis 'The Paris System for Reporting Urinary Cytology: A Meta-Analysis' (PMC8874476)"
     }
    ],
    "management": "Cystoscopy with biopsy; upper tract evaluation if bladder negative.",
@@ -195,7 +211,11 @@
    "rom": [
     {
      "value": "76–100% (risk of high-grade malignancy)",
-     "source": "TPS 2.0 book (Wojcik, Kurtycz, Rosenthal, Springer 2022), as tabulated in JCTP 2022 review (doi 10.14218/jctp.2022.00035)"
+     "source": "TPS 2.0 book (Springer 2022) via JCTP 2022 review Table 1"
+    },
+    {
+     "value": "91.8% (HGUC + other malignancies pooled)",
+     "source": "Pooled meta-analysis 'The Paris System for Reporting Urinary Cytology: A Meta-Analysis' (PMC8874476)"
     }
    ],
    "management": "Cystoscopy, biopsy/TURBT, upper tract imaging.",
@@ -238,8 +258,12 @@
    "definition": "Non-urothelial malignancies.",
    "rom": [
     {
-     "value": "High (≈>90%)",
-     "source": "Literature (approx.)"
+     "value": "Grouped with HGUC: 76–100%",
+     "source": "TPS 2.0 book (Springer 2022) via JCTP 2022 review Table 1"
+    },
+    {
+     "value": "91.8% (HGUC + other malignancies pooled)",
+     "source": "Pooled meta-analysis 'The Paris System for Reporting Urinary Cytology: A Meta-Analysis' (PMC8874476)"
     }
    ],
    "management": "Biopsy, imaging, oncology referral.",
@@ -300,6 +324,7 @@
  ],
  "references": [
   "Wojcik EM, Kurtycz DFI, Rosenthal DL (eds). The Paris System for Reporting Urinary Cytology. 2nd ed. Springer, 2022.",
-  "The Paris System for Reporting Urinary Cytology: An Updated Review. J Clin Transl Pathol. 2022 (doi 10.14218/jctp.2022.00035)."
+  "The Paris System for Reporting Urinary Cytology: An Updated Review. J Clin Transl Pathol. 2022 (doi 10.14218/jctp.2022.00035).",
+  "The Paris System for Reporting Urinary Cytology: A Meta-Analysis (PMC8874476)."
  ]
 }

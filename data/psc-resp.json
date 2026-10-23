@@ -29,8 +29,8 @@
    "definition": "Insufficient/non-representative.",
    "rom": [
     {
-     "value": "≈40%",
-     "source": "PSC 2016 (approx.; unverified)"
+     "value": "40%",
+     "source": "Layfield et al. – PSC respiratory ROM, as cited in CytoJournal 2018 reproducibility study (PMC6161499)"
     }
    ],
    "management": "Repeat sampling.",
@@ -52,8 +52,8 @@
    "definition": "Benign findings.",
    "rom": [
     {
-     "value": "≈25%",
-     "source": "PSC 2016 (approx.; unverified)"
+     "value": "24%",
+     "source": "Layfield et al. – PSC respiratory ROM, as cited in CytoJournal 2018 reproducibility study (PMC6161499)"
     }
    ],
    "management": "Clinical correlation.",
@@ -75,8 +75,8 @@
    "definition": "Atypia insufficient for suspicious.",
    "rom": [
     {
-     "value": "≈45%",
-     "source": "PSC 2016 (approx.; unverified)"
+     "value": "54%",
+     "source": "Layfield et al. – PSC respiratory ROM, as cited in CytoJournal 2018 reproducibility study (PMC6161499)"
     }
    ],
    "management": "Repeat sampling/biopsy.",
@@ -98,8 +98,8 @@
    "definition": "Benign neoplasm or low-grade (e.g. carcinoid, hamartoma).",
    "rom": [
     {
-     "value": "Low (benign) / low-grade malignant",
-     "source": "PSC 2016 (approx.; unverified)"
+     "value": "Not established",
+     "source": "Layfield et al. – PSC respiratory ROM, as cited in CytoJournal 2018 reproducibility study (PMC6161499)"
     }
    ],
    "management": "Excision per type.",
@@ -127,8 +127,8 @@
    "definition": "Suggestive but not diagnostic.",
    "rom": [
     {
-     "value": "≈80%",
-     "source": "PSC 2016 (approx.; unverified)"
+     "value": "82%",
+     "source": "Layfield et al. – PSC respiratory ROM, as cited in CytoJournal 2018 reproducibility study (PMC6161499)"
     }
    ],
    "management": "Biopsy.",
@@ -150,8 +150,8 @@
    "definition": "Unequivocal malignancy.",
    "rom": [
     {
-     "value": "≈90–100%",
-     "source": "PSC 2016 (approx.; unverified)"
+     "value": "87%",
+     "source": "Layfield et al. – PSC respiratory ROM, as cited in CytoJournal 2018 reproducibility study (PMC6161499)"
     }
    ],
    "management": "Oncology; biomarkers.",
@@ -169,6 +169,7 @@
   }
  ],
  "references": [
-  "Layfield LJ, Baloch Z, Elsheikh T, et al. Standardized terminology and nomenclature for respiratory cytology: The Papanicolaou Society of Cytopathology guidelines. Diagn Cytopathol. 2016;44(5):399–409."
+  "Layfield LJ, Baloch Z, Elsheikh T, et al. Standardized terminology and nomenclature for respiratory cytology: The Papanicolaou Society of Cytopathology guidelines. Diagn Cytopathol. 2016;44(5):399–409.",
+  "Layfield LJ, et al. The Papanicolaou Society of Cytopathology guidelines for respiratory cytology: reproducibility of categories among observers. CytoJournal (PMC6161499)."
  ]
 }

@@ -1,6 +1,6 @@
 {
  "id": "csf",
- "name": "CSF cytology (proposed tiered schemes)",
+ "name": "CSF cytology – TIS categories applied to CSF (proposed; no official CSF system)",
  "short": "CSF",
  "edition": "Descriptive / consensus (suggested templates)",
  "year": 2026,
@@ -35,8 +35,8 @@
    "definition": "Inadequate.",
    "rom": [
     {
-     "value": "N/A",
-     "source": "Consensus/literature (approx.; unverified)"
+     "value": "Not reported",
+     "source": "—"
     }
    ],
    "management": "Repeat.",
@@ -59,8 +59,8 @@
    "definition": "Benign.",
    "rom": [
     {
-     "value": "Low",
-     "source": "Consensus/literature (approx.; unverified)"
+     "value": "0.3%",
+     "source": "TIS applied to CSF, 854 cases (Cancer Cytopathol 2026, doi 10.1002/cncy.70122)"
     }
    ],
    "management": "Routine.",
@@ -104,8 +104,8 @@
    "definition": "Atypical cells.",
    "rom": [
     {
-     "value": "≈20–50% (approx.)",
-     "source": "Consensus/literature (approx.; unverified)"
+     "value": "4.5%",
+     "source": "TIS applied to CSF, 854 cases (Cancer Cytopathol 2026, doi 10.1002/cncy.70122)"
     }
    ],
    "management": "Repeat CSF, flow, MRI.",
@@ -128,8 +128,8 @@
    "definition": "Suspicious.",
    "rom": [
     {
-     "value": "High",
-     "source": "Consensus/literature (approx.; unverified)"
+     "value": "66.7%",
+     "source": "TIS applied to CSF, 854 cases (Cancer Cytopathol 2026, doi 10.1002/cncy.70122)"
     }
    ],
    "management": "Repeat, MRI.",
@@ -152,8 +152,8 @@
    "definition": "Malignancy.",
    "rom": [
     {
-     "value": "≈100%",
-     "source": "Consensus/literature (approx.; unverified)"
+     "value": "100%",
+     "source": "TIS applied to CSF, 854 cases (Cancer Cytopathol 2026, doi 10.1002/cncy.70122)"
     }
    ],
    "management": "Oncology.",
@@ -189,12 +189,15 @@
   {
    "title": "Status",
    "items": [
-    "Consensus/descriptive – no official international reporting system.",
-    "Flagged: proposed scheme, not official."
+    "There is no official international CSF reporting system. Published proposals apply the International System for Serous Fluid Cytopathology (TIS) five categories to CSF.",
+    "Adaptation used in one study: only acellular samples treated as non-diagnostic.",
+    "TIS categories also stratified overall survival in a 3-centre CSF cohort (Cancer Cytopathol 2026)."
    ]
   }
  ],
  "references": [
-  "Proposed CSF reporting schemes exist in the literature (e.g. tiered schemes analogous to other systems); none adopted internationally (verify)."
+  "Application of the International System for Serous Fluid Cytopathology in Cerebrospinal Fluid Cytology. Cytopathology 2025 (doi 10.1111/cyt.70015).",
+  "Application of The International System for Serous Fluid Cytopathology to cerebrospinal fluid and adjunct flow cytometry analysis improves diagnostic accuracy. Cancer Cytopathol. 2026 (doi 10.1002/cncy.70122).",
+  "Application of the International System for Serous Fluid Cytopathology in cerebrospinal fluid cytology: overall survival analysis associated with diagnostic categories. Cancer Cytopathol. 2026 (doi 10.1002/cncy.70127)."
  ]
 }
