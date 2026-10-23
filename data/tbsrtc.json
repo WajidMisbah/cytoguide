@@ -1,0 +1,462 @@
+{
+ "id": "tbsrtc",
+ "name": "The Bethesda System for Reporting Thyroid Cytopathology (TBSRTC)",
+ "short": "Thyroid (Bethesda)",
+ "edition": "3rd edition",
+ "year": 2023,
+ "group": "Thyroid",
+ "status": "ready",
+ "specimen": "Thyroid FNA (US-guided or palpation), smears, LBC, cell block",
+ "use": [
+  "All thyroid FNA specimens in adults and children.",
+  "Lymph node FNA for suspected metastatic thyroid carcinoma can use the same terminology (with Tg washout).",
+  "Every report should begin with one of the six category names (numbers optional but recommended alongside the name)."
+ ],
+ "not_use": [
+  "Non-thyroidal neck masses (use Milan for salivary, Sydney for lymph node).",
+  "Parathyroid lesions intentionally sampled (report descriptively + PTH washout).",
+  "Frozen sections/histology."
+ ],
+ "report_structure": [
+  "Specimen and site/nodule (side, size, TI-RADS if provided)",
+  "Diagnostic category name (± number), e.g. 'Benign (Bethesda II)'",
+  "Specific diagnosis/description",
+  "Comment: ROM implications/management suggestion (optional)",
+  "Ancillary/molecular results if done"
+ ],
+ "adequacy": [
+  {
+   "title": "Adequate",
+   "items": [
+    "At least 6 groups of well-visualised follicular cells, each with ≥10 cells, preferably on a single slide.",
+    "Exceptions (adequate regardless of count): solid nodules with cytologic atypia (any significant atypia → report it); solid nodules with inflammation (e.g. lymphocytic thyroiditis, abscess, granulomatous thyroiditis); colloid nodules with abundant thick colloid (benign).",
+    "Cell block/LBC can contribute to cellularity."
+   ]
+  },
+  {
+   "title": "Nondiagnostic",
+   "items": [
+    "Below threshold; cyst fluid only (macrophages); blood only; obscuring artefact; poor fixation/staining.",
+    "Two consecutive ND results: correlate with US; consider core biopsy or surgery if suspicious."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "I",
+   "name": "Nondiagnostic",
+   "definition": "Specimen does not meet adequacy criteria (except exceptions listed) or is uninterpretable because of preparation artefact.",
+   "rom": [
+    {
+     "value": "13% (range 5–20%)",
+     "source": "TBSRTC 3rd ed 2023 (adult)"
+    },
+    {
+     "value": "14%",
+     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+    }
+   ],
+   "management": "Repeat FNA with ultrasound guidance (no minimum wait required). Persistently ND solid nodules: close follow-up or surgery.",
+   "criteria": [
+    "Fewer than 6 groups of ≥10 well-preserved, well-stained follicular cells.",
+    "Poorly prepared, poorly stained or obscured follicular cells (blood, thick smears, air-drying).",
+    "Cyst fluid only (macrophages ± few cells) – report as ND, 'cyst fluid only' and correlate with US (purely cystic, no worrisome features may be followed)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Nondiagnostic – insufficient follicular cells",
+     "final": "Nondiagnostic (TBSRTC Category I). Insufficient follicular epithelial cells for evaluation.",
+     "comment": "Repeat ultrasound-guided FNA is recommended.",
+     "cat": "Diagnostic category: TBSRTC Category I – Nondiagnostic"
+    },
+    {
+     "name": "Nondiagnostic – cyst fluid only",
+     "final": "Nondiagnostic (TBSRTC Category I) – cyst fluid only.",
+     "comment": "Only macrophages/cyst contents are present without adequate follicular cells. Correlate with ultrasound; repeat FNA of any solid component is recommended if clinically/radiologically indicated.",
+     "cat": "Diagnostic category: TBSRTC Category I – Nondiagnostic"
+    },
+    {
+     "name": "Nondiagnostic – blood only / obscured",
+     "final": "Nondiagnostic (TBSRTC Category I). Specimen consists predominantly of blood; follicular cells are scant/obscured.",
+     "comment": "Repeat ultrasound-guided FNA is recommended.",
+     "cat": "Diagnostic category: TBSRTC Category I – Nondiagnostic"
+    },
+    {
+     "name": "Nondiagnostic – poor preservation/air-drying artefact",
+     "final": "Nondiagnostic (TBSRTC Category I) due to air-drying/preparation artefact.",
+     "comment": "Repeat FNA with optimal smear preparation/fixation is recommended.",
+     "cat": "Diagnostic category: TBSRTC Category I – Nondiagnostic"
+    }
+   ]
+  },
+  {
+   "code": "II",
+   "name": "Benign",
+   "definition": "Benign follicular nodule, thyroiditis or other benign finding.",
+   "rom": [
+    {
+     "value": "4% (range 2–7%)",
+     "source": "TBSRTC 3rd ed 2023 (adult)"
+    },
+    {
+     "value": "6%",
+     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+    }
+   ],
+   "management": "Clinical and sonographic follow-up; repeat FNA only if growth or suspicious US features.",
+   "criteria": [
+    "Benign follicular nodule: adequate follicular cells in flat sheets/macrofollicles, honeycomb, abundant colloid; macrophages; no significant atypia.",
+    "Abundant thin/thick colloid with few cells is acceptable as benign.",
+    "Thyroiditis: lymphoid cells ± oncocytes (Hashimoto), granulomas (subacute), neutrophils (acute)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Benign follicular nodule (adenomatoid/colloid nodule, nodular goitre)",
+     "final": "Benign (TBSRTC Category II). Consistent with a benign follicular nodule.",
+     "comment": "Smears show abundant colloid and benign follicular cells in flat sheets with macrophages. Clinical and ultrasound follow-up recommended.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign"
+    },
+    {
+     "name": "Graves disease (diffuse hyperplasia)",
+     "final": "Benign (TBSRTC Category II). Benign follicular cells, consistent with Graves disease in the appropriate clinical context.",
+     "comment": "Flame cells/marginal vacuoles may be present; correlate with thyroid function tests and antibodies.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign"
+    },
+    {
+     "name": "Chronic lymphocytic (Hashimoto) thyroiditis",
+     "final": "Benign (TBSRTC Category II). Consistent with chronic lymphocytic (Hashimoto) thyroiditis in the proper clinical context.",
+     "comment": "Polymorphous lymphoid cells with oncocytic follicular cells. Correlate with anti-TPO/anti-Tg antibodies. If a dominant monotonous lymphoid population is present, flow cytometry is advised to exclude lymphoma.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign"
+    },
+    {
+     "name": "Subacute granulomatous (de Quervain) thyroiditis",
+     "final": "Benign (TBSRTC Category II). Consistent with granulomatous (de Quervain) thyroiditis.",
+     "comment": "Epithelioid granulomas and multinucleated giant cells engulfing colloid with degenerated follicular cells; clinical correlation (painful gland, raised ESR) recommended.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign"
+    },
+    {
+     "name": "Acute (suppurative) thyroiditis",
+     "final": "Benign (TBSRTC Category II). Acute suppurative thyroiditis.",
+     "comment": "Neutrophils, necrotic debris and macrophages. Culture is recommended; consider pyriform sinus fistula in children.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign"
+    },
+    {
+     "name": "Riedel thyroiditis / IgG4-related thyroiditis",
+     "final": "Benign (TBSRTC Category II) – scant fibrous stromal fragments with few inflammatory cells; findings may be compatible with Riedel (IgG4-related) thyroiditis in the right context.",
+     "comment": "Aspirates are often scant/nondiagnostic; biopsy and IgG4 correlation needed.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign",
+     "consensus": true
+    },
+    {
+     "name": "Benign cyst / cystic degeneration with follicular cells",
+     "final": "Benign (TBSRTC Category II). Benign follicular nodule with cystic change.",
+     "comment": "Macrophages, colloid and adequate benign follicular cells. Follow-up recommended.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign"
+    },
+    {
+     "name": "Black thyroid / amyloid / other benign",
+     "final": "Benign (TBSRTC Category II). [Specify benign finding].",
+     "comment": "Correlate clinically.",
+     "cat": "Diagnostic category: TBSRTC Category II – Benign",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "III",
+   "name": "Atypia of undetermined significance (AUS)",
+   "definition": "Cells with architectural and/or nuclear atypia not sufficient for FN, SFM or malignant. 3rd ed: single term AUS (FLUS removed); subcategorize as AUS-nuclear or AUS-other.",
+   "rom": [
+    {
+     "value": "22% (range 13–30%); AUS-nuclear carries higher ROM than AUS-other",
+     "source": "TBSRTC 3rd ed 2023 (adult)"
+    },
+    {
+     "value": "28%",
+     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+    }
+   ],
+   "management": "Repeat FNA, molecular testing, diagnostic lobectomy or surveillance. Paediatric: repeat FNA or surgery (molecular testing not established). Lab AUS rate should be ≤10%.",
+   "criteria": [
+    "AUS-nuclear: focal nuclear atypia (enlargement, pallor, grooves, irregular contours) in otherwise benign aspirate; extensive but mild atypia; atypical cyst-lining cells; 'histiocytoid' cells.",
+    "AUS-other (architectural): prominent microfollicles/crowding in a sparse aspirate insufficient for FN.",
+    "AUS-other: predominance of oncocytic cells in sparse aspirate with scant colloid; atypical lymphoid cells (flow recommended); atypia not otherwise categorised (e.g. psammoma bodies without PTC nuclei).",
+    "Recommended: specify subtype in report; nuclear atypia carries higher ROM."
+   ],
+   "diagnoses": [
+    {
+     "name": "AUS – nuclear atypia",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-nuclear (cytologic atypia).",
+     "comment": "Focal nuclear changes (enlargement, pallor, grooves) are present but insufficient for suspicious for PTC. Repeat FNA and/or molecular testing is suggested.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    },
+    {
+     "name": "AUS – architectural atypia (microfollicles)",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-other (architectural atypia).",
+     "comment": "Scant aspirate with predominant microfollicles insufficient for follicular neoplasm. Repeat FNA and/or molecular testing is suggested.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    },
+    {
+     "name": "AUS – nuclear and architectural atypia",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-nuclear and architectural.",
+     "comment": "Repeat FNA, molecular testing or diagnostic lobectomy as clinically appropriate.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    },
+    {
+     "name": "AUS – oncocytic cell predominance (sparse)",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-other (oncocytic cells).",
+     "comment": "Sparse aspirate composed predominantly of oncocytic cells with scant colloid; clinical context (e.g. Hashimoto, multinodular goitre) may favour benign. Repeat FNA/molecular testing suggested.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    },
+    {
+     "name": "AUS – atypical lymphoid cells",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-other (atypical lymphoid cells, lymphoma not excluded).",
+     "comment": "Repeat FNA with material for flow cytometry is recommended.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    },
+    {
+     "name": "AUS – atypical cyst-lining cells",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-nuclear (atypical cyst lining cells).",
+     "comment": "Likely reactive cyst-lining cells but PTC cannot be excluded; repeat FNA of solid area suggested.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    },
+    {
+     "name": "AUS – psammoma bodies without diagnostic nuclear features",
+     "final": "Atypia of undetermined significance (TBSRTC Category III) – AUS-other.",
+     "comment": "Psammoma bodies without papillary carcinoma nuclear features. Repeat FNA suggested.",
+     "cat": "Diagnostic category: TBSRTC Category III – AUS"
+    }
+   ]
+  },
+  {
+   "code": "IV",
+   "name": "Follicular neoplasm (FN)",
+   "definition": "Moderately to highly cellular aspirate of follicular cells with marked crowding/microfollicles, or composed exclusively of oncocytic cells (FN, oncocytic type). Includes cases with mild nuclear changes (to account for NIFTP/follicular-pattern tumours).",
+   "rom": [
+    {
+     "value": "30% (range 23–34%)",
+     "source": "TBSRTC 3rd ed 2023 (adult)"
+    },
+    {
+     "value": "50%",
+     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+    }
+   ],
+   "management": "Molecular testing and/or diagnostic lobectomy. Paediatric: surgery.",
+   "criteria": [
+    "Cellular aspirate with predominant microfollicles/trabeculae, crowding and overlapping; scant colloid.",
+    "Mild nuclear changes (enlargement, chromatin pallor) allowed if no true PTC nuclei (papillae, pseudoinclusions absent).",
+    "FN oncocytic type: almost exclusively oncocytic cells (abundant granular cytoplasm, prominent nucleoli), few/no lymphocytes or colloid."
+   ],
+   "diagnoses": [
+    {
+     "name": "Follicular neoplasm",
+     "final": "Follicular neoplasm (TBSRTC Category IV).",
+     "comment": "Cellular aspirate of follicular cells in microfollicles with scant colloid. Differential includes follicular adenoma, follicular carcinoma, follicular-pattern PTC/NIFTP and adenomatous nodule. Molecular testing and/or lobectomy suggested.",
+     "cat": "Diagnostic category: TBSRTC Category IV – Follicular neoplasm"
+    },
+    {
+     "name": "Follicular neoplasm, oncocytic (Hürthle cell) type",
+     "final": "Follicular neoplasm, oncocytic (formerly Hürthle cell) type (TBSRTC Category IV).",
+     "comment": "Aspirate composed almost exclusively of oncocytic cells. Differential includes oncocytic adenoma/carcinoma and oncocytic hyperplastic nodule. Molecular testing and/or lobectomy suggested.",
+     "cat": "Diagnostic category: TBSRTC Category IV – Follicular neoplasm"
+    },
+    {
+     "name": "Follicular neoplasm with mild nuclear changes (NIFTP/follicular variant PTC in differential)",
+     "final": "Follicular neoplasm (TBSRTC Category IV). Mild nuclear changes are present.",
+     "comment": "Differential includes NIFTP, invasive encapsulated follicular variant PTC and follicular adenoma/carcinoma. Lobectomy recommended.",
+     "cat": "Diagnostic category: TBSRTC Category IV – Follicular neoplasm"
+    },
+    {
+     "name": "Hyalinizing trabecular tumour (favored)",
+     "final": "Follicular neoplasm (TBSRTC Category IV), favouring hyalinizing trabecular tumour (or Suspicious for malignancy depending on nuclear features).",
+     "comment": "Cohesive cells around hyaline material, grooves and pseudoinclusions; Ki-67 (MIB-1) membranous staining supports. Lobectomy suggested.",
+     "cat": "Diagnostic category: TBSRTC Category IV – Follicular neoplasm",
+     "consensus": true,
+     "note": "HTT may be categorised as FN or SFM depending on features."
+    },
+    {
+     "name": "Parathyroid tissue (intrathyroidal) suspected",
+     "final": "Follicular neoplasm (TBSRTC Category IV) – cannot exclude parathyroid tissue.",
+     "comment": "Immunostains (GATA3, PTH, chromogranin; TTF1/Tg negative) or PTH washout measurement suggested.",
+     "cat": "Diagnostic category: TBSRTC Category IV – Follicular neoplasm",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "V",
+   "name": "Suspicious for malignancy (SFM)",
+   "definition": "Features strongly suspicious but insufficient for definitive malignancy. Specify: suspicious for PTC, MTC, lymphoma, metastatic, other.",
+   "rom": [
+    {
+     "value": "74% (range 67–83%)",
+     "source": "TBSRTC 3rd ed 2023 (adult)"
+    },
+    {
+     "value": "81%",
+     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+    }
+   ],
+   "management": "Molecular testing, lobectomy or near-total thyroidectomy.",
+   "criteria": [
+    "Suspicious for PTC: patchy nuclear changes, incomplete nuclear changes, sparse cells with PTC features, or cystic degeneration pattern.",
+    "Suspicious for MTC: monomorphic plasmacytoid/spindle cells with salt-and-pepper chromatin, insufficient material for IHC (calcitonin, CEA).",
+    "Suspicious for lymphoma: monomorphic lymphoid cells; flow cytometry needed.",
+    "Suspicious for malignancy, other (e.g. metastasis, ATC)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for papillary thyroid carcinoma",
+     "final": "Suspicious for malignancy (TBSRTC Category V) – suspicious for papillary thyroid carcinoma.",
+     "comment": "Some nuclear features of PTC are present but are focal/incomplete. Molecular testing or surgery recommended; NIFTP is in the differential.",
+     "cat": "Diagnostic category: TBSRTC Category V – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for medullary thyroid carcinoma",
+     "final": "Suspicious for malignancy (TBSRTC Category V) – suspicious for medullary thyroid carcinoma.",
+     "comment": "Serum calcitonin and CEA, and calcitonin immunostain on repeat FNA/cell block, are recommended.",
+     "cat": "Diagnostic category: TBSRTC Category V – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for lymphoma",
+     "final": "Suspicious for malignancy (TBSRTC Category V) – suspicious for lymphoma.",
+     "comment": "Repeat FNA for flow cytometry or core biopsy is recommended.",
+     "cat": "Diagnostic category: TBSRTC Category V – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for metastatic malignancy",
+     "final": "Suspicious for malignancy (TBSRTC Category V) – suspicious for metastatic [carcinoma/melanoma].",
+     "comment": "Clinical history and IHC on cell block suggested.",
+     "cat": "Diagnostic category: TBSRTC Category V – Suspicious for malignancy"
+    },
+    {
+     "name": "Suspicious for malignancy, other (e.g. anaplastic carcinoma)",
+     "final": "Suspicious for malignancy (TBSRTC Category V) – suspicious for [specify].",
+     "comment": "Further sampling/biopsy recommended.",
+     "cat": "Diagnostic category: TBSRTC Category V – Suspicious for malignancy"
+    }
+   ]
+  },
+  {
+   "code": "VI",
+   "name": "Malignant",
+   "definition": "Cytomorphologic features conclusive for malignancy; specify type.",
+   "rom": [
+    {
+     "value": "97% (range 97–100%)",
+     "source": "TBSRTC 3rd ed 2023 (adult)"
+    },
+    {
+     "value": "98%",
+     "source": "TBSRTC 3rd ed 2023 (paediatric)"
+    }
+   ],
+   "management": "Lobectomy or near-total thyroidectomy (PTC/follicular-derived); MTC, ATC, lymphoma and metastases managed by tumour-specific protocols. Active surveillance may be an option for papillary microcarcinoma.",
+   "criteria": [
+    "PTC: papillae/sheets, enlarged oval overlapping nuclei, pale powdery chromatin, grooves, intranuclear pseudoinclusions, psammoma bodies, ropy colloid, multinucleate giant cells.",
+    "MTC: dispersed plasmacytoid/spindle/round cells, salt-and-pepper chromatin, red cytoplasmic granules (MGG), amyloid; calcitonin+.",
+    "High-grade follicular-derived (poorly differentiated/DHGTC): insular/solid/trabecular, scant colloid, mitoses, necrosis.",
+    "ATC: markedly pleomorphic epithelioid/spindle/giant cells, necrosis, neutrophils.",
+    "Lymphoma, SCC, metastases."
+   ],
+   "diagnoses": [
+    {
+     "name": "Papillary thyroid carcinoma (classic)",
+     "final": "Malignant (TBSRTC Category VI) – papillary thyroid carcinoma.",
+     "comment": "Diagnostic nuclear features of PTC (enlarged overlapping oval nuclei, powdery chromatin, grooves and intranuclear pseudoinclusions) with papillary fragments and psammoma bodies.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Papillary thyroid carcinoma, follicular subtype",
+     "final": "Malignant (TBSRTC Category VI) – papillary thyroid carcinoma, consistent with follicular subtype.",
+     "comment": "Microfollicles with well-developed PTC nuclear features. NIFTP cannot be excluded cytologically for encapsulated lesions; histology required.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Papillary thyroid carcinoma, tall cell subtype",
+     "final": "Malignant (TBSRTC Category VI) – papillary thyroid carcinoma, with features suggestive of tall cell subtype.",
+     "comment": "Cells 2–3× taller than wide with abundant oncocytic cytoplasm and frequent pseudoinclusions; aggressive subtype – histological confirmation required.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Papillary thyroid carcinoma, other subtypes (columnar, hobnail, diffuse sclerosing, Warthin-like, oncocytic, solid, cribriform-morular*)",
+     "final": "Malignant (TBSRTC Category VI) – papillary thyroid carcinoma, [subtype] features.",
+     "comment": "*Cribriform-morular thyroid carcinoma is a separate entity in WHO 2022 (CTNNB1/APC; β-catenin nuclear positivity; consider FAP).",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Medullary thyroid carcinoma",
+     "final": "Malignant (TBSRTC Category VI) – medullary thyroid carcinoma.",
+     "comment": "Confirmed by calcitonin positivity / elevated serum calcitonin. Recommend serum calcitonin, CEA, RET germline testing and pheochromocytoma screening.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Poorly differentiated / high-grade follicular-derived carcinoma",
+     "final": "Malignant (TBSRTC Category VI) – carcinoma, consistent with poorly differentiated (high-grade follicular cell-derived) thyroid carcinoma.",
+     "comment": "Solid/insular/trabecular groups, scant colloid, mitoses and necrosis; TTF1/PAX8/thyroglobulin positive.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Anaplastic (undifferentiated) thyroid carcinoma",
+     "final": "Malignant (TBSRTC Category VI) – anaplastic thyroid carcinoma.",
+     "comment": "Highly pleomorphic malignant cells with necrosis. Urgent oncology referral; BRAF V600E testing recommended for targeted therapy.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Squamous cell carcinoma of thyroid",
+     "final": "Malignant (TBSRTC Category VI) – squamous cell carcinoma.",
+     "comment": "WHO 2022 classifies primary thyroid SCC as a pattern of anaplastic carcinoma; exclude direct extension or metastasis (larynx, oesophagus).",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Lymphoma (e.g. DLBCL, MALT lymphoma)",
+     "final": "Malignant (TBSRTC Category VI) – non-Hodgkin lymphoma [type if determined].",
+     "comment": "Flow cytometry/IHC confirm; low-grade MALT lymphoma often needs histology.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Metastatic malignancy",
+     "final": "Malignant (TBSRTC Category VI) – metastatic [carcinoma/melanoma], consistent with [primary].",
+     "comment": "Common primaries: kidney, lung, breast, melanoma. IHC on cell block recommended.",
+     "cat": "Diagnostic category: TBSRTC Category VI – Malignant"
+    },
+    {
+     "name": "Follicular / oncocytic carcinoma",
+     "final": "Not diagnosable on cytology – report as Follicular neoplasm (Category IV).",
+     "comment": "Capsular/vascular invasion cannot be assessed on FNA.",
+     "cat": "Diagnostic category: TBSRTC Category IV – Follicular neoplasm (not VI)",
+     "consensus": true,
+     "note": "Included for search: follicular carcinoma is never Category VI on FNA."
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Paediatric notes (3rd ed)",
+   "items": [
+    "ROMs are higher in children for every category (ND 14%, B 6%, AUS 28%, FN 50%, SFM 81%, MAL 98%).",
+    "Molecular testing is not yet standard; AUS → repeat FNA or surgery, FN → surgery (lobectomy/thyroidectomy)."
+   ]
+  },
+  {
+   "title": "NIFTP impact",
+   "items": [
+    "3rd ed quotes ROM with NIFTP counted as malignant; where NIFTP is excluded, ROM falls (largest drop in FN, SFM, AUS).",
+    "Avoid diagnosing 'malignant – PTC' for purely follicular-patterned lesions with subtle nuclear changes; use SFM or FN."
+   ]
+  },
+  {
+   "title": "Molecular testing",
+   "items": [
+    "Afirma GSC/XA, ThyroSeq v3, ThyGeNEXT/ThyraMIR are used for AUS/FN to refine risk (where available)."
+   ]
+  }
+ ],
+ "references": [
+  "Ali SZ, VanderLaan PA (eds). The Bethesda System for Reporting Thyroid Cytopathology: Definitions, Criteria, and Explanatory Notes. 3rd ed. Springer, 2023.",
+  "Ali SZ, Baloch ZW, Cochand-Priollet B, et al. The 2023 Bethesda System for Reporting Thyroid Cytopathology. Thyroid. 2023;33(9):1039–1044.",
+  "WHO Classification of Tumours Editorial Board. Endocrine and Neuroendocrine Tumours. 5th ed. IARC, 2022."
+ ]
+}

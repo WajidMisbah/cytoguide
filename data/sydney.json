@@ -1,0 +1,367 @@
+{
+ "id": "sydney",
+ "name": "The Sydney System for Performance, Classification and Reporting of Lymph Node Cytopathology",
+ "short": "Lymph node (Sydney)",
+ "edition": "IAC proposal (Al-Abbadi et al.)",
+ "year": 2020,
+ "group": "Lymph node",
+ "status": "ready",
+ "specimen": "Lymph node FNA (palpation/US/EUS/EBUS), with ROSE and ancillary studies",
+ "use": [
+  "Superficial and deep lymph node FNA in adults and children.",
+  "Can be combined with site-specific systems (e.g. thyroid Tg washout) for metastatic disease."
+ ],
+ "not_use": [
+  "Extranodal lymphoid masses at other sites can use descriptive reporting (or WHO LN/spleen/thymus system).",
+  "Not a substitute for histology in primary lymphoma subtyping."
+ ],
+ "report_structure": [
+  "Site, guidance, number of passes, ROSE",
+  "Category (L1–L5) with name",
+  "Specific diagnosis",
+  "Ancillary tests performed (flow, IHC, FISH, molecular, microbiology)",
+  "Recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Performance & adequacy",
+   "items": [
+    "Sydney part I covers performance: 22–27G needles, US guidance, ROSE, dedicated passes for flow cytometry (RPMI), cell block, microbiology (culture/CBNAAT) and molecular studies.",
+    "No numerical threshold; adequacy = sufficient representative, well-preserved material to answer the clinical question.",
+    "Necrotic material should prompt further passes from the periphery."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "L1",
+   "name": "Inadequate / Non-diagnostic",
+   "definition": "Insufficient, poorly preserved or obscured material, or material not representative of the lesion.",
+   "rom": [
+    {
+     "value": "Not fixed in the 2020 proposal",
+     "source": "Sydney 2020"
+    },
+    {
+     "value": "≈20–55%",
+     "source": "Post-implementation studies (approx., wide variation)"
+    }
+   ],
+   "management": "Repeat FNA (ultrasound-guided, with ROSE) or core/excision biopsy depending on clinical suspicion.",
+   "criteria": [
+    "Scant lymphoid cells/blood only; crush or air-drying artefact; necrosis only without viable cells (necrosis alone can be informative).",
+    "Material not representative of the clinically/radiologically suspicious node."
+   ],
+   "diagnoses": [
+    {
+     "name": "Inadequate – scant/blood only",
+     "final": "L1: Inadequate/non-diagnostic. Insufficient lymphoid material for evaluation.",
+     "comment": "Repeat ultrasound-guided FNA with ROSE or biopsy recommended if clinically indicated.",
+     "cat": "Category: Sydney System L1"
+    },
+    {
+     "name": "Non-diagnostic – necrotic material only",
+     "final": "L1: Non-diagnostic. Necrotic material only, no viable cells.",
+     "comment": "Differential includes tuberculosis, necrotic metastasis and lymphoma. Suggest AFB stain/CBNAAT and repeat FNA from the viable periphery or biopsy.",
+     "cat": "Category: Sydney System L1"
+    }
+   ]
+  },
+  {
+   "code": "L2",
+   "name": "Benign",
+   "definition": "Reactive/benign lymphoid process with polymorphous population, or specific benign diagnosis.",
+   "rom": [
+    {
+     "value": "Not fixed in the 2020 proposal",
+     "source": "Sydney 2020"
+    },
+    {
+     "value": "≈2–15%",
+     "source": "Post-implementation studies (approx., wide variation)"
+    }
+   ],
+   "management": "Clinical follow-up; re-evaluate (repeat FNA/biopsy) if node persists or enlarges. Ancillary flow may support benign.",
+   "criteria": [
+    "Polymorphous lymphoid population: small lymphocytes predominate with centrocytes, centroblasts, immunoblasts, plasma cells, tingible-body macrophages, lymphohistiocytic aggregates.",
+    "Specific benign patterns: granulomatous, suppurative, histiocytic, infectious."
+   ],
+   "diagnoses": [
+    {
+     "name": "Reactive lymphoid hyperplasia",
+     "final": "L2: Benign. Reactive lymphoid hyperplasia.",
+     "comment": "Polymorphous lymphoid population with tingible-body macrophages. Clinical follow-up recommended.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Granulomatous lymphadenitis",
+     "final": "L2: Benign. Granulomatous lymphadenitis.",
+     "comment": "Epithelioid granulomas ± multinucleated giant cells. Suggest ZN stain, CBNAAT/culture; differential sarcoidosis, fungal infection, cat-scratch disease.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Necrotizing granulomatous lymphadenitis consistent with tuberculosis",
+     "final": "L2: Benign. Necrotizing granulomatous lymphadenitis, consistent with tuberculosis (AFB positive/negative).",
+     "comment": "Caseous necrosis with epithelioid granulomas. ZN stain/CBNAAT result: [ ]. Correlate clinically.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Suppurative/acute lymphadenitis (abscess)",
+     "final": "L2: Benign. Acute suppurative lymphadenitis.",
+     "comment": "Neutrophils and necrotic debris; culture recommended.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Histiocytic necrotizing lymphadenitis (Kikuchi–Fujimoto)",
+     "final": "L2: Benign. Features consistent with histiocytic necrotizing lymphadenitis (Kikuchi–Fujimoto).",
+     "comment": "Karyorrhectic debris, crescentic histiocytes and plasmacytoid dendritic cells without neutrophils; exclude SLE.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Rosai–Dorfman disease",
+     "final": "L2: Benign. Features consistent with Rosai–Dorfman disease.",
+     "comment": "Large histiocytes with emperipolesis; S100+, CD68/CD163+, OCT2+, CD1a−.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Dermatopathic lymphadenopathy",
+     "final": "L2: Benign. Reactive lymphadenopathy with dermatopathic features.",
+     "comment": "Langerhans cells/histiocytes with melanin pigment; correlate with skin disease; exclude mycosis fungoides if suspected.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Infectious mononucleosis / viral lymphadenitis",
+     "final": "L2: Benign. Reactive lymphoid hyperplasia with immunoblastic proliferation, compatible with viral (e.g. EBV) lymphadenitis.",
+     "comment": "Monospot/EBV serology recommended; immunoblasts can mimic lymphoma.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Toxoplasma lymphadenitis",
+     "final": "L2: Benign. Reactive lymphadenitis with microgranulomas (small epithelioid clusters), compatible with toxoplasmosis.",
+     "comment": "Toxoplasma serology recommended.",
+     "cat": "Category: Sydney System L2",
+     "consensus": true
+    },
+    {
+     "name": "Sarcoidosis",
+     "final": "L2: Benign. Non-necrotizing granulomatous lymphadenitis; sarcoidosis is a consideration after exclusion of infection.",
+     "comment": "Exclude tuberculosis and fungal infection (ZN/GMS stains, CBNAAT, culture); correlate with serum ACE, calcium and imaging.",
+     "cat": "Category: Sydney System L2"
+    },
+    {
+     "name": "Fungal lymphadenitis (histoplasma, cryptococcus)",
+     "final": "L2: Benign. Granulomatous lymphadenitis with fungal organisms (specify).",
+     "comment": "GMS/PAS stains, culture.",
+     "cat": "Category: Sydney System L2",
+     "consensus": true
+    },
+    {
+     "name": "Benign non-lymphoid (branchial cleft cyst, lipoma) – sampled as 'node'",
+     "final": "L2: Benign. [Specify, e.g. contents of branchial cleft cyst].",
+     "comment": "Squamous cyst in adults >40 years: exclude cystic metastatic HPV-associated SCC (p16/HPV testing).",
+     "cat": "Category: Sydney System L2",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "L3",
+   "name": "Atypical (cells of undetermined significance / atypical lymphoid cells of uncertain significance)",
+   "definition": "Atypical cells (lymphoid or non-lymphoid) insufficient for suspicious; or limited material/ancillary tests not available.",
+   "rom": [
+    {
+     "value": "Not fixed in the 2020 proposal",
+     "source": "Sydney 2020"
+    },
+    {
+     "value": "≈30–60%",
+     "source": "Post-implementation studies (approx., wide variation)"
+    }
+   ],
+   "management": "Repeat FNA with flow cytometry/cell block, or core/excision biopsy.",
+   "criteria": [
+    "Predominantly small lymphocytes with a minor atypical population; possible low-grade lymphoma (e.g. follicular, MZL) but not confirmed.",
+    "Mixed population with increased large cells or atypical large cells; Hodgkin-like cells too few.",
+    "Few atypical non-lymphoid cells (carcinoma/melanoma not confirmed)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical lymphoid cells of uncertain significance (ALUS)",
+     "final": "L3: Atypical lymphoid cells of uncertain significance.",
+     "comment": "Lymphoid population with atypical features insufficient for suspicion of lymphoma. Flow cytometry/IHC on repeat FNA, or excision biopsy recommended.",
+     "cat": "Category: Sydney System L3"
+    },
+    {
+     "name": "Atypical cells of undetermined significance (non-lymphoid, AUS)",
+     "final": "L3: Atypical cells of undetermined significance.",
+     "comment": "Few atypical cells of uncertain lineage; repeat FNA with cell block or biopsy recommended.",
+     "cat": "Category: Sydney System L3"
+    }
+   ]
+  },
+  {
+   "code": "L4",
+   "name": "Suspicious for malignancy",
+   "definition": "Features suggestive of lymphoma or metastatic malignancy but insufficient for definitive diagnosis; ancillary tests not available/inconclusive.",
+   "rom": [
+    {
+     "value": "Not fixed in the 2020 proposal",
+     "source": "Sydney 2020"
+    },
+    {
+     "value": "≈70–95%",
+     "source": "Post-implementation studies (approx., wide variation)"
+    }
+   ],
+   "management": "Excision/core biopsy with ancillary studies; for metastasis, repeat FNA/cell block or biopsy.",
+   "criteria": [
+    "Monomorphous lymphoid population (small or large) without flow/IHC confirmation.",
+    "Few Reed–Sternberg/Hodgkin cells in an appropriate background.",
+    "Few atypical epithelial/melanocytic cells suspicious for metastasis."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for lymphoma (NHL)",
+     "final": "L4: Suspicious for malignancy – suspicious for non-Hodgkin lymphoma.",
+     "comment": "Monotonous lymphoid population; flow cytometry/IHC and excision biopsy are recommended for classification.",
+     "cat": "Category: Sydney System L4"
+    },
+    {
+     "name": "Suspicious for Hodgkin lymphoma",
+     "final": "L4: Suspicious for malignancy – suspicious for classic Hodgkin lymphoma.",
+     "comment": "Occasional large atypical binucleate/mononuclear cells in a reactive background of eosinophils, plasma cells and histiocytes. Excision biopsy with CD30/CD15/PAX5 (weak) IHC recommended.",
+     "cat": "Category: Sydney System L4"
+    },
+    {
+     "name": "Suspicious for metastatic malignancy",
+     "final": "L4: Suspicious for malignancy – suspicious for metastatic [carcinoma/melanoma].",
+     "comment": "Repeat FNA with cell block or biopsy recommended.",
+     "cat": "Category: Sydney System L4"
+    }
+   ]
+  },
+  {
+   "code": "L5",
+   "name": "Malignant",
+   "definition": "Unequivocal malignancy; specify lymphoma (with subtype where ancillary tests allow) or metastatic tumour.",
+   "rom": [
+    {
+     "value": "Not fixed in the 2020 proposal",
+     "source": "Sydney 2020"
+    },
+    {
+     "value": "≈97–100%",
+     "source": "Post-implementation studies (approx., wide variation)"
+    }
+   ],
+   "management": "Lymphoma: excision/core biopsy usually needed for WHO subtype unless FNA + flow/IHC/FISH sufficient (e.g. recurrence, staging). Metastasis: work up primary; cell block for IHC/biomarkers.",
+   "criteria": [
+    "Metastatic carcinoma: cohesive non-lymphoid malignant cells; squamous, glandular, small cell, undifferentiated patterns.",
+    "Melanoma, germ cell tumours, sarcoma.",
+    "NHL confirmed by flow cytometry (light-chain restriction/aberrant phenotype) ± IHC/FISH.",
+    "Classic Hodgkin lymphoma with diagnostic RS cells and IHC."
+   ],
+   "diagnoses": [
+    {
+     "name": "Metastatic squamous cell carcinoma",
+     "final": "L5: Malignant. Metastatic squamous cell carcinoma.",
+     "comment": "p16/HPV ISH recommended for cervical nodes (oropharyngeal primary); search for primary.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Metastatic adenocarcinoma",
+     "final": "L5: Malignant. Metastatic adenocarcinoma.",
+     "comment": "IHC on cell block to suggest primary.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Metastatic papillary thyroid carcinoma",
+     "final": "L5: Malignant. Metastatic papillary thyroid carcinoma.",
+     "comment": "Thyroglobulin washout/IHC (TTF1, Tg) supports.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Metastatic small cell / neuroendocrine carcinoma",
+     "final": "L5: Malignant. Metastatic small cell carcinoma.",
+     "comment": "Small cells with nuclear moulding, fine chromatin and crush artefact; confirm with synaptophysin/chromogranin/INSM1 and TTF1 on cell block; lung is the usual primary.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Metastatic undifferentiated / lymphoepithelial (nasopharyngeal) carcinoma",
+     "final": "L5: Malignant. Metastatic undifferentiated (lymphoepithelial) carcinoma.",
+     "comment": "EBER ISH recommended (nasopharyngeal primary).",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Metastatic melanoma",
+     "final": "L5: Malignant. Metastatic melanoma.",
+     "comment": "SOX10/S100/HMB45/Melan-A.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Metastatic germ cell tumour (seminoma etc.)",
+     "final": "L5: Malignant. Metastatic germ cell tumour.",
+     "comment": "OCT3/4, SALL4, PLAP/CD117; serum markers.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Diffuse large B-cell lymphoma",
+     "final": "L5: Malignant. Non-Hodgkin lymphoma, large B-cell type (flow/IHC confirmed).",
+     "comment": "Excision biopsy suggested for cell-of-origin, MYC/BCL2/BCL6 FISH.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Low-grade B-cell lymphoma (CLL/SLL, follicular, mantle, marginal zone)",
+     "final": "L5: Malignant. Low-grade B-cell non-Hodgkin lymphoma, [subtype if determined].",
+     "comment": "Flow cytometry: [immunophenotype]. Grading of follicular lymphoma requires histology.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Burkitt lymphoma / high-grade B-cell lymphoma",
+     "final": "L5: Malignant. High-grade B-cell lymphoma, consistent with Burkitt lymphoma.",
+     "comment": "MYC FISH and urgent oncology referral.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Lymphoblastic lymphoma",
+     "final": "L5: Malignant. Lymphoblastic lymphoma (TdT+).",
+     "comment": "Medium-sized blasts with fine chromatin; flow cytometry for B/T lineage (CD34, TdT, CD19/cCD3). Urgent haemato-oncology referral; often mediastinal mass in T-LBL.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "T-cell lymphoma (PTCL, ALCL)",
+     "final": "L5: Malignant. T-cell lymphoma [ALCL, ALK+/−, PTCL].",
+     "comment": "Histology for classification.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Classic Hodgkin lymphoma",
+     "final": "L5: Malignant. Classic Hodgkin lymphoma.",
+     "comment": "RS/Hodgkin cells (CD30+, CD15+, PAX5 weak, CD45−) in a mixed background; excision biopsy for subtyping.",
+     "cat": "Category: Sydney System L5"
+    },
+    {
+     "name": "Plasma cell neoplasm / myeloid sarcoma",
+     "final": "L5: Malignant. [Plasmacytoma / myeloid sarcoma].",
+     "comment": "Plasma cell neoplasm: CD138, kappa/lambda, SPEP/free light chains. Myeloid sarcoma: MPO, CD117, CD34, lysozyme; bone marrow evaluation recommended.",
+     "cat": "Category: Sydney System L5",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Ancillary tests",
+   "items": [
+    "Flow cytometry: light-chain restriction, CD5/CD10/CD23/CD200/FMC7 (B-cell), T-cell aberrancy; best on fresh RPMI material.",
+    "Cell block IHC: CD20/CD3/CD10/BCL2/BCL6/MUM1/cyclin D1/SOX11/Ki-67, CD30/CD15/PAX5, TdT; epithelial/melanocytic panels.",
+    "FISH/molecular: MYC, BCL2, BCL6, CCND1; IGH/TCR clonality; EBER ISH; HPV.",
+    "Microbiology: ZN stain, CBNAAT/GeneXpert, culture."
+   ]
+  }
+ ],
+ "references": [
+  "Al-Abbadi MA, Barroca H, Bode-Lesniewska B, et al. A Proposal for the Performance, Classification, and Reporting of Lymph Node Fine-Needle Aspiration Cytopathology: The Sydney System. Acta Cytol. 2020;64(4):306–322."
+ ]
+}

@@ -1,0 +1,421 @@
+{
+ "id": "yokohama",
+ "name": "The International Academy of Cytology Yokohama System for Reporting Breast Fine Needle Aspiration Biopsy Cytopathology",
+ "short": "Breast (Yokohama)",
+ "edition": "1st edition",
+ "year": 2020,
+ "group": "Breast",
+ "status": "ready",
+ "specimen": "Breast FNA (palpation or image-guided), including axillary tail lesions",
+ "use": [
+  "All breast FNA specimens (palpable and image-guided).",
+  "Interpret alongside clinical examination and imaging (triple test).",
+  "Male breast lesions."
+ ],
+ "not_use": [
+  "Nipple discharge and nipple scrape cytology (report descriptively).",
+  "Axillary lymph nodes (use Sydney system).",
+  "Core needle biopsy histology (use histological B-categories, e.g. UK B1–B5)."
+ ],
+ "report_structure": [
+  "Specimen, side, site (clock position), guidance, lesion size and imaging category (BI-RADS) if available",
+  "Category name and number",
+  "Specific diagnosis or description",
+  "Comment: triple-test correlation and recommended next step",
+  "ROM and management statement optional"
+ ],
+ "terminology": [
+  "Use 'Carcinoma, consistent with ductal carcinoma NST' (or 'Malignant – carcinoma') on cytology; avoid 'invasive', 'infiltrating' and 'IDC' because invasion cannot be assessed on FNA.",
+  "DCIS cannot be distinguished from invasive carcinoma on FNA."
+ ],
+ "adequacy": [
+  {
+   "title": "Adequacy principles",
+   "items": [
+    "No numerical threshold; adequacy depends on whether the material allows a confident diagnosis in the context of the clinical and imaging findings.",
+    "Rapid on-site evaluation (ROSE) reduces insufficient rates.",
+    "Specimens with atypical/suspicious/malignant cells are never 'Insufficient'.",
+    "Benign cyst fluid with resolution of cyst on imaging may be reported as Benign; fat alone is insufficient unless concordant with lipoma."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "1",
+   "name": "Insufficient / Inadequate",
+   "definition": "Material is too scant, too poorly preserved or obscured to allow a cytological diagnosis; judged relative to the clinical/imaging lesion.",
+   "rom": [
+    {
+     "value": "2.6–4.8%",
+     "source": "IAC Yokohama 2020 (Field et al.)"
+    }
+   ],
+   "management": "Repeat FNA (preferably image-guided) or core needle biopsy, guided by triple-test (clinical + imaging) findings.",
+   "criteria": [
+    "Insufficient epithelial cells for diagnosis in a solid lesion (no fixed number; experience-based judgement).",
+    "Poor fixation/air-drying, crush, thick smears, obscuring blood.",
+    "Cyst fluid with only macrophages and no epithelium – may be 'Benign' if imaging shows simple cyst that resolved; otherwise Insufficient.",
+    "Fat only from a mass lesion is insufficient unless clinically/radiologically a lipoma."
+   ],
+   "diagnoses": [
+    {
+     "name": "Insufficient – scant/acellular material",
+     "final": "Insufficient/Inadequate (IAC Yokohama Category 1). The material is insufficient for cytological diagnosis.",
+     "comment": "Correlate with clinical and imaging findings (triple test). Repeat image-guided FNA or core biopsy is recommended.",
+     "cat": "Category: IAC Yokohama System – 1 Insufficient"
+    },
+    {
+     "name": "Insufficient – artefact/obscured",
+     "final": "Insufficient/Inadequate (IAC Yokohama Category 1) due to air-drying/crush artefact/obscuring blood.",
+     "comment": "Repeat FNA/core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 1 Insufficient"
+    },
+    {
+     "name": "Insufficient – cyst fluid only (non-concordant imaging)",
+     "final": "Insufficient/Inadequate (IAC Yokohama Category 1). Cyst contents with macrophages only; no epithelial cells.",
+     "comment": "If imaging shows a complex cyst or residual mass, repeat FNA/core biopsy of the solid component is recommended.",
+     "cat": "Category: IAC Yokohama System – 1 Insufficient"
+    }
+   ]
+  },
+  {
+   "code": "2",
+   "name": "Benign",
+   "definition": "Clearly benign cytological features, with a specific diagnosis where possible.",
+   "rom": [
+    {
+     "value": "1.4–2.3%",
+     "source": "IAC Yokohama 2020 (Field et al.)"
+    }
+   ],
+   "management": "If triple test concordant benign: clinical/imaging follow-up. If not concordant: core biopsy.",
+   "criteria": [
+    "Moderate cellularity of cohesive flat sheets of ductal cells with myoepithelial cells, bare bipolar nuclei in background.",
+    "Specific patterns: fibroadenoma (staghorn sheets, fibromyxoid stroma, bipolar nuclei), fat necrosis, mastitis, lactational change, cyst with apocrine cells, gynaecomastia.",
+    "No significant atypia, no dyscohesion beyond expected."
+   ],
+   "diagnoses": [
+    {
+     "name": "Fibroadenoma",
+     "final": "Benign (IAC Yokohama Category 2). Consistent with fibroadenoma.",
+     "comment": "Cellular aspirate with branching (staghorn) cohesive sheets with myoepithelial cells, numerous bare bipolar nuclei and fibromyxoid stromal fragments. Correlate with triple test.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Fibrocystic change (incl. apocrine metaplasia, cyst)",
+     "final": "Benign (IAC Yokohama Category 2). Fibrocystic change.",
+     "comment": "Benign ductal cells, apocrine cells, foamy macrophages and cyst fluid.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Benign cyst",
+     "final": "Benign (IAC Yokohama Category 2). Consistent with benign cyst.",
+     "comment": "Correlate with imaging; aspirate residual mass if present.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Fat necrosis",
+     "final": "Benign (IAC Yokohama Category 2). Consistent with fat necrosis.",
+     "comment": "Foamy/lipid-laden macrophages, multinucleated giant cells and degenerated fat. History of trauma/surgery supports; correlate with imaging.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Acute mastitis / breast abscess",
+     "final": "Benign (IAC Yokohama Category 2). Acute inflammation/abscess.",
+     "comment": "Neutrophils and debris; culture advised; follow up to resolution to exclude inflammatory carcinoma.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Subareolar abscess / duct ectasia / periductal mastitis",
+     "final": "Benign (IAC Yokohama Category 2). Features of subareolar abscess (anucleate squames, keratin, inflammation) / duct ectasia.",
+     "comment": "Correlate clinically.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Granulomatous mastitis (idiopathic/tuberculous)",
+     "final": "Benign (IAC Yokohama Category 2). Granulomatous mastitis.",
+     "comment": "Epithelioid granulomas ± necrosis. ZN stain/AFB culture/CBNAAT recommended to exclude tuberculosis; idiopathic granulomatous lobular mastitis in differential.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Lactational change / lactating adenoma",
+     "final": "Benign (IAC Yokohama Category 2). Lactational change.",
+     "comment": "Cells with vacuolated cytoplasm, prominent nucleoli and proteinaceous background; pregnancy/lactation history required.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Gynaecomastia",
+     "final": "Benign (IAC Yokohama Category 2). Consistent with gynaecomastia.",
+     "comment": "Cohesive ductal sheets with bipolar nuclei in a male breast.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Intramammary lymph node",
+     "final": "Benign (IAC Yokohama Category 2). Reactive lymphoid cells consistent with intramammary lymph node.",
+     "comment": "Polymorphous lymphoid cells with tingible-body macrophages and no epithelial cells. Correlate with imaging (reniform node with fatty hilum).",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Lipoma / benign adipose tissue (concordant)",
+     "final": "Benign (IAC Yokohama Category 2). Mature adipose tissue, consistent with lipoma in the clinical/radiological context.",
+     "comment": "Fat alone is considered Insufficient if imaging suggests a solid non-fatty lesion.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Benign proliferative breast disease without atypia",
+     "final": "Benign (IAC Yokohama Category 2). Proliferative breast disease without atypia.",
+     "comment": "Cellular cohesive sheets with streaming and myoepithelial cells; usual ductal hyperplasia/papilloma may be within this pattern.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Benign skin adnexal cyst (epidermal inclusion cyst)",
+     "final": "Benign (IAC Yokohama Category 2). Contents of epidermal inclusion cyst.",
+     "comment": "Anucleate squames and keratinous debris ± foreign-body giant cells; ruptured cysts can cause reactive atypia.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    },
+    {
+     "name": "Silicone/foreign-body reaction",
+     "final": "Benign (IAC Yokohama Category 2). Foreign-body (silicone) reaction.",
+     "comment": "Vacuolated histiocytes and giant cells with refractile non-birefringent material; correlate with implant history.",
+     "cat": "Category: IAC Yokohama System – 2 Benign"
+    }
+   ]
+  },
+  {
+   "code": "3",
+   "name": "Atypical",
+   "definition": "Cytological features that are mainly benign but with some features seen uncommonly in benign lesions and that may be seen in malignancy; or features of a lesion with uncertain behaviour.",
+   "rom": [
+    {
+     "value": "13–15.7%",
+     "source": "IAC Yokohama 2020 (Field et al.)"
+    }
+   ],
+   "management": "Core needle biopsy (preferred) or repeat FNA; manage per triple test.",
+   "criteria": [
+    "Benign pattern with mild atypia, loss of cohesion, or increased cellularity.",
+    "Papillary lesion without atypia (fibrovascular cores, columnar cells) – papilloma vs papillary carcinoma uncertain.",
+    "Fibroepithelial lesion with cellular stroma (fibroadenoma vs phyllodes).",
+    "Mucinous lesion with scant atypia (mucocele-like lesion vs mucinous carcinoma).",
+    "Columnar cell lesions/atypical ductal hyperplasia-like patterns; low cellularity atypical cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical – papillary lesion",
+     "final": "Atypical (IAC Yokohama Category 3). Papillary lesion.",
+     "comment": "Papillary fragments with fibrovascular cores and columnar cells; papilloma cannot be distinguished from papillary carcinoma on cytology. Core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical"
+    },
+    {
+     "name": "Atypical – fibroepithelial lesion with cellular stroma (fibroadenoma vs phyllodes)",
+     "final": "Atypical (IAC Yokohama Category 3). Fibroepithelial lesion; phyllodes tumour cannot be excluded.",
+     "comment": "Hypercellular stromal fragments with spindle cells. Core biopsy/excision recommended.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical"
+    },
+    {
+     "name": "Atypical – mucinous lesion",
+     "final": "Atypical (IAC Yokohama Category 3). Mucinous lesion.",
+     "comment": "Mucin with few bland epithelial cells; differential includes mucocele-like lesion and mucinous carcinoma. Core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical"
+    },
+    {
+     "name": "Atypical – epithelial cells with mild atypia",
+     "final": "Atypical (IAC Yokohama Category 3). Atypical ductal epithelial cells.",
+     "comment": "Benign versus low-grade neoplasia (e.g. ADH/low-grade DCIS/low-grade carcinoma) cannot be resolved; core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical"
+    },
+    {
+     "name": "Atypical – low cellularity with atypia",
+     "final": "Atypical (IAC Yokohama Category 3). Few atypical cells.",
+     "comment": "Insufficient for a definite diagnosis; repeat FNA/core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical"
+    },
+    {
+     "name": "Atypical – atypical apocrine cells",
+     "final": "Atypical (IAC Yokohama Category 3). Atypical apocrine cells.",
+     "comment": "Apocrine atypia may be reactive (e.g. in sclerosing adenosis) or neoplastic; core biopsy suggested.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical"
+    },
+    {
+     "name": "Atypical – granular cell tumour / spindle cell lesion",
+     "final": "Atypical (IAC Yokohama Category 3). Spindle cell lesion / granular cells.",
+     "comment": "Includes granular cell tumour, myofibroblastoma, fibromatosis, nodular fasciitis; core biopsy for IHC.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical",
+     "consensus": true
+    },
+    {
+     "name": "Atypical – radial scar/complex sclerosing lesion pattern",
+     "final": "Atypical (IAC Yokohama Category 3).",
+     "comment": "Cytology cannot reliably distinguish from tubular carcinoma; core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 3 Atypical",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "4",
+   "name": "Suspicious of malignancy",
+   "definition": "Features suggestive of, but not diagnostic of, malignancy (quantity or quality insufficient), or specific lesions where only histology can confirm.",
+   "rom": [
+    {
+     "value": "84.6–97.1%",
+     "source": "IAC Yokohama 2020 (Field et al.)"
+    }
+   ],
+   "management": "Core needle biopsy (or excision) before definitive treatment.",
+   "criteria": [
+    "Low cellularity with malignant-appearing cells.",
+    "Moderate atypia in a dyscohesive population lacking myoepithelial cells, but insufficient for malignancy.",
+    "Suspicious of low-grade carcinoma (lobular, tubular, low-grade NST).",
+    "Poorly preserved/obscured atypical cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious of malignancy – carcinoma",
+     "final": "Suspicious of malignancy (IAC Yokohama Category 4). Suspicious of carcinoma.",
+     "comment": "Atypical dyscohesive epithelial cells, quantitatively/qualitatively insufficient for a definitive malignant diagnosis. Core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 4 Suspicious"
+    },
+    {
+     "name": "Suspicious – lobular carcinoma",
+     "final": "Suspicious of malignancy (IAC Yokohama Category 4). Suspicious of lobular carcinoma.",
+     "comment": "Small monotonous single cells/linear files with intracytoplasmic lumina; core biopsy with E-cadherin recommended.",
+     "cat": "Category: IAC Yokohama System – 4 Suspicious"
+    },
+    {
+     "name": "Suspicious – low-grade/tubular carcinoma",
+     "final": "Suspicious of malignancy (IAC Yokohama Category 4). Suspicious of low-grade carcinoma.",
+     "comment": "Angular tubules with minimal atypia and absent myoepithelial cells. Core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 4 Suspicious"
+    },
+    {
+     "name": "Suspicious – papillary carcinoma",
+     "final": "Suspicious of malignancy (IAC Yokohama Category 4). Papillary lesion, suspicious of papillary carcinoma.",
+     "comment": "Core biopsy/excision recommended.",
+     "cat": "Category: IAC Yokohama System – 4 Suspicious"
+    },
+    {
+     "name": "Suspicious – mucinous carcinoma",
+     "final": "Suspicious of malignancy (IAC Yokohama Category 4). Mucinous lesion suspicious of mucinous carcinoma.",
+     "comment": "Abundant mucin with atypical epithelial clusters but insufficient for definitive diagnosis; core biopsy recommended.",
+     "cat": "Category: IAC Yokohama System – 4 Suspicious"
+    }
+   ]
+  },
+  {
+   "code": "5",
+   "name": "Malignant",
+   "definition": "Unequivocal malignant features; specify type where possible. Do not use 'invasive'/'infiltrating' on cytology because invasion cannot be assessed.",
+   "rom": [
+    {
+     "value": "99.0–100%",
+     "source": "IAC Yokohama 2020 (Field et al.)"
+    }
+   ],
+   "management": "If triple test concordant malignant: definitive management may proceed per local policy, but core biopsy is generally recommended for histological type, grade and biomarkers (ER/PR/HER2/Ki-67).",
+   "criteria": [
+    "Usually cellular, dyscohesive population of atypical epithelial cells, absent bipolar nuclei/myoepithelial cells.",
+    "Nuclear enlargement, pleomorphism, irregular chromatin, nucleoli; necrosis in high-grade.",
+    "Specific types: lobular, mucinous, papillary, medullary-like, metaplastic, apocrine, secretory, adenoid cystic, lymphoma, metastasis, sarcoma/malignant phyllodes."
+   ],
+   "diagnoses": [
+    {
+     "name": "Carcinoma, consistent with ductal carcinoma NST",
+     "final": "Malignant (IAC Yokohama Category 5). Carcinoma, consistent with ductal carcinoma of no special type (NST).",
+     "comment": "Cellular dyscohesive pleomorphic malignant epithelial cells with absent myoepithelial cells. In-situ versus invasive disease cannot be determined on cytology. Core biopsy for histological type, grade and ER/PR/HER2/Ki-67 is recommended.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Lobular carcinoma",
+     "final": "Malignant (IAC Yokohama Category 5). Carcinoma, consistent with lobular carcinoma.",
+     "comment": "Dyscohesive small monotonous cells with intracytoplasmic lumina/signet-ring forms. Core biopsy with E-cadherin and biomarkers recommended.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Mucinous carcinoma",
+     "final": "Malignant (IAC Yokohama Category 5). Carcinoma, consistent with mucinous carcinoma.",
+     "comment": "Abundant extracellular mucin with clusters of mildly atypical cells and capillary fragments.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Papillary carcinoma (encapsulated/solid/invasive)",
+     "final": "Malignant (IAC Yokohama Category 5). Papillary carcinoma.",
+     "comment": "Histology needed to determine encapsulated/solid papillary or invasive status.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Carcinoma with medullary features / triple-negative high-grade",
+     "final": "Malignant (IAC Yokohama Category 5). High-grade carcinoma (NST) with medullary-like features.",
+     "comment": "Syncytial sheets of large pleomorphic cells with lymphocytes; biomarkers on core.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Metaplastic carcinoma",
+     "final": "Malignant (IAC Yokohama Category 5). Malignant neoplasm, consistent with metaplastic carcinoma.",
+     "comment": "Squamous/spindle/matrix-producing components; CK (incl. p63/CK5/6) on core needed.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Apocrine carcinoma",
+     "final": "Malignant (IAC Yokohama Category 5). Carcinoma with apocrine features.",
+     "comment": "AR+/GCDFP-15+ on core.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Secretory carcinoma",
+     "final": "Malignant (IAC Yokohama Category 5). Carcinoma, consistent with secretory carcinoma.",
+     "comment": "ETV6::NTRK3 fusion; pan-TRK IHC on core.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Adenoid cystic carcinoma",
+     "final": "Malignant (IAC Yokohama Category 5). Carcinoma consistent with adenoid cystic carcinoma.",
+     "comment": "Basaloid cells with hyaline globules; MYB on core.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Malignant phyllodes tumour / primary sarcoma",
+     "final": "Malignant (IAC Yokohama Category 5). Malignant spindle cell neoplasm (malignant phyllodes tumour vs sarcoma vs metaplastic carcinoma).",
+     "comment": "Core biopsy/excision with IHC required.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Angiosarcoma",
+     "final": "Malignant (IAC Yokohama Category 5). Malignant vascular neoplasm, suggestive of angiosarcoma.",
+     "comment": "Bloody aspirate with atypical spindle/epithelioid cells; CD31/ERG on core; history of radiotherapy relevant.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant",
+     "consensus": true
+    },
+    {
+     "name": "Lymphoma of breast",
+     "final": "Malignant (IAC Yokohama Category 5). Non-Hodgkin lymphoma.",
+     "comment": "Flow cytometry/IHC; BIA-ALCL (CD30+, ALK−) in implant seroma.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    },
+    {
+     "name": "Metastatic tumour to breast (melanoma, lung, ovary, etc.)",
+     "final": "Malignant (IAC Yokohama Category 5). Metastatic [type].",
+     "comment": "IHC and clinical history needed.",
+     "cat": "Category: IAC Yokohama System – 5 Malignant"
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Triple test",
+   "items": [
+    "Clinical + imaging + cytology. Concordant benign → follow-up; any discordance → core biopsy/excision.",
+    "Malignant FNA with concordant clinical/imaging can support treatment planning, but most centres still obtain core biopsy for receptors."
+   ]
+  }
+ ],
+ "references": [
+  "Field AS, Raymond WA, Schmitt F (eds). The International Academy of Cytology Yokohama System for Reporting Breast Fine Needle Aspiration Biopsy Cytopathology. Springer, 2020.",
+  "Field AS, Raymond WA, Rickard M, et al. The International Academy of Cytology Yokohama System for Reporting Breast Fine-Needle Aspiration Biopsy Cytopathology. Acta Cytol. 2019;63(4):257–273.",
+  "WHO Classification of Tumours Editorial Board. Breast Tumours. 5th ed. IARC, 2019."
+ ]
+}

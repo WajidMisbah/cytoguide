@@ -1,0 +1,643 @@
+{
+ "id": "bethesda-cervix",
+ "name": "The Bethesda System (TBS) for Reporting Cervical Cytology",
+ "short": "Bethesda Cervical",
+ "edition": "3rd edition (TBS 2014)",
+ "year": 2015,
+ "group": "Gynae / anal",
+ "status": "ready",
+ "specimen": "Cervical/vaginal Pap smear – conventional and liquid-based (ThinPrep, SurePath)",
+ "use": [
+  "All cervical and vaginal cytology specimens (screening and diagnostic), conventional or LBC.",
+  "Vaginal vault smears after hysterectomy.",
+  "Combined with HPV testing (co-testing/reflex) for risk-based management (ASCCP 2019)."
+ ],
+ "not_use": [
+  "Anal cytology – use the Bethesda terminology adapted for anal cytology (see Bethesda Anal).",
+  "Endometrial aspirates/brushings (no TBS categories – report descriptively).",
+  "Vulval scrapes and non-gynaecological specimens."
+ ],
+ "report_structure": [
+  "Specimen type (conventional / LBC / other)",
+  "Specimen adequacy (satisfactory/unsatisfactory, with transformation zone and quality indicators)",
+  "General categorization (optional): NILM / Other / Epithelial cell abnormality",
+  "Interpretation/result",
+  "Ancillary testing (e.g. HPV) and automated review if used",
+  "Educational notes and comments (optional, consistent with guidelines)"
+ ],
+ "adequacy": [
+  {
+   "title": "Satisfactory for evaluation",
+   "items": [
+    "Conventional smear: estimated ≥8,000–12,000 well-preserved, well-visualised squamous cells.",
+    "LBC (ThinPrep/SurePath): ≥5,000 well-visualised, well-preserved squamous cells.",
+    "Transformation zone (TZ) component: ≥10 well-preserved endocervical or squamous metaplastic cells (singly or in groups) – reported as present/absent, NOT a requirement for adequacy.",
+    "State quality indicators: partially obscured (50–75%), absence of TZ component, etc."
+   ]
+  },
+  {
+   "title": "Unsatisfactory for evaluation",
+   "items": [
+    "Rejected/not processed: unlabelled specimen, broken slide, inadequate request.",
+    "Processed but unsatisfactory: inadequate squamous cellularity, or >75% of squamous cells obscured.",
+    "Any specimen with abnormal cells is satisfactory by definition."
+   ]
+  },
+  {
+   "title": "Special situations",
+   "items": [
+    "Post-hysterectomy/vault and post-radiation/chemotherapy specimens may be judged on lower cellularity (≈2,000–5,000 cells) at the lab's discretion.",
+    "Bloody LBC samples: glacial acetic acid wash may salvage adequacy."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "UNSAT",
+   "name": "Unsatisfactory for evaluation",
+   "definition": "Specimen cannot be reliably evaluated for epithelial abnormality. Either rejected/not processed (unlabelled, broken slide) or processed but unsatisfactory (cellularity or obscuring factors).",
+   "rom": [
+    {
+     "value": "Not applicable",
+     "source": "TBS 2014"
+    }
+   ],
+   "management": "Repeat cytology in 2–4 months (ASCCP 2019); if HPV co-test positive, colposcopy acceptable. Treat infection/atrophy before repeat if responsible.",
+   "criteria": [
+    "Conventional smear: estimated <8,000–12,000 well-preserved, well-visualised squamous cells (use reference images; ≥5,000 not required to be counted).",
+    "Liquid-based: <5,000 well-visualised squamous cells (count fields at ×40/×10 per TBS table, at least 10 fields across diameter).",
+    ">75% of squamous cells obscured by blood, inflammation, thick areas, air-drying, contaminants (50–75% = satisfactory but partially obscured; mention as quality indicator).",
+    "Any specimen with abnormal cells (ASC-US or worse, AGC or worse) is by definition NOT unsatisfactory.",
+    "Rejected: unlabelled/mislabelled specimen, broken slide that cannot be repaired, inadequate requisition."
+   ],
+   "diagnoses": [
+    {
+     "name": "Unsatisfactory – scant squamous cellularity",
+     "final": "Specimen adequacy: Unsatisfactory for evaluation – processed and examined, but unsatisfactory for evaluation of epithelial abnormality because of scant squamous cellularity.",
+     "comment": "Suggest repeat cervical cytology in 2–4 months. If HPV test was performed and positive, colposcopy is advised as per ASCCP 2019.",
+     "cat": "Specimen adequacy: Unsatisfactory for evaluation"
+    },
+    {
+     "name": "Unsatisfactory – obscuring blood",
+     "final": "Specimen adequacy: Unsatisfactory for evaluation – processed and examined, but more than 75% of squamous cells are obscured by blood.",
+     "comment": "Suggest repeat sampling in 2–4 months, preferably avoiding menstruation; LBC may reduce obscuring blood.",
+     "cat": "Specimen adequacy: Unsatisfactory for evaluation"
+    },
+    {
+     "name": "Unsatisfactory – obscuring inflammation",
+     "final": "Specimen adequacy: Unsatisfactory for evaluation – processed and examined, but more than 75% of squamous cells are obscured by inflammatory exudate.",
+     "comment": "Suggest clinical evaluation/treatment of any infection and repeat cytology in 2–4 months.",
+     "cat": "Specimen adequacy: Unsatisfactory for evaluation"
+    },
+    {
+     "name": "Unsatisfactory – air-drying / poor fixation / thick smear",
+     "final": "Specimen adequacy: Unsatisfactory for evaluation – processed and examined, but unsatisfactory due to air-drying artefact / poor fixation / thick smearing involving most of the cells.",
+     "comment": "Suggest repeat sampling with immediate fixation in 95% ethanol (conventional) or LBC vial.",
+     "cat": "Specimen adequacy: Unsatisfactory for evaluation"
+    },
+    {
+     "name": "Rejected – unlabelled / broken slide",
+     "final": "Specimen rejected/not processed because of [unlabelled specimen / broken slide / mismatch with requisition].",
+     "comment": "Please resubmit a correctly labelled specimen with a completed requisition form.",
+     "cat": "Specimen adequacy: Unsatisfactory for evaluation"
+    }
+   ],
+   "line": "Specimen adequacy: Unsatisfactory for evaluation"
+  },
+  {
+   "code": "NILM",
+   "name": "Negative for intraepithelial lesion or malignancy",
+   "definition": "No cellular evidence of neoplasia. Organisms and other non-neoplastic findings are listed optionally.",
+   "rom": [
+    {
+     "value": "HPV-negative NILM: 5-year CIN3+ risk ≈0.1%; HPV-positive NILM: immediate CIN3+ risk ≈2–5% (ASCCP 2019 risk tables, approximate)",
+     "source": "ASCCP 2019 (approx.)"
+    }
+   ],
+   "management": "Routine screening per age/HPV status. NILM + HPV-positive (non-16/18): repeat co-test in 1 year; HPV16/18 positive: colposcopy (ASCCP 2019).",
+   "criteria": [
+    "Squamous cells: normal superficial/intermediate/parabasal with no nuclear atypia beyond reactive range.",
+    "May include organisms, reactive changes, atrophy, glandular cells post hysterectomy.",
+    "Transformation zone component (≥10 well-preserved endocervical or squamous metaplastic cells) is reported as a quality indicator, not an adequacy criterion."
+   ],
+   "diagnoses": [
+    {
+     "name": "Trichomonas vaginalis",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: Trichomonas vaginalis.",
+     "comment": "Pear-shaped flagellate organisms with eccentric nuclei and eosinophilic cytoplasmic granules are seen. Suggest clinical correlation and treatment of patient and partner.",
+     "cat": "General categorization / Interpretation: NILM – Organisms"
+    },
+    {
+     "name": "Fungal organisms morphologically consistent with Candida spp.",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: Fungal organisms morphologically consistent with Candida spp.",
+     "comment": "Pseudohyphae and yeast forms are seen, with 'shish-kebab' spearing of squamous cells. Suggest clinical correlation.",
+     "cat": "General categorization / Interpretation: NILM – Organisms"
+    },
+    {
+     "name": "Shift in flora suggestive of bacterial vaginosis",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: Shift in flora suggestive of bacterial vaginosis.",
+     "comment": "Clue cells (squamous cells covered by coccobacilli obscuring the cell border) with a filmy coccobacillary background and paucity of lactobacilli. Clinical correlation (Amsel/Nugent criteria) recommended.",
+     "cat": "General categorization / Interpretation: NILM – Organisms"
+    },
+    {
+     "name": "Bacteria morphologically consistent with Actinomyces spp.",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: Bacteria morphologically consistent with Actinomyces spp.",
+     "comment": "Tangled clumps of filamentous organisms with acute-angle branching ('cotton-ball' / woolly bodies) are seen; usually associated with an intrauterine device. Suggest clinical correlation.",
+     "cat": "General categorization / Interpretation: NILM – Organisms"
+    },
+    {
+     "name": "Cellular changes consistent with herpes simplex virus",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: Cellular changes consistent with herpes simplex virus.",
+     "comment": "Multinucleated cells with nuclear moulding, margination of chromatin and ground-glass nuclei (3 Ms), with occasional Cowdry A intranuclear inclusions. Suggest clinical correlation.",
+     "cat": "General categorization / Interpretation: NILM – Organisms"
+    },
+    {
+     "name": "Cellular changes consistent with cytomegalovirus",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: Cellular changes consistent with cytomegalovirus.",
+     "comment": "Enlarged (usually endocervical/glandular) cells with a single large intranuclear inclusion and halo, and small cytoplasmic inclusions. Rare; suggest clinical correlation, particularly immune status.",
+     "cat": "General categorization / Interpretation: NILM – Organisms"
+    },
+    {
+     "name": "Other organisms (Chlamydia-suggestive changes, Leptothrix, Enterobius ova, Schistosoma ova, etc.)",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Organisms: [specify, e.g. Leptothrix / Enterobius vermicularis ova / Schistosoma haematobium ova].",
+     "comment": "TBS does not recommend a cytologic diagnosis of Chlamydia (nebular vacuoles are non-specific); advise NAAT if clinically suspected. Leptothrix often coexists with Trichomonas.",
+     "cat": "General categorization / Interpretation: NILM – Organisms",
+     "consensus": true,
+     "note": "Listed in TBS atlas as other findings; not a separate formal TBS term."
+    },
+    {
+     "name": "Reactive cellular changes associated with inflammation (includes typical repair)",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Reactive cellular changes associated with inflammation (includes typical repair).",
+     "comment": "Mild nuclear enlargement with smooth membranes, fine chromatin and prominent nucleoli; repair shows flat cohesive sheets with streaming and no single atypical cells. Suggest treatment of cause and routine screening.",
+     "cat": "General categorization / Interpretation: NILM – Reactive cellular changes"
+    },
+    {
+     "name": "Reactive cellular changes associated with radiation",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Reactive cellular changes associated with radiation.",
+     "comment": "Cellular and nuclear enlargement with preserved N:C ratio, bi/multinucleation, cytoplasmic vacuolation and polychromasia. History of radiotherapy noted; follow up as per oncology protocol.",
+     "cat": "General categorization / Interpretation: NILM – Reactive cellular changes"
+    },
+    {
+     "name": "Reactive cellular changes associated with intrauterine contraceptive device (IUD)",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Reactive cellular changes associated with intrauterine contraceptive device.",
+     "comment": "Small clusters of glandular cells with vacuolated cytoplasm and occasional single cells with high N:C ratio; history of IUD helps avoid over-interpretation as AGC/HSIL.",
+     "cat": "General categorization / Interpretation: NILM – Reactive cellular changes"
+    },
+    {
+     "name": "Glandular cells status post hysterectomy",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Glandular cells status post hysterectomy.",
+     "comment": "Benign-appearing glandular cells in a vaginal specimen after hysterectomy (e.g. adenosis, prolapsed tube, vaginal endometriosis). No further workup required.",
+     "cat": "General categorization / Interpretation: NILM – Other non-neoplastic findings"
+    },
+    {
+     "name": "Atrophy",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Atrophy.",
+     "comment": "Predominantly parabasal cells in flat sheets with granular background, with or without inflammation ('atrophic vaginitis') or blue blobs. If atypia is equivocal, HPV testing or repeat after a short course of topical oestrogen may help.",
+     "cat": "General categorization / Interpretation: NILM – Other non-neoplastic findings"
+    },
+    {
+     "name": "Atrophic vaginitis (atrophy with inflammation)",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Atrophy with inflammation (atrophic vaginitis).",
+     "comment": "Parabasal cells, granular necrotic-looking background, neutrophils and degenerate/pseudokeratotic cells; not to be mistaken for tumour diathesis. Suggest clinical correlation.",
+     "cat": "General categorization / Interpretation: NILM – Other non-neoplastic findings",
+     "consensus": true,
+     "note": "Described within the TBS 'Atrophy' entity."
+    },
+    {
+     "name": "Keratotic changes (hyperkeratosis/parakeratosis) without atypia",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Squamous metaplasia / keratotic changes present.",
+     "comment": "Anucleate squames and/or typical parakeratotic cells without nuclear atypia. May reflect prolapse or chronic irritation; correlate clinically.",
+     "cat": "General categorization / Interpretation: NILM – Other non-neoplastic findings",
+     "consensus": true,
+     "note": "Optional descriptor in TBS (non-neoplastic cellular variations)."
+    },
+    {
+     "name": "Squamous metaplasia / tubal metaplasia",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM).",
+     "comment": "Benign metaplastic squamous cells (and/or ciliated tubal-type cells). Reporting of these non-neoplastic variations is optional.",
+     "cat": "General categorization / Interpretation: NILM – Non-neoplastic cellular variations",
+     "consensus": true,
+     "note": "Optional reporting per TBS 2014."
+    },
+    {
+     "name": "Pregnancy-associated changes (decidual cells, Arias-Stella reaction)",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM).",
+     "comment": "Decidual cells / Arias-Stella-type glandular cells consistent with pregnancy-related change. Clinical history of pregnancy supports a benign interpretation.",
+     "cat": "General categorization / Interpretation: NILM – Non-neoplastic cellular variations",
+     "consensus": true
+    },
+    {
+     "name": "Lymphocytic (follicular) cervicitis",
+     "final": "Negative for intraepithelial lesion or malignancy (NILM). Other non-neoplastic findings: Reactive changes – follicular cervicitis.",
+     "comment": "Polymorphous lymphoid cells including tingible-body macrophages; may mimic HSIL or lymphoma. Seen in chronic infection (incl. Chlamydia) and in postmenopausal women.",
+     "cat": "General categorization / Interpretation: NILM – Reactive cellular changes",
+     "consensus": true
+    }
+   ],
+   "line": "General categorization: Negative for intraepithelial lesion or malignancy"
+  },
+  {
+   "code": "OTHER",
+   "name": "Other: Endometrial cells (in a woman ≥45 years)",
+   "definition": "Benign-appearing exfoliated endometrial cells in a woman aged 45 years or older; TBS 2014 raised the reporting age from 40 to 45. Not reported in women <45 years.",
+   "rom": [
+    {
+     "value": "Endometrial hyperplasia/carcinoma in ~0.5–2% (higher in postmenopausal women, especially with abnormal bleeding)",
+     "source": "Literature, approx."
+    }
+   ],
+   "management": "Endometrial evaluation only if postmenopausal (or abnormal bleeding/risk factors); not needed for asymptomatic premenopausal women (ASCCP).",
+   "criteria": [
+    "Small tight 3-D balls of cells with scant cytoplasm, small dark nuclei, sometimes with a stromal core ('exodus' pattern).",
+    "No atypia (if atypical → AGC, endometrial).",
+    "Menstrual status/hormone therapy should be stated where known."
+   ],
+   "diagnoses": [
+    {
+     "name": "Endometrial cells present in a woman ≥45 years",
+     "final": "Other: Endometrial cells present in a woman ≥45 years of age. Negative for squamous intraepithelial lesion.",
+     "comment": "Benign-appearing endometrial cells are present. Endometrial evaluation is recommended if the patient is postmenopausal or has abnormal uterine bleeding; correlate with menstrual history and hormone therapy.",
+     "cat": "General categorization: Other – see interpretation"
+    },
+    {
+     "name": "Exfoliated endometrial stromal cells / histiocytes (≥45 y)",
+     "final": "Other: Endometrial cells (stromal cells/histiocytes) present in a woman ≥45 years.",
+     "comment": "TBS 2014 recommends not reporting isolated histiocytes; report only definite endometrial cells. Clinical correlation recommended.",
+     "cat": "General categorization: Other – see interpretation",
+     "consensus": true
+    }
+   ],
+   "line": "General categorization: Other"
+  },
+  {
+   "code": "ASC-US",
+   "name": "Atypical squamous cells of undetermined significance",
+   "definition": "Changes suggestive of LSIL that are qualitatively or quantitatively insufficient for a definitive interpretation.",
+   "rom": [
+    {
+     "value": "CIN2+ ≈5–10% on follow-up; CIN3+ immediate risk ≈4% if HPV-positive, <0.1% if HPV-negative (ASCCP 2019, approx.)",
+     "source": "Literature / ASCCP 2019"
+    }
+   ],
+   "management": "Reflex HPV preferred. HPV-positive → colposcopy; HPV-negative → repeat co-test/HPV in 3 years (ASCCP 2019). Ages 21–24: repeat cytology at 1 year.",
+   "criteria": [
+    "Nucleus 2.5–3× normal intermediate cell nucleus (≈35 µm²) or 2× squamous metaplastic nucleus.",
+    "Slightly increased N:C ratio, minimal hyperchromasia, mild irregularity of chromatin/nuclear outline.",
+    "Includes atypical parakeratosis and incomplete koilocytes.",
+    "Laboratory ASC:SIL ratio should be <3:1 (quality indicator); ASC rate typically ≤5%."
+   ],
+   "diagnoses": [
+    {
+     "name": "ASC-US",
+     "final": "Epithelial cell abnormality: Squamous cell – Atypical squamous cells of undetermined significance (ASC-US).",
+     "comment": "Reflex high-risk HPV testing is recommended; management as per ASCCP 2019 risk-based guidelines.",
+     "cat": "ASC-US – Atypical squamous cells of undetermined significance"
+    },
+    {
+     "name": "ASC-US in atrophic smear",
+     "final": "Epithelial cell abnormality: Squamous cell – Atypical squamous cells of undetermined significance (ASC-US). Background atrophy.",
+     "comment": "Atypia may be related to atrophy; HPV testing or repeat cytology after a course of topical oestrogen may help clarify.",
+     "consensus": true,
+     "cat": "ASC-US – Atypical squamous cells of undetermined significance"
+    },
+    {
+     "name": "ASC-US with atypical parakeratosis",
+     "final": "Epithelial cell abnormality: Squamous cell – ASC-US (atypical parakeratosis).",
+     "comment": "Atypical parakeratotic cells with mildly enlarged dark nuclei. HPV testing recommended.",
+     "consensus": true,
+     "cat": "ASC-US – Atypical squamous cells of undetermined significance"
+    }
+   ]
+  },
+  {
+   "code": "ASC-H",
+   "name": "Atypical squamous cells, cannot exclude HSIL",
+   "definition": "Changes suggestive of HSIL but insufficient for a definitive interpretation; usually small (metaplastic-size) cells.",
+   "rom": [
+    {
+     "value": "CIN2+ ≈30–40%; immediate CIN3+ ≈26% if HPV-positive (ASCCP 2019, approx.)",
+     "source": "Literature / ASCCP 2019"
+    }
+   ],
+   "management": "Colposcopy regardless of HPV result (ASCCP 2019).",
+   "criteria": [
+    "Small sparse cells, metaplastic size, nucleus 1.5–2.5× normal, high N:C ratio approaching HSIL.",
+    "Crowded sheet pattern: tight 3-D groups with loss of polarity in which HSIL cannot be confirmed.",
+    "Atypical repair, severe atrophy or post-radiation atypia where HSIL cannot be excluded."
+   ],
+   "diagnoses": [
+    {
+     "name": "ASC-H",
+     "final": "Epithelial cell abnormality: Squamous cell – Atypical squamous cells, cannot exclude a high-grade squamous intraepithelial lesion (ASC-H).",
+     "comment": "Colposcopy and directed biopsy are recommended as per ASCCP 2019, irrespective of HPV status.",
+     "cat": "ASC-H – Atypical squamous cells, cannot exclude HSIL"
+    }
+   ]
+  },
+  {
+   "code": "LSIL",
+   "name": "Low-grade squamous intraepithelial lesion",
+   "definition": "Encompasses HPV cytopathic effect / mild dysplasia / CIN 1.",
+   "rom": [
+    {
+     "value": "CIN2+ ≈15–30% on biopsy follow-up; immediate CIN3+ ≈4% if HPV-positive (ASCCP 2019, approx.)",
+     "source": "Literature / ASCCP 2019"
+    }
+   ],
+   "management": "Colposcopy (HPV-positive or HPV not done); if HPV-negative, repeat co-test in 1 year acceptable (ASCCP 2019). Ages 21–24: repeat cytology at 1 year. Pregnancy: colposcopy may be deferred to postpartum.",
+   "criteria": [
+    "Changes in mature (intermediate/superficial) squamous cells.",
+    "Nuclear enlargement ≥3× normal intermediate nucleus, hyperchromasia, irregular membranes, bi/multinucleation.",
+    "Koilocytes: sharply defined perinuclear cavitation with nuclear atypia (halo alone is not sufficient).",
+    "Keratinised cells with atypical nuclei can be LSIL."
+   ],
+   "diagnoses": [
+    {
+     "name": "LSIL (HPV cytopathic effect / mild dysplasia / CIN 1)",
+     "final": "Epithelial cell abnormality: Squamous cell – Low-grade squamous intraepithelial lesion (LSIL), encompassing HPV cytopathic effect / mild dysplasia / CIN 1.",
+     "comment": "Colposcopic evaluation is recommended as per ASCCP 2019 risk-based management.",
+     "cat": "LSIL – Low-grade squamous intraepithelial lesion"
+    },
+    {
+     "name": "LSIL, cannot exclude HSIL (LSIL-H)",
+     "final": "Epithelial cell abnormality: Squamous cell – Low-grade squamous intraepithelial lesion (LSIL); a few cells suspicious for HSIL are present (cannot exclude HSIL).",
+     "comment": "Colposcopy recommended. Some laboratories use this optional qualifier; it is not a formal TBS category.",
+     "consensus": true,
+     "note": "Non-TBS optional qualifier used by some labs; TBS discourages new categories.",
+     "cat": "LSIL – Low-grade squamous intraepithelial lesion"
+    }
+   ]
+  },
+  {
+   "code": "HSIL",
+   "name": "High-grade squamous intraepithelial lesion",
+   "definition": "Encompasses moderate and severe dysplasia, CIS, CIN 2 and CIN 3. Option to add 'with features suspicious for invasion'.",
+   "rom": [
+    {
+     "value": "CIN2+ ≈60–90%; immediate CIN3+ ≈49% if HPV-positive; invasive cancer ≈1–2% (ASCCP 2019 / literature, approx.)",
+     "source": "Literature / ASCCP 2019"
+    }
+   ],
+   "management": "Expedited treatment (LEEP) or colposcopy with biopsy (ASCCP 2019); expedited treatment preferred for non-pregnant ≥25 years when immediate CIN3+ risk ≥60%.",
+   "criteria": [
+    "Smaller, less mature cells (parabasal/metaplastic) than LSIL; high N:C ratio.",
+    "Hyperchromasia, coarse chromatin, irregular nuclear contours with notches/grooves; nucleoli usually absent.",
+    "Single cells, sheets or hyperchromatic crowded groups (syncytial).",
+    "Features suspicious for invasion: tumour diathesis, macronucleoli, bizarre keratinised cells."
+   ],
+   "diagnoses": [
+    {
+     "name": "HSIL (moderate dysplasia / CIN 2)",
+     "final": "Epithelial cell abnormality: Squamous cell – High-grade squamous intraepithelial lesion (HSIL), encompassing moderate dysplasia / CIN 2.",
+     "comment": "Colposcopy with biopsy or expedited treatment as per ASCCP 2019.",
+     "cat": "HSIL – High-grade squamous intraepithelial lesion"
+    },
+    {
+     "name": "HSIL (severe dysplasia / CIS / CIN 3)",
+     "final": "Epithelial cell abnormality: Squamous cell – High-grade squamous intraepithelial lesion (HSIL), encompassing severe dysplasia / carcinoma in situ / CIN 3.",
+     "comment": "Colposcopy with biopsy or expedited excisional treatment as per ASCCP 2019.",
+     "cat": "HSIL – High-grade squamous intraepithelial lesion"
+    },
+    {
+     "name": "HSIL with features suspicious for invasion",
+     "final": "Epithelial cell abnormality: Squamous cell – High-grade squamous intraepithelial lesion (HSIL) with features suspicious for invasion.",
+     "comment": "Tumour diathesis / features raising concern for invasion are present. Urgent colposcopy and biopsy are recommended.",
+     "cat": "HSIL – High-grade squamous intraepithelial lesion"
+    },
+    {
+     "name": "HSIL involving endocervical glands (crowded groups)",
+     "final": "Epithelial cell abnormality: Squamous cell – High-grade squamous intraepithelial lesion (HSIL).",
+     "comment": "HSIL cells are present in hyperchromatic crowded groups mimicking glandular lesions; flattening of cells at the periphery and absence of glandular features support HSIL with gland involvement.",
+     "consensus": true,
+     "cat": "HSIL – High-grade squamous intraepithelial lesion"
+    }
+   ]
+  },
+  {
+   "code": "SCC",
+   "name": "Squamous cell carcinoma",
+   "definition": "Malignant squamous neoplasm; TBS does not subclassify, but keratinising vs non-keratinising may be described.",
+   "rom": [
+    {
+     "value": "Invasive carcinoma confirmed in the large majority (PPV >80–90%)",
+     "source": "Literature, approx."
+    }
+   ],
+   "management": "Urgent colposcopy/biopsy and gynaecological oncology referral.",
+   "criteria": [
+    "Keratinising: pleomorphic single cells (caudate, tadpole, spindle) with orangeophilic cytoplasm, dense hyperchromatic/pyknotic nuclei; less diathesis.",
+    "Non-keratinising: syncytial aggregates of cells with coarse irregular chromatin, prominent nucleoli and tumour diathesis (granular necrotic debris, old blood).",
+    "LBC: diathesis clings to cell clusters ('clinging diathesis')."
+   ],
+   "diagnoses": [
+    {
+     "name": "Squamous cell carcinoma, keratinising type",
+     "final": "Epithelial cell abnormality: Squamous cell – Squamous cell carcinoma (keratinising type).",
+     "comment": "Urgent colposcopy, biopsy and gynaecological oncology referral recommended.",
+     "cat": "SCC – Squamous cell carcinoma"
+    },
+    {
+     "name": "Squamous cell carcinoma, non-keratinising type",
+     "final": "Epithelial cell abnormality: Squamous cell – Squamous cell carcinoma (non-keratinising type).",
+     "comment": "Urgent colposcopy, biopsy and gynaecological oncology referral recommended.",
+     "cat": "SCC – Squamous cell carcinoma"
+    },
+    {
+     "name": "Squamous cell carcinoma, NOS",
+     "final": "Epithelial cell abnormality: Squamous cell – Squamous cell carcinoma.",
+     "comment": "Urgent colposcopy and biopsy recommended.",
+     "cat": "SCC – Squamous cell carcinoma"
+    }
+   ]
+  },
+  {
+   "code": "AGC",
+   "name": "Atypical glandular cells",
+   "definition": "Glandular cells with nuclear atypia exceeding reactive/reparative change but lacking features of adenocarcinoma. Specify endocervical, endometrial or NOS; 'favor neoplastic' for endocervical or glandular NOS.",
+   "rom": [
+    {
+     "value": "Significant lesion (CIN2+/AIS/carcinoma) ≈9–38%; malignancy ≈3–17%; AGC-favor neoplastic markedly higher (≈27–96%)",
+     "source": "Literature, approx."
+    }
+   ],
+   "management": "AGC (all subtypes except atypical endometrial): colposcopy + endocervical sampling + endometrial sampling if ≥35 y or at risk. Atypical endometrial cells: endometrial and endocervical sampling first. AGC-favor neoplastic/AIS: diagnostic excision if no invasive disease (ASCCP 2019).",
+   "criteria": [
+    "AGC endocervical NOS: sheets/strips with nuclear crowding, enlargement up to 3–5× normal endocervical nucleus, mild hyperchromasia, occasional nucleoli.",
+    "AGC endocervical, favor neoplastic: feathering/rosettes/strips but quantitatively or qualitatively short of AIS.",
+    "AGC endometrial: small groups, nuclei slightly enlarged, mild hyperchromasia, small nucleoli, ill-defined vacuolated cytoplasm.",
+    "AGC NOS: cell origin cannot be determined."
+   ],
+   "diagnoses": [
+    {
+     "name": "Atypical endocervical cells, NOS",
+     "final": "Epithelial cell abnormality: Glandular cell – Atypical endocervical cells, not otherwise specified (AGC, endocervical NOS).",
+     "comment": "Colposcopy with endocervical sampling (and endometrial sampling if ≥35 years or at risk) is recommended (ASCCP 2019).",
+     "cat": "AGC – Atypical glandular cells"
+    },
+    {
+     "name": "Atypical endometrial cells, NOS",
+     "final": "Epithelial cell abnormality: Glandular cell – Atypical endometrial cells.",
+     "comment": "Endometrial and endocervical sampling is recommended; colposcopy if no endometrial pathology is found (ASCCP 2019).",
+     "cat": "AGC – Atypical glandular cells"
+    },
+    {
+     "name": "Atypical glandular cells, NOS",
+     "final": "Epithelial cell abnormality: Glandular cell – Atypical glandular cells, not otherwise specified (AGC NOS).",
+     "comment": "Colposcopy with endocervical sampling, plus endometrial sampling if ≥35 years or at risk, is recommended.",
+     "cat": "AGC – Atypical glandular cells"
+    },
+    {
+     "name": "Atypical endocervical cells, favor neoplastic",
+     "final": "Epithelial cell abnormality: Glandular cell – Atypical endocervical cells, favor neoplastic.",
+     "comment": "Colposcopy with endocervical sampling; if no invasive disease, a diagnostic excisional procedure is recommended (ASCCP 2019).",
+     "cat": "AGC – Atypical glandular cells"
+    },
+    {
+     "name": "Atypical glandular cells, favor neoplastic",
+     "final": "Epithelial cell abnormality: Glandular cell – Atypical glandular cells, favor neoplastic.",
+     "comment": "Colposcopy, endocervical and endometrial sampling; diagnostic excision if no invasive disease is identified.",
+     "cat": "AGC – Atypical glandular cells"
+    }
+   ]
+  },
+  {
+   "code": "AIS",
+   "name": "Endocervical adenocarcinoma in situ",
+   "definition": "Non-invasive high-grade endocervical glandular lesion (HPV-associated).",
+   "rom": [
+    {
+     "value": "AIS or invasive adenocarcinoma on follow-up in the majority (≈50–90%); concurrent invasive adenocarcinoma in a subset",
+     "source": "Literature, approx."
+    }
+   ],
+   "management": "Colposcopy, endocervical sampling and diagnostic excision (cold-knife cone preferred, intact specimen); hysterectomy after excision for most (ASCCP 2019).",
+   "criteria": [
+    "Crowded sheets/strips with nuclear pseudostratification, feathering at edges, rosettes.",
+    "Enlarged elongated hyperchromatic nuclei, coarse even chromatin, mitoses and apoptotic bodies; nucleoli small or inconspicuous.",
+    "Clean background (no tumour diathesis)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Endocervical adenocarcinoma in situ (AIS)",
+     "final": "Epithelial cell abnormality: Glandular cell – Endocervical adenocarcinoma in situ (AIS).",
+     "comment": "Colposcopy, endocervical sampling and diagnostic excisional procedure are recommended as per ASCCP 2019.",
+     "cat": "AIS – Endocervical adenocarcinoma in situ"
+    }
+   ]
+  },
+  {
+   "code": "ADCA",
+   "name": "Adenocarcinoma",
+   "definition": "Malignant glandular neoplasm; specify endocervical, endometrial, extrauterine or NOS when possible.",
+   "rom": [
+    {
+     "value": "High (PPV >80%)",
+     "source": "Literature, approx."
+    }
+   ],
+   "management": "Urgent gynaecological oncology referral; colposcopy/biopsy, endometrial sampling and imaging as appropriate.",
+   "criteria": [
+    "Endocervical: abundant columnar cells in sheets/3-D clusters/single cells, enlarged pleomorphic nuclei, macronucleoli, tumour diathesis.",
+    "Endometrial: small 3-D clusters/single cells, nuclear size increasing with grade, prominent nucleoli, vacuolated cytoplasm, 'watery' finely granular diathesis, neutrophils within cytoplasm.",
+    "Extrauterine: clean background (no diathesis), papillary clusters/psammoma bodies (ovarian serous) or signet-ring cells (GI)."
+   ],
+   "diagnoses": [
+    {
+     "name": "Adenocarcinoma, endocervical",
+     "final": "Epithelial cell abnormality: Glandular cell – Adenocarcinoma, endocervical.",
+     "comment": "Urgent colposcopy/biopsy and gynaecological oncology referral recommended.",
+     "cat": "ADCA – Adenocarcinoma"
+    },
+    {
+     "name": "Adenocarcinoma, endometrial",
+     "final": "Epithelial cell abnormality: Glandular cell – Adenocarcinoma, endometrial.",
+     "comment": "Endometrial sampling and gynaecological oncology referral recommended.",
+     "cat": "ADCA – Adenocarcinoma"
+    },
+    {
+     "name": "Adenocarcinoma, extrauterine",
+     "final": "Epithelial cell abnormality: Glandular cell – Adenocarcinoma, extrauterine.",
+     "comment": "Clean background suggests an extrauterine source (e.g. ovary, fallopian tube, GI tract, breast). Clinical and radiological evaluation for a primary is recommended.",
+     "cat": "ADCA – Adenocarcinoma"
+    },
+    {
+     "name": "Adenocarcinoma, NOS",
+     "final": "Epithelial cell abnormality: Glandular cell – Adenocarcinoma, not otherwise specified.",
+     "comment": "Site of origin cannot be determined cytologically. Further clinical, colposcopic and endometrial evaluation is recommended.",
+     "cat": "ADCA – Adenocarcinoma"
+    }
+   ]
+  },
+  {
+   "code": "OMN",
+   "name": "Other malignant neoplasms",
+   "definition": "Malignant neoplasms that are neither squamous nor glandular (specify).",
+   "rom": [
+    {
+     "value": "High",
+     "source": "Literature"
+    }
+   ],
+   "management": "Biopsy and ancillary studies; oncology referral.",
+   "criteria": [
+    "Small cell / high-grade neuroendocrine carcinoma: small cells with moulding, salt-and-pepper chromatin, crush artefact.",
+    "Carcinosarcoma (malignant mixed Müllerian tumour), sarcomas, melanoma, lymphoma, metastatic tumours.",
+    "Cell block/IHC on residual LBC can help."
+   ],
+   "diagnoses": [
+    {
+     "name": "Small cell (high-grade neuroendocrine) carcinoma",
+     "final": "Other malignant neoplasm: Malignant cells consistent with small cell (high-grade neuroendocrine) carcinoma.",
+     "comment": "Biopsy with neuroendocrine IHC (synaptophysin, chromogranin, INSM1) recommended.",
+     "cat": "OMN – Other malignant neoplasms"
+    },
+    {
+     "name": "Carcinosarcoma (malignant mixed Müllerian tumour)",
+     "final": "Other malignant neoplasm: Malignant cells with epithelial and spindle/sarcomatous components, suggestive of carcinosarcoma.",
+     "comment": "Endometrial sampling and histological confirmation recommended.",
+     "cat": "OMN – Other malignant neoplasms"
+    },
+    {
+     "name": "Sarcoma (e.g. leiomyosarcoma, embryonal rhabdomyosarcoma)",
+     "final": "Other malignant neoplasm: Malignant spindle/round cells, suggestive of sarcoma.",
+     "comment": "Biopsy with IHC recommended for classification.",
+     "cat": "OMN – Other malignant neoplasms"
+    },
+    {
+     "name": "Malignant melanoma",
+     "final": "Other malignant neoplasm: Malignant cells suggestive of melanoma.",
+     "comment": "Melanin pigment / prominent nucleoli; confirm with S100/SOX10/HMB45/Melan-A on biopsy or cell block; exclude metastasis.",
+     "cat": "OMN – Other malignant neoplasms"
+    },
+    {
+     "name": "Lymphoma",
+     "final": "Other malignant neoplasm: Atypical lymphoid population suspicious for lymphoma.",
+     "comment": "Biopsy with IHC/flow cytometry recommended; distinguish from follicular cervicitis.",
+     "cat": "OMN – Other malignant neoplasms"
+    },
+    {
+     "name": "Metastatic carcinoma",
+     "final": "Other malignant neoplasm: Malignant cells consistent with metastatic carcinoma (specify likely primary if possible).",
+     "comment": "Clinical history and IHC on biopsy/cell block are recommended to establish the primary site.",
+     "cat": "OMN – Other malignant neoplasms"
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "HPV and management pointers (ASCCP 2019, risk-based)",
+   "items": [
+    "Management is based on the patient's immediate and 5-year CIN3+ risk combining current result and history, not on cytology alone.",
+    "Primary HPV screening (FDA-approved assays) every 5 years from age 25 (ACS 2020) or co-testing every 5 years 30–65 / cytology every 3 years 21–29 (USPSTF).",
+    "HPV16/18 positive with NILM → colposcopy; other HR-HPV positive with NILM → 1-year repeat.",
+    "Use the ASCCP risk tables/app for individual decisions; WHO 2021 guidance favours HPV-DNA primary screening in low-resource settings."
+   ]
+  }
+ ],
+ "references": [
+  "Nayar R, Wilbur DC (eds). The Bethesda System for Reporting Cervical Cytology: Definitions, Criteria, and Explanatory Notes. 3rd ed. Springer, 2015.",
+  "Perkins RB, et al. 2019 ASCCP Risk-Based Management Consensus Guidelines for Abnormal Cervical Cancer Screening Tests and Cancer Precursors. J Low Genit Tract Dis. 2020;24(2):102–131.",
+  "WHO guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, 2nd ed. WHO, 2021."
+ ]
+}

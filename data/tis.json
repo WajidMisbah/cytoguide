@@ -1,0 +1,377 @@
+{
+ "id": "tis",
+ "name": "The International System for Reporting Serous Fluid Cytopathology (TIS / ISRSFC)",
+ "short": "Serous fluids (TIS)",
+ "edition": "1st edition",
+ "year": 2020,
+ "group": "Serous fluid",
+ "status": "ready",
+ "specimen": "Pleural, peritoneal (ascitic), pericardial fluids and peritoneal washings",
+ "use": [
+  "Pleural, peritoneal and pericardial effusions.",
+  "Peritoneal washings can be reported using these categories, with staging context (TIS includes a washing chapter)."
+ ],
+ "not_use": [
+  "CSF, synovial fluid, cyst fluids, BAL (report descriptively/other systems).",
+  "Urine (use Paris System).",
+  "Do not use to diagnose mesothelioma without ancillary support."
+ ],
+ "report_structure": [
+  "Specimen type, site, volume, appearance",
+  "Adequacy (implicit; ND if inadequate)",
+  "Diagnostic category",
+  "Specific diagnosis/description",
+  "Ancillary results (IHC on cell block, flow, FISH)",
+  "Comment/recommendation"
+ ],
+ "adequacy": [
+  {
+   "title": "Volume and processing",
+   "items": [
+    "Minimum 50–75 mL recommended for pleural fluid; larger volumes do not further increase sensitivity substantially.",
+    "Fresh specimen or refrigerated at 4 °C if delayed (stable up to ~2 weeks); no fixative needed.",
+    "Prepare cytospin/smears + cell block routinely for ancillary testing.",
+    "No numeric cellularity threshold – adequacy is a judgement; presence of mesothelial cells/macrophages confirms sampling of the space."
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "code": "ND",
+   "name": "Non-diagnostic",
+   "definition": "Insufficient cellular material for interpretation (e.g. acellular, only blood, degenerated/obscured cells). Very rare in serous fluids.",
+   "rom": [
+    {
+     "value": "17%",
+     "source": "TIS book 2020"
+    },
+    {
+     "value": "23–33%",
+     "source": "Pooled meta-analysis (approx. range)"
+    }
+   ],
+   "management": "Repeat analysis if clinical suspicion persists; ensure adequate volume (≥75 mL) and fresh/refrigerated specimen.",
+   "criteria": [
+    "Acellular or paucicellular specimen with no mesothelial cells/macrophages (sampling of wrong space).",
+    "Marked degeneration, drying, or obscuring blood precluding evaluation.",
+    "Use only after excluding processing issues; a few benign cells generally qualify as NFM."
+   ],
+   "diagnoses": [
+    {
+     "name": "Non-diagnostic – acellular/insufficient",
+     "final": "Non-diagnostic. The specimen is acellular/insufficient for cytological evaluation.",
+     "comment": "Repeat sampling with adequate volume (≥75 mL suggested for pleural fluid) is recommended if clinically indicated.",
+     "cat": "Diagnostic category: ND (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Non-diagnostic – degenerated/obscured",
+     "final": "Non-diagnostic. Cells are poorly preserved/obscured by blood.",
+     "comment": "Send fresh specimen promptly or refrigerated (4 °C) for repeat analysis.",
+     "cat": "Diagnostic category: ND (International System for Serous Fluid Cytopathology)"
+    }
+   ]
+  },
+  {
+   "code": "NFM",
+   "name": "Negative for malignancy",
+   "definition": "Benign/reactive elements only, with or without specific benign findings.",
+   "rom": [
+    {
+     "value": "21%",
+     "source": "TIS book 2020"
+    },
+    {
+     "value": "11–16%",
+     "source": "Pooled meta-analysis (approx. range)"
+    }
+   ],
+   "management": "Clinical follow-up; investigate cause of effusion. Repeat cytology if suspicion of malignancy remains.",
+   "criteria": [
+    "Reactive mesothelial cells (singly, small groups, 'windows', two-tone cytoplasm, binucleation), macrophages, inflammatory cells.",
+    "Specific benign entities may be named (e.g. lymphocytic, eosinophilic, LE cells, rheumatoid pattern, organisms).",
+    "No population of 'foreign' cells; second population absent."
+   ],
+   "diagnoses": [
+    {
+     "name": "Reactive mesothelial cells, macrophages and inflammatory cells",
+     "final": "Negative for malignancy. Reactive mesothelial cells, macrophages and mixed inflammatory cells.",
+     "comment": "No malignant cells seen. Correlate clinically.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Lymphocyte-rich effusion (e.g. tuberculosis, post-CABG, chronic)",
+     "final": "Negative for malignancy. Lymphocyte-rich effusion.",
+     "comment": "Predominantly small mature lymphocytes. Consider tuberculosis (ADA, GeneXpert/culture); if monotonous or atypical, flow cytometry to exclude lymphoma.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Eosinophilic effusion (>10% eosinophils)",
+     "final": "Negative for malignancy. Eosinophilic effusion.",
+     "comment": "Often associated with air/blood in pleural space (pneumothorax, trauma, prior tap), drugs, parasites, Churg–Strauss. Clinical correlation advised.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Neutrophil-rich/suppurative effusion (empyema, parapneumonic)",
+     "final": "Negative for malignancy. Acute inflammatory (neutrophil-rich) effusion.",
+     "comment": "Suggest culture and biochemical correlation (pH, glucose, LDH).",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Rheumatoid pleuritis pattern",
+     "final": "Negative for malignancy. Features consistent with rheumatoid pleuritis.",
+     "comment": "Elongated/spindle histiocytes, multinucleated giant cells and granular necrotic background; correlate with rheumatoid serology.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Lupus pleuritis (LE cells)",
+     "final": "Negative for malignancy. LE cells identified; findings compatible with lupus serositis in proper clinical setting.",
+     "comment": "Correlate with ANA/anti-dsDNA.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Endometriosis",
+     "final": "Negative for malignancy. Findings may represent endometriosis (haemosiderin-laden macrophages ± endometrial-type cells).",
+     "comment": "Clinical correlation recommended.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)",
+     "consensus": true
+    },
+    {
+     "name": "Organisms / infection (fungi, parasites, e.g. Strongyloides, microfilaria)",
+     "final": "Negative for malignancy. [Organism] identified.",
+     "comment": "Clinical correlation and microbiological confirmation recommended.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Benign elements – peritoneal washing (Müllerian/endosalpingiosis, benign mesothelium)",
+     "final": "Negative for malignancy. Benign mesothelial cells (± benign Müllerian-type epithelium/endosalpingiosis with psammoma bodies).",
+     "comment": "Peritoneal washings with endosalpingiosis can mimic serous neoplasia; correlate with histology.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)",
+     "consensus": true
+    },
+    {
+     "name": "Contaminants (skin squames, cartilage, hepatocytes, bowel content)",
+     "final": "Negative for malignancy. Sampling contaminants noted.",
+     "comment": "Contaminants related to sampling path; bowel contents may indicate inadvertent bowel puncture/perforation – inform clinician.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)",
+     "consensus": true
+    },
+    {
+     "name": "Extramedullary haematopoiesis / megakaryocytes",
+     "final": "Negative for malignancy. Extramedullary haematopoiesis present.",
+     "comment": "Seen in myelofibrosis or contamination by bone marrow; correlate clinically.",
+     "cat": "Diagnostic category: NFM (International System for Serous Fluid Cytopathology)",
+     "consensus": true
+    }
+   ]
+  },
+  {
+   "code": "AUS",
+   "name": "Atypia of undetermined significance",
+   "definition": "Cells with atypia insufficient for SFM or MAL, most often reactive mesothelial atypia vs well-differentiated malignancy that cannot be resolved.",
+   "rom": [
+    {
+     "value": "66%",
+     "source": "TIS book 2020"
+    },
+    {
+     "value": "45–51%",
+     "source": "Pooled meta-analysis (approx. range)"
+    }
+   ],
+   "management": "Repeat cytology with ancillary tests (cell block IHC: calretinin/WT1/D2-40 vs Ber-EP4/MOC-31/Claudin-4; BAP1, MTAP, CDKN2A FISH); clinical/radiological correlation. Lab AUS rate ideally <10%.",
+   "criteria": [
+    "Mild–moderate nuclear atypia in a few cells, especially in presence of inflammation/ascites of cirrhosis.",
+    "Atypical lymphoid cells with insufficient material for flow cytometry.",
+    "Ancillary testing not done/inconclusive.",
+    "Avoid as a 'wastebasket'; explain the reason for atypia in the comment."
+   ],
+   "diagnoses": [
+    {
+     "name": "AUS – atypical mesothelial cells (reactive vs neoplastic)",
+     "final": "Atypia of undetermined significance. Atypical mesothelial cells present.",
+     "comment": "Reactive mesothelial atypia vs mesothelioma cannot be distinguished on this material. Suggest repeat sampling with cell block for BAP1/MTAP IHC and clinico-radiological correlation.",
+     "cat": "Diagnostic category: AUS (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "AUS – atypical epithelioid cells, few",
+     "final": "Atypia of undetermined significance. Few atypical epithelioid cells of uncertain nature.",
+     "comment": "Insufficient for further characterisation; repeat fluid with cell block for IHC suggested.",
+     "cat": "Diagnostic category: AUS (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "AUS – atypical lymphoid cells",
+     "final": "Atypia of undetermined significance. Atypical lymphoid population.",
+     "comment": "Repeat sample with flow cytometry recommended.",
+     "cat": "Diagnostic category: AUS (International System for Serous Fluid Cytopathology)"
+    }
+   ]
+  },
+  {
+   "code": "SFM",
+   "name": "Suspicious for malignancy",
+   "definition": "Features strongly suggestive of malignancy but quantitatively/qualitatively insufficient, or ancillary studies not available/confirmatory.",
+   "rom": [
+    {
+     "value": "82%",
+     "source": "TIS book 2020"
+    },
+    {
+     "value": "87–91%",
+     "source": "Pooled meta-analysis (approx. range)"
+    }
+   ],
+   "management": "Ancillary studies on cell block/additional fluid; tissue biopsy (pleural biopsy/thoracoscopy) as needed.",
+   "criteria": [
+    "Few highly atypical cells or second population suspicious for carcinoma.",
+    "Atypical mesothelial proliferation suspicious for mesothelioma without confirmatory BAP1/MTAP loss or CDKN2A deletion.",
+    "Lymphoid population suspicious for lymphoma without flow/IHC confirmation."
+   ],
+   "diagnoses": [
+    {
+     "name": "Suspicious for metastatic carcinoma",
+     "final": "Suspicious for malignancy – suspicious for metastatic carcinoma.",
+     "comment": "A small population of atypical epithelial cells suspicious for carcinoma is present; IHC on cell block/repeat sample recommended.",
+     "cat": "Diagnostic category: SFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Suspicious for mesothelioma",
+     "final": "Suspicious for malignancy – atypical mesothelial proliferation, suspicious for mesothelioma.",
+     "comment": "Recommend BAP1/MTAP IHC and/or CDKN2A FISH, and tissue correlation (pleural biopsy).",
+     "cat": "Diagnostic category: SFM (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Suspicious for lymphoma",
+     "final": "Suspicious for malignancy – suspicious for lymphoma.",
+     "comment": "Flow cytometry and IHC on cell block recommended.",
+     "cat": "Diagnostic category: SFM (International System for Serous Fluid Cytopathology)"
+    }
+   ]
+  },
+  {
+   "code": "MAL",
+   "name": "Malignant (primary or secondary)",
+   "definition": "Unequivocal malignancy. Primary: mesothelioma, primary effusion lymphoma. Secondary: metastatic carcinoma, lymphoma/leukaemia, melanoma, sarcoma, germ cell tumours, etc.",
+   "rom": [
+    {
+     "value": "99%",
+     "source": "TIS book 2020"
+    },
+    {
+     "value": "94–100%",
+     "source": "Pooled meta-analysis (approx. range)"
+    }
+   ],
+   "management": "Oncology referral. Use cell block for IHC/predictive biomarkers (e.g. ER/PR/HER2, EGFR/ALK/PD-L1, MMR).",
+   "criteria": [
+    "Metastatic adenocarcinoma: second 'foreign' population, 3-D 'cannonball'/papillary/acinar clusters, cytoplasmic vacuoles, signet-ring cells; MOC-31/Ber-EP4/Claudin-4+.",
+    "Mesothelioma: numerous mesothelial cells, large morula-like groups with knobby borders, cell-in-cell, macronucleoli; confirm with loss of BAP1/MTAP or CDKN2A homozygous deletion.",
+    "Lymphoma: monotonous dispersed lymphoid cells, lymphoglandular bodies; flow cytometry.",
+    "Squamous carcinoma, small cell carcinoma, melanoma, sarcoma, germ cell tumour."
+   ],
+   "diagnoses": [
+    {
+     "name": "Metastatic adenocarcinoma (specify likely primary)",
+     "final": "Malignant – secondary: Metastatic adenocarcinoma, [IHC profile consistent with primary in lung/breast/ovary/GI tract].",
+     "comment": "IHC on cell block: [list]. Predictive biomarkers can be performed on the cell block if requested.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic breast carcinoma",
+     "final": "Malignant – secondary: Metastatic carcinoma, consistent with breast primary (GATA3+, ER+).",
+     "comment": "ER/PR/HER2 can be done on the cell block.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic lung adenocarcinoma",
+     "final": "Malignant – secondary: Metastatic adenocarcinoma, consistent with lung primary (TTF1+, Napsin A+).",
+     "comment": "Cell block suitable for EGFR/ALK/ROS1/PD-L1 testing.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic high-grade serous carcinoma (Müllerian)",
+     "final": "Malignant – secondary: Metastatic high-grade serous carcinoma, consistent with Müllerian (tubo-ovarian/peritoneal) origin (PAX8+, WT1+, aberrant p53).",
+     "comment": "Correlate with CA-125 and imaging.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic gastrointestinal/pancreatobiliary adenocarcinoma (incl. signet-ring)",
+     "final": "Malignant – secondary: Metastatic adenocarcinoma, consistent with GI/pancreatobiliary origin (CK20+, CDX2+, SATB2±).",
+     "comment": "Correlate with endoscopy/imaging.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic squamous cell carcinoma",
+     "final": "Malignant – secondary: Metastatic squamous cell carcinoma (p40+).",
+     "comment": "Search for primary (lung, cervix, head and neck, oesophagus).",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic small cell / neuroendocrine carcinoma",
+     "final": "Malignant – secondary: Metastatic small cell carcinoma (synaptophysin/INSM1+).",
+     "comment": "Most commonly lung primary.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic melanoma",
+     "final": "Malignant – secondary: Metastatic melanoma (SOX10/S100/HMB45/Melan-A+).",
+     "comment": "Melanin pigment may be absent (amelanotic); correlate with history of cutaneous/ocular melanoma. BRAF testing can be done on the cell block.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Lymphoma/leukaemia involving effusion",
+     "final": "Malignant – secondary: Involvement by [lymphoma type/leukaemia].",
+     "comment": "Flow cytometry/IHC performed/recommended.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Metastatic sarcoma / germ cell tumour / other",
+     "final": "Malignant – secondary: Metastatic [sarcoma/germ cell tumour].",
+     "comment": "IHC and clinical correlation.",
+     "cat": "Diagnostic category: MAL – Secondary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Mesothelioma (epithelioid)",
+     "final": "Malignant – primary: Malignant cells consistent with mesothelioma (epithelioid type).",
+     "comment": "Mesothelial phenotype (calretinin/WT1/D2-40+, Claudin-4/MOC-31−) with BAP1 loss and/or MTAP loss/CDKN2A deletion. Clinico-radiological correlation recommended.",
+     "cat": "Diagnostic category: MAL – Primary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Primary effusion lymphoma",
+     "final": "Malignant – primary: Primary effusion lymphoma (HHV8+).",
+     "comment": "Large plasmablastic/immunoblastic cells, CD45±, CD138+, HHV8 (LANA)+; usually HIV setting.",
+     "cat": "Diagnostic category: MAL – Primary (International System for Serous Fluid Cytopathology)"
+    },
+    {
+     "name": "Fluid overload–associated large B-cell lymphoma (HHV8-negative)",
+     "final": "Malignant – primary: Large B-cell lymphoma in effusion, HHV8-negative (fluid overload-associated large B-cell lymphoma).",
+     "comment": "WHO-HAEM5 entity; usually elderly with fluid overload.",
+     "cat": "Diagnostic category: MAL – Primary (International System for Serous Fluid Cytopathology)",
+     "consensus": true,
+     "note": "WHO-HAEM5 (2022) term; not in TIS 2020 book."
+    },
+    {
+     "name": "Well-differentiated papillary mesothelial tumour",
+     "final": "Report descriptively – papillary mesothelial proliferation; not reliably diagnosed on fluid.",
+     "comment": "Histology required.",
+     "cat": "Diagnostic category: AUS/SFM (International System for Serous Fluid Cytopathology)",
+     "consensus": true
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "title": "Ancillary panels (cell block)",
+   "items": [
+    "Mesothelial: calretinin, WT1, D2-40, CK5/6, HBME-1.",
+    "Epithelial (carcinoma): Claudin-4, MOC-31, Ber-EP4, B72.3, CEA.",
+    "Mesothelioma vs reactive: BAP1 loss, MTAP loss, CDKN2A (p16) FISH homozygous deletion; (desmin+ favours reactive, EMA membranous favours malignant – less reliable).",
+    "Site-specific: TTF1/Napsin (lung), GATA3/ER (breast), PAX8/WT1 (Müllerian), CDX2/CK20/SATB2 (GI), SOX10 (melanoma)."
+   ]
+  }
+ ],
+ "references": [
+  "Chandra A, Crothers B, Kurtycz D, Schmitt F (eds). The International System for Serous Fluid Cytopathology. Springer, 2020.",
+  "Pooled risk-of-malignancy estimates from published systematic reviews/meta-analyses of TIS categories (2022–2023); figures shown as approximate ranges."
+ ]
+}
